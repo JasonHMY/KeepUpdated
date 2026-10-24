@@ -1,0 +1,196 @@
+[
+  {
+    "identity": "mas",
+    "repository": "mas-cli/mas",
+    "revision": "7c70ffdfd9f71a654300a78b3b627782e6abe1b4",
+    "version": "7.0.0",
+    "licenses": [
+      {
+        "path": "LICENSE",
+        "kind": "MIT",
+        "sha256": "926b52ce77b2a26ac5cb7be146678a965d3a0d420187677368e6169cf3587f4d",
+        "url": "https://github.com/mas-cli/mas/blob/7c70ffdfd9f71a654300a78b3b627782e6abe1b4/LICENSE",
+        "bundled_path": "licenses/mas/LICENSE"
+      }
+    ]
+  },
+  {
+    "identity": "bigint",
+    "repository": "attaswift/BigInt",
+    "revision": "e07e00fa1fd435143a2dcf8b7eec9a7710b2fdfe",
+    "version": "5.7.0",
+    "licenses": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "c3dfd0dca467f6d198bf365a954d4be6cb6b0e3d848ec724f86e5f579ca38d9e",
+        "kind": "MIT",
+        "url": "https://github.com/attaswift/BigInt/blob/e07e00fa1fd435143a2dcf8b7eec9a7710b2fdfe/LICENSE.md",
+        "bundled_path": "licenses/bigint/LICENSE.md"
+      }
+    ]
+  },
+  {
+    "identity": "chronometer",
+    "repository": "KittyMac/Chronometer",
+    "revision": "99d4f4137837a28e1e294eb69ac66ad53c0934d3",
+    "version": "0.1.14",
+    "licenses": [
+      {
+        "path": "LICENSE",
+        "sha256": "f09146a1d7820fa193d1e975411fb389ad986e0fbac5cbf2e26a96a37834d847",
+        "kind": "MIT",
+        "url": "https://github.com/KittyMac/Chronometer/blob/99d4f4137837a28e1e294eb69ac66ad53c0934d3/LICENSE",
+        "bundled_path": "licenses/chronometer/LICENSE"
+      }
+    ]
+  },
+  {
+    "identity": "gram",
+    "repository": "rarestype/gram",
+    "revision": "d9276e23523174cd04213e945f146dd9a553a571",
+    "version": "2.0.0",
+    "licenses": [
+      {
+        "path": "LICENSE",
+        "sha256": "f8ab497929c6f0ccbd6d2c368c17866ec055b1588a32f268473730d59b2fcfa4",
+        "kind": "Apache-2.0",
+        "url": "https://github.com/rarestype/gram/blob/d9276e23523174cd04213e945f146dd9a553a571/LICENSE",
+        "bundled_path": "licenses/gram/LICENSE"
+      },
+      {
+        "path": "NOTICE",
+        "sha256": "a6a6d9df6683669e58ddee0edcb2ece368954a6d11ce6714f36297b70f572e32",
+        "kind": "unclassified",
+        "url": "https://github.com/rarestype/gram/blob/d9276e23523174cd04213e945f146dd9a553a571/NOTICE",
+        "bundled_path": "licenses/gram/NOTICE"
+      }
+    ]
+  },
+  {
+    "identity": "hitch",
+    "repository": "KittyMac/Hitch",
+    "revision": "067a1e36837a8e62461841665715028bf3b48f5f",
+    "version": "0.4.153",
+    "licenses": [
+      {
+        "path": "README.md#hitch-license",
+        "kind": "MIT",
+        "sha256": "412c2b720ba817f1b3f39f1522076713bca8393d829dd8b892e3a980a47cd74b",
+        "url": "https://github.com/KittyMac/Hitch/blob/067a1e36837a8e62461841665715028bf3b48f5f/README.md#hitch-license",
+        "bundled_path": "licenses/hitch/LICENSE-from-README.md"
+      }
+    ]
+  },
+  {
+    "identity": "sextant",
+    "repository": "KittyMac/Sextant",
+    "revision": "6e83a22ceb31a59fc76333f5c2346d989f78a309",
+    "version": "0.4.39",
+    "licenses": [
+      {
+        "path": "LICENSE",
+        "sha256": "f09146a1d7820fa193d1e975411fb389ad986e0fbac5cbf2e26a96a37834d847",
+        "kind": "MIT",
+        "url": "https://github.com/KittyMac/Sextant/blob/6e83a22ceb31a59fc76333f5c2346d989f78a309/LICENSE",
+        "bundled_path": "licenses/sextant/LICENSE"
+      }
+    ]
+  },
+  {
+    "identity": "spanker",
+    "repository": "KittyMac/Spanker",
+    "revision": "ff05ac41aea633ca7a9fd966d3164373247ee8dd",
+    "version": "0.2.53",
+    "licenses": [
+      {
+        "path": "LICENSE",
+        "sha256": "f09146a1d7820fa193d1e975411fb389ad986e0fbac5cbf2e26a96a37834d847",
+        "kind": "MIT",
+        "url": "https://github.com/KittyMac/Spanker/blob/ff05ac41aea633ca7a9fd966d3164373247ee8dd/LICENSE",
+        "bundled_path": "licenses/spanker/LICENSE"
+      }
+    ]
+  },
+  {
+    "identity": "swift-argument-parser",
+    "repository": "apple/swift-argument-parser",
+    "revision": "626b5b7b2f45e1b0b1c6f4a309296d1d21d7311b",
+    "version": "1.7.1",
+    "licenses": [
+      {
+        "path": "LICENSE.txt",
+        "sha256": "770af8291f708538d8ff885a0bbc4e045cd700531741c4f99528d435c14d7f55",
+        "kind": "Apache-2.0 WITH Swift-exception",
+        "url": "https://github.com/apple/swift-argument-parser/blob/626b5b7b2f45e1b0b1c6f4a309296d1d21d7311b/LICENSE.txt",
+        "bundled_path": "licenses/swift-argument-parser/LICENSE.txt"
+      }
+    ]
+  },
+  {
+    "identity": "swift-atomics",
+    "repository": "apple/swift-atomics",
+    "revision": "b601256eab081c0f92f059e12818ac1d4f178ff7",
+    "version": "1.3.0",
+    "licenses": [
+      {
+        "path": "LICENSE.txt",
+        "sha256": "770af8291f708538d8ff885a0bbc4e045cd700531741c4f99528d435c14d7f55",
+        "kind": "Apache-2.0 WITH Swift-exception",
+        "url": "https://github.com/apple/swift-atomics/blob/b601256eab081c0f92f059e12818ac1d4f178ff7/LICENSE.txt",
+        "bundled_path": "licenses/swift-atomics/LICENSE.txt"
+      }
+    ]
+  },
+  {
+    "identity": "swift-collections",
+    "repository": "apple/swift-collections",
+    "revision": "6675bc0ff86e61436e615df6fc5174e043e57924",
+    "version": "1.4.1",
+    "licenses": [
+      {
+        "path": "LICENSE.txt",
+        "sha256": "770af8291f708538d8ff885a0bbc4e045cd700531741c4f99528d435c14d7f55",
+        "kind": "Apache-2.0 WITH Swift-exception",
+        "url": "https://github.com/apple/swift-collections/blob/6675bc0ff86e61436e615df6fc5174e043e57924/LICENSE.txt",
+        "bundled_path": "licenses/swift-collections/LICENSE.txt"
+      }
+    ]
+  },
+  {
+    "identity": "swift-json",
+    "repository": "mas-cli/swift-json",
+    "revision": "7f39f41878ed56acccc3634d917022737c82e030",
+    "version": "3.3.0",
+    "licenses": [
+      {
+        "path": "LICENSE",
+        "sha256": "f8ab497929c6f0ccbd6d2c368c17866ec055b1588a32f268473730d59b2fcfa4",
+        "kind": "Apache-2.0",
+        "url": "https://github.com/mas-cli/swift-json/blob/7f39f41878ed56acccc3634d917022737c82e030/LICENSE",
+        "bundled_path": "licenses/swift-json/LICENSE"
+      },
+      {
+        "path": "NOTICE",
+        "sha256": "47d82ba8913dc4376e9c5f91a5452cd8afaeb3f148c6137fc9ab8202bfb6f25f",
+        "kind": "unclassified",
+        "url": "https://github.com/mas-cli/swift-json/blob/7f39f41878ed56acccc3634d917022737c82e030/NOTICE",
+        "bundled_path": "licenses/swift-json/NOTICE"
+      }
+    ]
+  },
+  {
+    "identity": "swiftsoup",
+    "repository": "scinfu/SwiftSoup",
+    "revision": "6c7915e16f729857aec3e99068c361e58a00ed68",
+    "version": "2.13.4",
+    "licenses": [
+      {
+        "path": "LICENSE",
+        "sha256": "6d9f121428f5571c4e20362fa91186c552f82648c0161dacc12e239b1544d49d",
+        "kind": "MIT",
+        "url": "https://github.com/scinfu/SwiftSoup/blob/6c7915e16f729857aec3e99068c361e58a00ed68/LICENSE",
+        "bundled_path": "licenses/swiftsoup/LICENSE"
+      }
+    ]
+  }
+]

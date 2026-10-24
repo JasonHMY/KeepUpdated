@@ -1,0 +1,1549 @@
+" (Skill recovery needed)" = " (Skill recovery needed)";
+" (missing data)" = " (missing data)";
+" · New build " = " · New build ";
+"Items needing further review: %@. These items will not run yet. Review each item's requirements before creating a new preview." = "Items needing further review: %@. These items will not run yet. Review each item's requirements before creating a new preview.";
+"%@ · Candidate" = "%@ · Candidate";
+"%@%@ · %@\nRequired: %@ · Installed: %@\n%@" = "%@%@ · %@\nRequired: %@ · Installed: %@\n%@";
+"%@, count %@" = "%@, count %@";
+". See Details for the requirements." = ". See Details for the requirements.";
+"A branch and tag with the same name point to different versions. The update target is ambiguous." = "A branch and tag with the same name point to different versions. The update target is ambiguous.";
+"A local SKILL.md was found, but no verifiable upstream repository or installation record. Update through the original installation method." = "A local SKILL.md was found, but no verifiable upstream repository or installation record. Update through the original installation method.";
+"A matching processor build could not be identified for this installation. Check through the in-app updater." = "A matching processor build could not be identified for this installation. Check through the in-app updater.";
+"A newer version is confirmed by the update source. Choose Update to preview the operation first." = "A newer version is confirmed by the update source. Choose Update to preview the operation first.";
+"A package with the same name was found in the public registry, " = "A package with the same name was found in the public registry, ";
+"A verifiable upstream version is not available. It will not update." = "A verifiable upstream version is not available. It will not update.";
+"About KeepUpdated & Help" = "About KeepUpdated & Help";
+"Active state" = "Active state";
+"Active version unknown" = "Active version unknown";
+"Actual Related Changes (%@)" = "Actual Related Changes (%@)";
+"Actual path" = "Actual path";
+"Adapter Coverage" = "Adapter Coverage";
+"Add %@" = "Add %@";
+"Add other agents' Skills, MCP or project locations" = "Add other agents' Skills, MCP or project locations";
+"Added" = "Added";
+"Add…" = "Add…";
+"Administrator permission" = "Administrator permission";
+"Affected Paths" = "Affected Paths";
+"After confirmation, the fixed version in this preview will be installed with a backup saved first." = "After confirmation, the fixed version in this preview will be installed with a backup saved first.";
+"All" = "All";
+"All local Skill content matches the recorded source. No update is needed." = "All local Skill content matches the recorded source. No update is needed.";
+"Already up to date; no update needed." = "Already up to date; no update needed.";
+"Also affected: " = "Also affected: ";
+"Also clean configuration and personal data" = "Also clean configuration and personal data";
+"An exact installable version has not been verified. No action will run." = "An exact installable version has not been verified. No action will run.";
+"App Store not checked" = "App Store not checked";
+"App metadata could not be read. No action will run." = "App metadata could not be read. No action will run.";
+"Applicable system version unknown" = "Applicable system version unknown";
+"Application folders" = "Application folders";
+"Apps" = "Apps";
+"Architecture" = "Architecture";
+"Automatic cleanup of configuration and personal data is not supported for this source." = "Automatic cleanup of configuration and personal data is not supported for this source.";
+"Automatic editing of this TOML scope is not supported." = "Automatic editing of this TOML scope is not supported.";
+"Automatic editing of this TOML table syntax is not supported." = "Automatic editing of this TOML table syntax is not supported.";
+"Automatic editing of this configuration syntax is not supported." = "Automatic editing of this configuration syntax is not supported.";
+"Back" = "Back";
+"Background service configuration" = "Background service configuration";
+"Backup Location" = "Backup Location";
+"Binary file; a line-by-line diff is unavailable." = "Binary file; a line-by-line diff is unavailable.";
+"Blocked" = "Blocked";
+"Both upstream and local Skill content have changed. Choose Review Changes to compare them; local content will be preserved." = "Both upstream and local Skill content have changed. Choose Review Changes to compare them; local content will be preserved.";
+"Build version" = "Build version";
+"Cancel" = "Cancel";
+"Cancel Operation" = "Cancel Operation";
+"Category" = "Category";
+"Change the category or search, or turn off Updates only." = "Change the category or search, or turn off Updates only.";
+"Changing this MCP configuration may reload services in the owning agent. Separate confirmation is required." = "Changing this MCP configuration may reload services in the owning agent. Separate confirmation is required.";
+"Channel" = "Channel";
+"Check & Preview" = "Check & Preview";
+"Check & Preview Again" = "Check & Preview Again";
+"Check & Preview Unresolved Items (%@)" = "Check & Preview Unresolved Items (%@)";
+"Check Evidence" = "Check Evidence";
+"Check and preview %@ again" = "Check and preview %@ again";
+"Check completed. Unknown items and those needing manual handling remain listed." = "Check completed. Unknown items and those needing manual handling remain listed.";
+"Check explanation" = "Check explanation";
+"Check for Updates" = "Check for Updates";
+"Check not supported" = "Check not supported";
+"Check update sources and dependencies" = "Check update sources and dependencies";
+"Checking again and preparing %@ preview…" = "Checking again and preparing %@ preview…";
+"Checking updates and dependencies…" = "Checking updates and dependencies…";
+"Cleanup data could not be verified. Create a new preview." = "Cleanup data could not be verified. Create a new preview.";
+"Cleanup requires a unique app identity. Check duplicate installations or names first." = "Cleanup requires a unique app identity. Check duplicate installations or names first.";
+"Clear Selection" = "Clear Selection";
+"Clear search" = "Clear search";
+"Common installation locations are scanned automatically. Add other agents' Skills, MCP configurations or projects here. Only paths are saved, never configuration contents." = "Common installation locations are scanned automatically. Add other agents' Skills, MCP configurations or projects here. Only paths are saved, never configuration contents.";
+"Complete file changes for the fixed version are available." = "Complete file changes for the fixed version are available.";
+"Completed" = "Completed";
+"Completed: %@ · Failed or unverified: %@ · Not executed: %@" = "Completed: %@ · Failed or unverified: %@ · Not executed: %@";
+"Configuration and personal data to clean" = "Configuration and personal data to clean";
+"Configuration and personal data will be preserved." = "Configuration and personal data will be preserved.";
+"Configuration item" = "Configuration item";
+"Configuration needs no update" = "Configuration needs no update";
+"Confirm %@ (%@)" = "Confirm %@ (%@)";
+"Confirm %@ Preview" = "Confirm %@ Preview";
+"Confirmed active" = "Confirmed active";
+"Conflicting source records" = "Conflicting source records";
+"Conflicting store records" = "Conflicting store records";
+"Conflicting update manifest" = "Conflicting update manifest";
+"Content " = "Content ";
+"Current version: " = "Current version: ";
+"Custom source unsupported" = "Custom source unsupported";
+"Deleted" = "Deleted";
+"Demo Mode" = "Demo Mode";
+"Demo Results" = "Demo Results";
+"Demo data refreshed. Your computer was not read or changed." = "Demo data refreshed. Your computer was not read or changed.";
+"Demo failure: check again to create a new preview. No installation was changed." = "Demo failure: check again to create a new preview. No installation was changed.";
+"Demo mode does not save locations or read file contents." = "Demo mode does not save locations or read file contents.";
+"Demo mode uses synthetic data. Updates and uninstalls never call the real CLI." = "Demo mode uses synthetic data. Updates and uninstalls never call the real CLI.";
+"Demo mode: no real update or uninstall was performed." = "Demo mode: no real update or uninstall was performed.";
+"Demo preview; your computer will not change." = "Demo preview; your computer will not change.";
+"Dependency Checks (%@)" = "Dependency Checks (%@)";
+"Dependency checks found an issue. No automatic action will run." = "Dependency checks found an issue. No automatic action will run.";
+"Dependency issues: " = "Dependency issues: ";
+"Details" = "Details";
+"Development build" = "Development build";
+"Diagnostics & Coverage" = "Diagnostics & Coverage";
+"Diagnostics & Coverage%@" = "Diagnostics & Coverage%@";
+"Direct installation" = "Direct installation";
+"Done" = "Done";
+"Executing and verifying. Please wait for the current operation to finish." = "Executing and verifying. Please wait for the current operation to finish.";
+"Executing this operation will move this independent Skill folder to Trash." = "Executing this operation will move this independent Skill folder to Trash.";
+"Failed" = "Failed";
+"Fallback read incomplete" = "Fallback read incomplete";
+"File Changes (%@)" = "File Changes (%@)";
+"File changes exceed the size that can be fully previewed. This item will not run; review the source and files first." = "File changes exceed the size that can be fully previewed. This item will not run; review the source and files first.";
+"Found after checking" = "Found after checking";
+"Generated: %@" = "Generated: %@";
+"Git is unavailable. Restore the Git tool used by the original repository first." = "Git is unavailable. Restore the Git tool used by the original repository first.";
+"GitHub queries are limited and the public Git fallback did not complete. Check the network and retry." = "GitHub queries are limited and the public Git fallback did not complete. Check the network and retry.";
+"GitHub rate limit" = "GitHub rate limit";
+"Handle %@ separately" = "Handle %@ separately";
+"Handle Separately…" = "Handle Separately…";
+"Help & Version" = "Help & Version";
+"Incomplete install source" = "Incomplete install source";
+"Install baseline unverified" = "Install baseline unverified";
+"Installation categories" = "Installation categories";
+"Installation contents could not be verified. Scan again or check manually." = "Installation contents could not be verified. Scan again or check manually.";
+"Installation contents or source changed after preview. Create a new preview." = "Installation contents or source changed after preview. Create a new preview.";
+"Installation definition mismatch" = "Installation definition mismatch";
+"Installation issue" = "Installation issue";
+"Installation metadata could not be read completely. Check the files and read permissions." = "Installation metadata could not be read completely. Check the files and read permissions.";
+"Installation state could not be checked again before execution. No action ran." = "Installation state could not be checked again before execution. No action ran.";
+"Installed version is newer" = "Installed version is newer";
+"Invalid package identity" = "Invalid package identity";
+"Invalid system response" = "Invalid system response";
+"Invalid update address" = "Invalid update address";
+"Invalid update manifest" = "Invalid update manifest";
+"Invalid version data" = "Invalid version data";
+"Issue found" = "Issue found";
+"Items: %@" = "Items: %@";
+"KeepUpdated cannot interpret this result or determine whether an update is needed. Check with the original installation tool or read the check code in Details." = "KeepUpdated cannot interpret this result or determine whether an update is needed. Check with the original installation tool or read the check code in Details.";
+"Last Results" = "Last Results";
+"Line-by-line Diff" = "Line-by-line Diff";
+"Local Skill content could not be read completely. It will not update; check the files and read permissions." = "Local Skill content could not be read completely. It will not update; check the files and read permissions.";
+"Local Skill content differs from the installation record. The source has no new changes; local content will be preserved." = "Local Skill content differs from the installation record. The source has no new changes; local content will be preserved.";
+"Local and upstream changes" = "Local and upstream changes";
+"Local changes were found. Review them before an update could overwrite them." = "Local changes were found. Review them before an update could overwrite them.";
+"Local changes were found. This item will not update. Compare differences and preserve needed content before checking again." = "Local changes were found. This item will not update. Compare differences and preserve needed content before checking again.";
+"Local check explanation" = "Local check explanation";
+"Local content differs" = "Local content differs";
+"Local content differs from the installation record or has not been fully checked. Compare changes first; existing content will not be overwritten." = "Local content differs from the installation record or has not been fully checked. Compare changes first; existing content will not be overwritten.";
+"Local content unreadable" = "Local content unreadable";
+"Local diagnostics" = "Local diagnostics";
+"Local installations" = "Local installations";
+"MCP configuration files" = "MCP configuration files";
+"MCP configurations still use this installation. Handle those links before uninstalling." = "MCP configurations still use this installation. Handle those links before uninstalling.";
+"MCP ownership unknown" = "MCP ownership unknown";
+"MCP with Linked Installation" = "MCP with Linked Installation";
+"Managed by Homebrew" = "Managed by Homebrew";
+"Managed by parent package" = "Managed by parent package";
+"Managed by plugin" = "Managed by plugin";
+"Manual action needed" = "Manual action needed";
+"Matches source" = "Matches source";
+"Matches stable release" = "Matches stable release";
+"May reload the owning agent" = "May reload the owning agent";
+"Meets requirement" = "Meets requirement";
+"Modified" = "Modified";
+"Multiple cask versions were found, but the active version is unknown. Check the installation location first." = "Multiple cask versions were found, but the active version is unknown. Check the installation location first.";
+"Multiple installations share this app identity. Shared data will not be cleaned." = "Multiple installations share this app identity. Shared data will not be cleaned.";
+"Multiple installed versions" = "Multiple installed versions";
+"Needs Attention (%@)" = "Needs Attention (%@)";
+"New file digest: " = "New file digest: ";
+"New upstream content is available and local content still matches the installation record. Choose Update to review file changes first." = "New upstream content is available and local content still matches the installation record. Choose Update to review file changes first.";
+"No Action Needed (%@)" = "No Action Needed (%@)";
+"No active entry found" = "No active entry found";
+"No compatible release" = "No compatible release";
+"No discovery read errors were found in this scan." = "No discovery read errors were found in this scan.";
+"No extra locations" = "No extra locations";
+"No file differences are available. Read the check explanation and create a new preview if needed." = "No file differences are available. Read the check explanation and create a new preview if needed.";
+"No file differences to show" = "No file differences to show";
+"No line-by-line diff was received. Read the check explanation." = "No line-by-line diff was received. Read the check explanation.";
+"No matching Mac product" = "No matching Mac product";
+"No matching items" = "No matching items";
+"No matching package" = "No matching package";
+"No operation command is available for this source." = "No operation command is available for this source.";
+"No readable update address or matching version lookup was found. Check for updates in the app." = "No readable update address or matching version lookup was found. Check for updates in the app.";
+"No real update or uninstall was performed." = "No real update or uninstall was performed.";
+"No source version returned" = "No source version returned";
+"No update source found" = "No update source found";
+"No valid response was received from the version server. Check the network and retry, or use the original installation tool." = "No valid response was received from the version server. Check the network and retry, or use the original installation tool.";
+"No valid version result was received. Try Check for Updates again; the failure code is kept in Details." = "No valid version result was received. Try Check for Updates again; the failure code is kept in Details.";
+"No verifiable version source is available. Check for updates with the original installation tool." = "No verifiable version source is available. Check for updates with the original installation tool.";
+"No version lookup is available for this app yet. Check for updates in the app." = "No version lookup is available for this app yet. Check for updates in the app.";
+"None" = "None";
+"Not checked for updates" = "Not checked for updates";
+"Not declared" = "Not declared";
+"Not executed" = "Not executed";
+"Not observed afterward" = "Not observed afterward";
+"OK" = "OK";
+"Only declared static dependencies are checked. Unverified does not mean broken." = "Only declared static dependencies are checked. Unverified does not mean broken.";
+"Only explicitly listed paths will be cleaned. Data with unknown ownership will be preserved." = "Only explicitly listed paths will be cleaned. Data with unknown ownership will be preserved.";
+"Only local Git state has been read; the remote version has not been checked. Check for updates in the original repository." = "Only local Git state has been read; the remote version has not been checked. Check for updates in the original repository.";
+"Only local installation data has been read. Choose Check for Updates at the top to look for new versions." = "Only local installation data has been read. Choose Check for Updates at the top to look for new versions.";
+"Only the current user's Skill link will be removed. Shared source files will be preserved." = "Only the current user's Skill link will be removed. Shared source files will be preserved.";
+"Only the selected MCP configuration definition will be removed. Shared software and other definitions will be preserved." = "Only the selected MCP configuration definition will be removed. Shared software and other definitions will be preserved.";
+"Operation" = "Operation";
+"Operation Incomplete" = "Operation Incomplete";
+"Operation Results" = "Operation Results";
+"Operation cancelled. If an update or uninstall already started, scan again to check the actual state." = "Operation cancelled. If an update or uninstall already started, scan again to check the actual state.";
+"Ordinary updates run first. Extra permissions, app exit, restart and installation scripts need separate confirmation." = "Ordinary updates run first. Extra permissions, app exit, restart and installation scripts need separate confirmation.";
+"Original file digest: " = "Original file digest: ";
+"Other" = "Other";
+"Other change" = "Other change";
+"Other file changes were found after the previous selected edit. This item did not run; create a new preview." = "Other file changes were found after the previous selected edit. This item did not run; create a new preview.";
+"Other items depend on this installation. Handle those dependencies before uninstalling." = "Other items depend on this installation. Handle those dependencies before uninstalling.";
+"Owner" = "Owner";
+"Ownership of the cleanup path is unverified. It will not be cleaned." = "Ownership of the cleanup path is unverified. It will not be cleaned.";
+"Package with Unknown Source" = "Package with Unknown Source";
+"Path" = "Path";
+"Permissions changed" = "Permissions changed";
+"Permissions: " = "Permissions: ";
+"Post-uninstall cleanup incomplete" = "Post-uninstall cleanup incomplete";
+"Preparing %@ preview…" = "Preparing %@ preview…";
+"Preview Selected (%@)" = "Preview Selected (%@)";
+"Preview updates across all categories before confirming. Special actions need separate confirmation." = "Preview updates across all categories before confirming. Special actions need separate confirmation.";
+"Previewing does not change installations. Execution starts only after confirmation; special conditions such as permissions, app exit and installation scripts are shown separately." = "Previewing does not change installations. Execution starts only after confirmation; special conditions such as permissions, app exit and installation scripts are shown separately.";
+"Processor version unknown" = "Processor version unknown";
+"Product identity" = "Product identity";
+"Product identity mismatch" = "Product identity mismatch";
+"Product version unverified" = "Product version unverified";
+"Product, version or build metadata is inconsistent, so a reliable update source cannot be selected. Check for updates in the app." = "Product, version or build metadata is inconsistent, so a reliable update source cannot be selected. Check for updates in the app.";
+"Project folders" = "Project folders";
+"Public Git output exceeds the supported size. No update ran." = "Public Git output exceeds the supported size. No update ran.";
+"Public Git returned no verifiable branch or version. Check the source." = "Public Git returned no verifiable branch or version. Check the source.";
+"Python environment" = "Python environment";
+"Quit KeepUpdated" = "Quit KeepUpdated";
+"Quit application" = "Quit application";
+"Quit this app and its helper processes, then create a new preview to verify." = "Quit this app and its helper processes, then create a new preview to verify.";
+"Quit this app, then create a new operation preview." = "Quit this app, then create a new operation preview.";
+"Quit this app, then create a new preview to verify that it has stopped." = "Quit this app, then create a new preview to verify that it has stopped.";
+"Quit this app, then create a new preview. Demo mode will not quit apps." = "Quit this app, then create a new preview. Demo mode will not quit apps.";
+"Read Diagnostics (%@)" = "Read Diagnostics (%@)";
+"Reading local installations" = "Reading local installations";
+"Ready" = "Ready";
+"Ready (%@)" = "Ready (%@)";
+"Ready: %@ · Expires at %@" = "Ready: %@ · Expires at %@";
+"Regular checks do not query macOS updates. Check System Settings → General → Software Update." = "Regular checks do not query macOS updates. Check System Settings → General → Software Update.";
+"Remote commits not compared" = "Remote commits not compared";
+"Remote service" = "Remote service";
+"Removal of the selected MCP definition is verified. Shared software is unchanged." = "Removal of the selected MCP definition is verified. Shared software is unchanged.";
+"Remove scan location %@" = "Remove scan location %@";
+"Removing a scan location does not delete its folder or file. Scan again after making changes." = "Removing a scan location does not delete its folder or file. Scan again after making changes.";
+"Removing the MCP definition preserves shared software and credentials. Cleaning these together is not supported." = "Removing the MCP definition preserves shared software and credentials. Cleaning these together is not supported.";
+"Required prior version unknown" = "Required prior version unknown";
+"Requires: " = "Requires: ";
+"Restart" = "Restart";
+"Result unverified" = "Result unverified";
+"Review each recorded result below. Unresolved items need a fresh check and preview." = "Review each recorded result below. Unresolved items need a fresh check and preview.";
+"Results saved and installations scanned again. Check for Updates to verify version sources." = "Results saved and installations scanned again. Check for Updates to verify version sources.";
+"Retryable Example Tool" = "Retryable Example Tool";
+"Review Changes" = "Review Changes";
+"Review file permissions before changing this MCP configuration." = "Review file permissions before changing this MCP configuration.";
+"Review the differences below first. This item will not run; existing content will be preserved." = "Review the differences below first. This item will not run; existing content will be preserved.";
+"Review this Skill repository's source, configuration and shared scope first." = "Review this Skill repository's source, configuration and shared scope first.";
+"Review uninstall effects and choose whether to clean configuration and personal data" = "Review uninstall effects and choose whether to clean configuration and personal data";
+"Run installation scripts" = "Run installation scripts";
+"Running %@… Please wait for verification." = "Running %@… Please wait for verification.";
+"Running version unknown" = "Running version unknown";
+"Runtimes" = "Runtimes";
+"Scan" = "Scan";
+"Scan Again" = "Scan Again";
+"Scan Locations" = "Scan Locations";
+"Some items could not be read. You can check the details in Settings." = "Some items could not be read. You can check the details in Settings.";
+"Scan completed. Choose Check for Updates to look for new versions." = "Scan completed. Choose Check for Updates to look for new versions.";
+"Scan first, then check for updates. Select items to preview, or use Update All to preview every category." = "Scan first, then check for updates. Select items to preview, or use Update All to preview every category.";
+"Scan local installations again" = "Scan local installations again";
+"Scan locations saved. Scan again to use them." = "Scan locations saved. Scan again to use them.";
+"Scan your computer to see installations here." = "Scan your computer to see installations here.";
+"Scanning again and checking failed items…" = "Scanning again and checking failed items…";
+"Scanning again to verify installations…" = "Scanning again to verify installations…";
+"Scanning local installations…" = "Scanning local installations…";
+"Search" = "Search";
+"Search installations" = "Search installations";
+"Search names, sources or paths" = "Search names, sources or paths";
+"Select %@" = "Select %@";
+"Select Visible" = "Select Visible";
+"Selected: %@" = "Selected: %@";
+"Selection is kept across categories and searches. Preview includes all selected items." = "Selection is kept across categories and searches. Preview includes all selected items.";
+"Separate confirmation needed" = "Separate confirmation needed";
+"Services" = "Services";
+"Show All" = "Show All";
+"Simulate %@" = "Simulate %@";
+"Skill content changed after preview. The update stopped; create a new preview." = "Skill content changed after preview. The update stopped; create a new preview.";
+"Skill content could not be verified. Scan again." = "Skill content could not be verified. Scan again.";
+"Skill content failed post-update verification. Check current content and the backup location." = "Skill content failed post-update verification. Check current content and the backup location.";
+"Skill content was read again and verified against the fixed version in the preview." = "Skill content was read again and verified against the fixed version in the preview.";
+"Skill files could not be fully checked, so update status is unknown. Check file read permissions." = "Skill files could not be fully checked, so update status is unknown. Check file read permissions.";
+"Skill repository content could not be verified. Create a new preview." = "Skill repository content could not be verified. Create a new preview.";
+"Skill source not recorded" = "Skill source not recorded";
+"Skill update available" = "Skill update available";
+"Skill update files could not be prepared. The update stopped; retry later." = "Skill update files could not be prepared. The update stopped; retry later.";
+"Skills folders" = "Skills folders";
+"Skipped" = "Skipped";
+"Some cleanup data is not owned by the current user. It will not be cleaned." = "Some cleanup data is not owned by the current user. It will not be cleaned.";
+"Some items only offer update instructions, and unknown states remain visible. Follow the actual conditions in the preview." = "Some items only offer update instructions, and unknown states remain visible. Follow the actual conditions in the preview.";
+"Source" = "Source";
+"Source & Evidence" = "Source & Evidence";
+"Source & Location" = "Source & Location";
+"Source build version" = "Source build version";
+"Source candidate version" = "Source candidate version";
+"Source content incomplete" = "Source content incomplete";
+"Source path missing" = "Source path missing";
+"Stable update available" = "Stable update available";
+"Standalone Application with Update" = "Standalone Application with Update";
+"Start Scan" = "Start Scan";
+"Status code: " = "Status code: ";
+"Status unverified" = "Status unverified";
+"Synthetic example; no real installation data" = "Synthetic example; no real installation data";
+"Synthetic examples; your computer will not be read or changed" = "Synthetic examples; your computer will not be read or changed";
+"System" = "System";
+"System update check failed" = "System update check failed";
+"System updates not checked" = "System updates not checked";
+"Tap repository not checked" = "Tap repository not checked";
+"Technical Details" = "Technical Details";
+"The CLI could not complete the operation (exit code %@)." = "The CLI could not complete the operation (exit code %@).";
+"The CLI returned an incompatible format. Use the matching CLI version." = "The CLI returned an incompatible format. Use the matching CLI version.";
+"The GitHub query limit has been reached. Try again later." = "The GitHub query limit has been reached. Try again later.";
+"The Homebrew tap was discovered but its repository updates were not compared. Check through Homebrew." = "The Homebrew tap was discovered but its repository updates were not compared. Check through Homebrew.";
+"The MCP configuration edit did not complete. Check the current file and backup." = "The MCP configuration edit did not complete. Check the current file and backup.";
+"The MCP definition was not found in the current configuration. Scan again." = "The MCP definition was not found in the current configuration. Scan again.";
+"The MCP definition was still found after editing. The result is unverified; check again." = "The MCP definition was still found after editing. The result is unverified; check again.";
+"The MCP definition's location identifier is invalid. Scan again." = "The MCP definition's location identifier is invalid. Scan again.";
+"The Python environment's interpreter is missing or not executable. Repair it with the tool that owns the environment." = "The Python environment's interpreter is missing or not executable. Repair it with the tool that owns the environment.";
+"The Python tool's installation record has not been verified. No action will run." = "The Python tool's installation record has not been verified. No action will run.";
+"The Skill could not be read. Check that its entry is still available." = "The Skill could not be read. Check that its entry is still available.";
+"The Skill directory changed. Scan again and create a new preview." = "The Skill directory changed. Scan again and create a new preview.";
+"The Skill has local changes or its Git state is unknown. Review it first." = "The Skill has local changes or its Git state is unknown. Review it first.";
+"The Skill includes links, shared files or content that cannot be fully verified. It will not update." = "The Skill includes links, shared files or content that cannot be fully verified. It will not update.";
+"The Skill repository or branch record cannot be used for public Git access. Check the source." = "The Skill repository or branch record cannot be used for public Git access. Check the source.";
+"The Skill source is verified. Update through its original manager; this app only checks this type of copied installation." = "The Skill source is verified. Update through its original manager; this app only checks this type of copied installation.";
+"The Skill update did not complete. Check current content and the backup location." = "The Skill update did not complete. Check current content and the backup location.";
+"The Skill was read again and verified at the target commit in the preview." = "The Skill was read again and verified at the target commit in the preview.";
+"The Skill's installation source record changed. Check again and create a new preview." = "The Skill's installation source record changed. Check again and create a new preview.";
+"The Skill's link entry could not be read." = "The Skill's link entry could not be read.";
+"The Skill's parent location changed. Scan again and create a new preview." = "The Skill's parent location changed. Scan again and create a new preview.";
+"The Skill's upstream repository and version must be verified before updating." = "The Skill's upstream repository and version must be verified before updating.";
+"The active Homebrew version link could not be verified. Check the installation links through Homebrew first." = "The active Homebrew version link could not be verified. Check the installation links through Homebrew first.";
+"The active Homebrew version's installation record could not be read. Check the record and read permissions." = "The active Homebrew version's installation record could not be read. Check the record and read permissions.";
+"The app and its related processes are confirmed closed." = "The app and its related processes are confirmed closed.";
+"The app could not be read. Check that it is still in its original location." = "The app could not be read. Check that it is still in its original location.";
+"The app entry point and actual path could not be verified. Scan again." = "The app entry point and actual path could not be verified. Scan again.";
+"The app identity has not been verified, so cleanup data cannot be selected safely." = "The app identity has not been verified, so cleanup data cannot be selected safely.";
+"The app includes independently updated content, so the bundle version may differ from the running version. Check in the app." = "The app includes independently updated content, so the bundle version may differ from the running version. Check in the app.";
+"The app is confirmed closed. Executing this operation will move it to Trash." = "The app is confirmed closed. Executing this operation will move it to Trash.";
+"The app metadata could not be read, so its local version could not be verified. Check the app files and read permissions." = "The app metadata could not be read, so its local version could not be verified. Check the app files and read permissions.";
+"The app path has changed. Scan again." = "The app path has changed. Scan again.";
+"The app's product identity has not been verified. No action will run." = "The app's product identity has not been verified. No action will run.";
+"The app's stable or alternative update channel has not been identified. Check its in-app update settings." = "The app's stable or alternative update channel has not been identified. Check its in-app update settings.";
+"The app's update configuration contains unsupported options. Check for updates in the app." = "The app's update configuration contains unsupported options. Check for updates in the app.";
+"The app's update manifest could not be parsed. Retry later or use the in-app updater." = "The app's update manifest could not be parsed. Retry later or use the in-app updater.";
+"The binding between the configuration and selected item could not be verified." = "The binding between the configuration and selected item could not be verified.";
+"The bundled CLI is missing. Download the complete KeepUpdated app again." = "The bundled CLI is missing. Download the complete KeepUpdated app again.";
+"The bundled update address differs from the verified official source. It was not used." = "The bundled update address differs from the verified official source. It was not used.";
+"The candidate package's effects have not been verified. No action will run." = "The candidate package's effects have not been verified. No action will run.";
+"The candidate version's dependency impact could not be fully verified. No action will run." = "The candidate version's dependency impact could not be fully verified. No action will run.";
+"The cask record does not establish its source. Check the original Homebrew installation record." = "The cask record does not establish its source. Check the original Homebrew installation record.";
+"The cleanup directory contains content with unknown ownership. It will not be cleaned." = "The cleanup directory contains content with unknown ownership. It will not be cleaned.";
+"The complete Skill update could not be downloaded. Create a new preview later." = "The complete Skill update could not be downloaded. Create a new preview later.";
+"The complete file diff could not be generated. No update ran." = "The complete file diff could not be generated. No update ran.";
+"The configuration backup could not be saved. Editing stopped." = "The configuration backup could not be saved. Editing stopped.";
+"The configuration changed after preview. Create a new preview." = "The configuration changed after preview. Create a new preview.";
+"The configuration contains duplicate or ambiguous keys. Review it manually first." = "The configuration contains duplicate or ambiguous keys. Review it manually first.";
+"The configuration could not be read. Check that the file still exists and the current user can read it." = "The configuration could not be read. Check that the file still exists and the current user can read it.";
+"The configuration could not be verified after editing. Check the current file and backup." = "The configuration could not be verified after editing. Check the current file and backup.";
+"The configuration edit has not passed verification. Check the current file and backup." = "The configuration edit has not passed verification. Check the current file and backup.";
+"The configuration file's actual path could not be verified." = "The configuration file's actual path could not be verified.";
+"The configuration is not a readable regular file." = "The configuration is not a readable regular file.";
+"The configuration is not a regular file or exceeds the supported size." = "The configuration is not a regular file or exceeds the supported size.";
+"The configuration is unreadable or exceeds the supported size." = "The configuration is unreadable or exceeds the supported size.";
+"The configuration replacement did not complete. Check the current file and backup." = "The configuration replacement did not complete. Check the current file and backup.";
+"The configuration uses an unsupported format. Check it in the original client; the check code is kept in Details." = "The configuration uses an unsupported format. Check it in the original client; the check code is kept in Details.";
+"The configured program is missing, inaccessible or not executable. Check its command path in the original client." = "The configured program is missing, inaccessible or not executable. Check its command path in the original client.";
+"The configured update channel is not supported yet. Check for updates in the app." = "The configured update channel is not supported yet. Check for updates in the app.";
+"The current channel has no release matching this system or processor. Check in the app." = "The current channel has no release matching this system or processor. Check in the app.";
+"The current installation tool does not match the installation directory. Use the original manager." = "The current installation tool does not match the installation directory. Use the original manager.";
+"The current version matches the verified source. No update is needed." = "The current version matches the verified source. No update is needed.";
+"The diff is too large to show completely. This item will not run; review the source and files again." = "The diff is too large to show completely. This item will not run; review the source and files again.";
+"The environment is not an independent update target. Review the tools or packages inside it." = "The environment is not an independent update target. Review the tools or packages inside it.";
+"The exact installation owner has not been verified. No action will run." = "The exact installation owner has not been verified. No action will run.";
+"The fixed public Git version could not be fetched. Check the network and repository source, then retry." = "The fixed public Git version could not be fetched. Check the network and repository source, then retry.";
+"The installation entry is not executable. Check its file type and permissions." = "The installation entry is not executable. Check its file type and permissions.";
+"The installation link is broken or its metadata is missing. Repair it with the original installation tool." = "The installation link is broken or its metadata is missing. Repair it with the original installation tool.";
+"The installation path could not be read. Check that the files are still there." = "The installation path could not be read. Check that the files are still there.";
+"The installation path has changed. Scan again." = "The installation path has changed. Scan again.";
+"The installation record restricts versions. A direct upgrade would change those constraints; review separately with pipx." = "The installation record restricts versions. A direct upgrade would change those constraints; review separately with pipx.";
+"The installation record restricts versions. Review the allowed upgrade range first." = "The installation record restricts versions. Review the allowed upgrade range first.";
+"The installation record uses a custom download source. A candidate from the same source cannot be verified; handle it through uv." = "The installation record uses a custom download source. A candidate from the same source cannot be verified; handle it through uv.";
+"The installation tool cannot run or its ownership is unverified." = "The installation tool cannot run or its ownership is unverified.";
+"The installation tool could not be verified. Scan again or check manually." = "The installation tool could not be verified. Scan again or check manually.";
+"The installation tool exited, but the requested state has not been verified. Check again." = "The installation tool exited, but the requested state has not been verified. Check again.";
+"The installation tool failed. Check current state before continuing." = "The installation tool failed. Check current state before continuing.";
+"The installation tool reported an error and current state could not be verified. Scan again." = "The installation tool reported an error and current state could not be verified. Scan again.";
+"The installation was read again and its removal verified." = "The installation was read again and its removal verified.";
+"The installation was read again and the target version verified." = "The installation was read again and the target version verified.";
+"The installed version is newer than the query result and may use a different channel. Check the update channel before replacing it." = "The installed version is newer than the query result and may use a different channel. Check the update channel before replacing it.";
+"The item is absent from both the upstream version catalog and definitions. Check the original source; this does not mean it should be uninstalled." = "The item is absent from both the upstream version catalog and definitions. Check the original source; this does not mean it should be uninstalled.";
+"The launch configuration has no service identifier, so its running state cannot be checked. Repair the configuration through its app." = "The launch configuration has no service identifier, so its running state cannot be checked. Repair the configuration through its app.";
+"The link between MCP configuration and installation could not be verified." = "The link between MCP configuration and installation could not be verified.";
+"The local Skill's installation baseline could not be verified. Choose Review Changes to compare; local content will be preserved." = "The local Skill's installation baseline could not be verified. Choose Review Changes to compare; local content will be preserved.";
+"The local installation check found an issue. Resolve it first." = "The local installation check found an issue. Resolve it first.";
+"The local installation check found issues. See Details for the check code and evidence." = "The local installation check found issues. See Details for the check code and evidence.";
+"The macOS update check did not complete. Retry in System Settings → Software Update." = "The macOS update check did not complete. Retry in System Settings → Software Update.";
+"The manifest includes a phased rollout or system restrictions that cannot be fully evaluated. Check for updates in the app." = "The manifest includes a phased rollout or system restrictions that cannot be fully evaluated. Check for updates in the app.";
+"The new configuration could not be prepared. Editing stopped." = "The new configuration could not be prepared. Editing stopped.";
+"The operation preview could not be saved." = "The operation preview could not be saved.";
+"The operation was cancelled before this item started." = "The operation was cancelled before this item started.";
+"The original installation tool and its scope have been verified." = "The original installation tool and its scope have been verified.";
+"The original installation tool is unavailable. Restore it or handle this manually." = "The original installation tool is unavailable. Restore it or handle this manually.";
+"The original installation tool must verify an exact candidate version." = "The original installation tool must verify an exact candidate version.";
+"The original installation tool's scope has been verified." = "The original installation tool's scope has been verified.";
+"The original installation tool's scope has not been verified." = "The original installation tool's scope has not been verified.";
+"The original installation tool's update source has not been verified." = "The original installation tool's update source has not been verified.";
+"The package identity could not be verified. No action will run." = "The package identity could not be verified. No action will run.";
+"The package name in the metadata cannot be queried reliably. Check the metadata with the original installation tool." = "The package name in the metadata cannot be queried reliably. Check the metadata with the original installation tool.";
+"The package's original installation source has not been verified. No action will run." = "The package's original installation source has not been verified. No action will run.";
+"The post-operation inventory could not be read. The result is unverified; scan again." = "The post-operation inventory could not be read. The result is unverified; scan again.";
+"The prepared update files changed. The update stopped; create a new preview." = "The prepared update files changed. The update stopped; create a new preview.";
+"The preview action does not match. Create a new preview." = "The preview action does not match. Create a new preview.";
+"The previous Skill update did not complete. Review the original folder and backup. The recovery record is listed below; this folder will not update until resolved." = "The previous Skill update did not complete. Review the original folder and backup. The recovery record is listed below; this folder will not update until resolved.";
+"The previous Skill update still needs recovery. Review the operation result and backup location before continuing." = "The previous Skill update still needs recovery. Review the operation result and backup location before continuing.";
+"The private update cache could not be prepared. Check directory permissions and available space." = "The private update cache could not be prepared. Check directory permissions and available space.";
+"The public Git commit does not match the fixed version. No update ran." = "The public Git commit does not match the fixed version. No update ran.";
+"The public Git read could not be prepared. Check local Git and the temporary directory, then retry." = "The public Git read could not be prepared. Check local Git and the temporary directory, then retry.";
+"The public Git read timed out. Check again or create a preview later." = "The public Git read timed out. Check again or create a preview later.";
+"The public Git read was cancelled. No update ran." = "The public Git read was cancelled. No update ran.";
+"The public Git repository exceeds the temporary read limit. Reading stopped and no update ran." = "The public Git repository exceeds the temporary read limit. Reading stopped and no update ran.";
+"The public registry has version %@, " = "The public registry has version %@, ";
+"The result does not match the confirmed preview. Check local state before continuing." = "The result does not match the confirmed preview. Check local state before continuing.";
+"Missing from this scan: %@. Items included in this preview: %@. Review missing items in Last Results." = "Missing from this scan: %@. Items included in this preview: %@. Review missing items in Last Results.";
+"Items missing from this scan: %@. Review Last Results; no new preview was created." = "Items missing from this scan: %@. Review Last Results; no new preview was created.";
+"The selected MCP definition cannot be uniquely identified. Review it manually first." = "The selected MCP definition cannot be uniquely identified. Review it manually first.";
+"The selected MCP definition was removed." = "The selected MCP definition was removed.";
+"The selected item is not a removable MCP service definition." = "The selected item is not a removable MCP service definition.";
+"The server entry has not been matched to a verifiable package. Check its installation method in the original agent's MCP settings." = "The server entry has not been matched to a verifiable package. Check its installation method in the original agent's MCP settings.";
+"The server returned no matching software record. Check the product name and installation method with the original source." = "The server returned no matching software record. Check the product name and installation method with the original source.";
+"The server runs remotely; this Mac only holds connection settings. Its provider maintains the version." = "The server runs remotely; this Mac only holds connection settings. Its provider maintains the version.";
+"The source or candidate version could not be verified before execution. No action ran." = "The source or candidate version could not be verified before execution. No action ran.";
+"The source repository was found, but the recorded Skill path was not. Check whether it was moved or removed." = "The source repository was found, but the recorded Skill path was not. Check whether it was moved or removed.";
+"The source returned an incomplete file list. It cannot establish that the installation is current. Retry later." = "The source returned an incomplete file list. It cannot establish that the installation is current. Retry later.";
+"The store query did not match a Mac product for this app, possibly due to region or product records. Check in the App Store." = "The store query did not match a Mac product for this app, possibly due to region or product records. Check in the App Store.";
+"The store returned conflicting versions. Update availability is unknown; check in the App Store." = "The store returned conflicting versions. Update availability is unknown; check in the App Store.";
+"The store version has not been queried. Choose Check for Updates, or check in the App Store." = "The store version has not been queried. Choose Check for Updates, or check in the App Store.";
+"The system returned unrecognized update information. Check in System Settings." = "The system returned unrecognized update information. Check in System Settings.";
+"The update address in the installation record cannot be used. Check for updates in the app." = "The update address in the installation record cannot be used. Check for updates in the app.";
+"The update address requires authentication or does not meet request requirements. It was not accessed; use the in-app updater." = "The update address requires authentication or does not meet request requirements. It was not accessed; use the in-app updater.";
+"The update cache could not be read. Installed content has not been changed." = "The update cache could not be read. Installed content has not been changed.";
+"The update cache does not match the source digest. No update ran." = "The update cache does not match the source digest. No update ran.";
+"The update data exceeds the supported size, so this check stopped. Check with the original installation tool." = "The update data exceeds the supported size, so this check stopped. Check with the original installation tool.";
+"The update file location could not be verified. The update stopped; create a new preview." = "The update file location could not be verified. The update stopped; create a new preview.";
+"The update files differ from the verified source version. The update stopped; create a new preview." = "The update files differ from the verified source version. The update stopped; create a new preview.";
+"The update is ready. Review the file changes below before confirming." = "The update is ready. Review the file changes below before confirming.";
+"The update manifest contains conflicting version records. A reliable update version could not be selected." = "The update manifest contains conflicting version records. A reliable update version could not be selected.";
+"The update manifest includes unrecognized system or version restrictions. Check through the in-app updater." = "The update manifest includes unrecognized system or version restrictions. Check through the in-app updater.";
+"The update preview is no longer valid. Go back and create a new preview." = "The update preview is no longer valid. Go back and create a new preview.";
+"The update record does not match the local product identity. A shared name is not enough; check the original installation source." = "The update record does not match the local product identity. A shared name is not enough; check the original installation source.";
+"The update server returned an error. Retry later; if it persists, check with the original installation tool." = "The update server returned an error. Retry later; if it persists, check with the original installation tool.";
+"The update source denied the request or reached its query limit. Create a new preview later." = "The update source denied the request or reached its query limit. Create a new preview later.";
+"The update source did not return the recorded version or file. Check the source again." = "The update source did not return the recorded version or file. Check the source again.";
+"The update source does not identify a macOS build for this processor. Update eligibility is unknown." = "The update source does not identify a macOS build for this processor. Update eligibility is unknown.";
+"The update source lists versions for different systems. A version for this Mac could not be selected." = "The update source lists versions for different systems. A version for this Mac could not be selected.";
+"The update source temporarily limited requests. Create a new preview later." = "The update source temporarily limited requests. Create a new preview later.";
+"The update source was checked. The current version needs no update." = "The update source was checked. The current version needs no update.";
+"The update source was queried but returned no valid version. Retry later or check with the original installation tool." = "The update source was queried but returned no valid version. Retry later or check with the original installation tool.";
+"The upstream name changed, but the mapping could not be verified. Check the original source." = "The upstream name changed, but the mapping could not be verified. Check the original source.";
+"The upstream name now points to another item. Verify that it is the same software; it will not be replaced automatically." = "The upstream name now points to another item. Verify that it is the same software; it will not be replaced automatically.";
+"The vendor's minimum upgrade version requirement could not be verified. Check through the in-app updater." = "The vendor's minimum upgrade version requirement could not be verified. Check through the in-app updater.";
+"The vendor's public stable release is newer. Choose Update Options to review how to update; confirm upgrade requirements in the app." = "The vendor's public stable release is newer. Choose Update Options to review how to update; confirm upgrade requirements in the app.";
+"The vendor's update manifest is missing required fields or has changed format. Retry later or use the in-app updater." = "The vendor's update manifest is missing required fields or has changed format. Retry later or use the in-app updater.";
+"The version actually in use has not been verified. Check again first." = "The version actually in use has not been verified. Check again first.";
+"The version catalog and local installation definition differ. Check with the original package manager." = "The version catalog and local installation definition differ. Check with the original package manager.";
+"The version format or active version cannot be compared reliably. Check with the original app or installation tool." = "The version format or active version cannot be compared reliably. Check with the original app or installation tool.";
+"The version matches the vendor's public stable release. This does not mean in-app update settings were read." = "The version matches the vendor's public stable release. This does not mean in-app update settings were read.";
+"The version server did not respond in time. Try Check for Updates again later." = "The version server did not respond in time. Try Check for Updates again later.";
+"The version server's response could not be parsed. Retry later or check with the original installation tool." = "The version server's response could not be parsed. Retry later or check with the original installation tool.";
+"This Homebrew source needs separate review. No automatic action will run." = "This Homebrew source needs separate review. No automatic action will run.";
+"This MCP configuration format needs manual editing." = "This MCP configuration format needs manual editing.";
+"This MCP configuration has no independent software version. Manage its servers or their packages." = "This MCP configuration has no independent software version. Manage its servers or their packages.";
+"This Skill directory contains shared or unreadable content. No action will run." = "This Skill directory contains shared or unreadable content. No action will run.";
+"This Skill directory is not owned by the current user. No action will run." = "This Skill directory is not owned by the current user. No action will run.";
+"This Skill has conflicting source records. Review its original installation records first." = "This Skill has conflicting source records. Review its original installation records first.";
+"This Skill is managed by a plugin or the system. Use its manager." = "This Skill is managed by a plugin or the system. Use its manager.";
+"This Skill is outside the current user's manageable scope." = "This Skill is outside the current user's manageable scope.";
+"This Skill is provided or cached by a plugin. Update the owning plugin instead of replacing this file separately." = "This Skill is provided or cached by a plugin. Update the owning plugin instead of replacing this file separately.";
+"This Skill link is not owned by the current user. No action will run." = "This Skill link is not owned by the current user. No action will run.";
+"This Skill references a shared source. Shared files will not be cleaned." = "This Skill references a shared source. Shared files will not be cleaned.";
+"This Skill's exact source is unverified. It will not update." = "This Skill's exact source is unverified. It will not update.";
+"This TOML array-table configuration needs manual editing." = "This TOML array-table configuration needs manual editing.";
+"This YAML configuration needs manual editing." = "This YAML configuration needs manual editing.";
+"This app is managed by Homebrew. Review the corresponding installation preview." = "This app is managed by Homebrew. Review the corresponding installation preview.";
+"This app location is outside the current user's manageable scope." = "This app location is outside the current user's manageable scope.";
+"This app needs its owner's or an administrator's permission. Use the appropriate permission." = "This app needs its owner's or an administrator's permission. Use the appropriate permission.";
+"This app's installation or uninstall scripts need separate review." = "This app's installation or uninstall scripts need separate review.";
+"This entry has no independent version source. Find its installation in the Homebrew category." = "This entry has no independent version source. Find its installation in the Homebrew category.";
+"This inline TOML MCP configuration needs manual editing." = "This inline TOML MCP configuration needs manual editing.";
+"This installation is outside the original manager's scope. No action will run." = "This installation is outside the original manager's scope. No action will run.";
+"This installation needs its owner's or an administrator's permission. Handle it separately with the appropriate permission." = "This installation needs its owner's or an administrator's permission. Handle it separately with the appropriate permission.";
+"This installation source is not supported for automatic actions. Use the original installation tool." = "This installation source is not supported for automatic actions. Use the original installation tool.";
+"This is a Python tool dependency. Manage it through its owning tool." = "This is a Python tool dependency. Manage it through its owning tool.";
+"This is a separate preview for special actions. Review installation scripts, permissions and conditions before confirming." = "This is a separate preview for special actions. Review installation scripts, permissions and conditions before confirming.";
+"This is an entry point or configuration for an existing installation. Check and update its package entry." = "This is an entry point or configuration for an existing installation. Check and update its package entry.";
+"This is an internal app component without its own updater. Update its parent app." = "This is an internal app component without its own updater. Update its parent app.";
+"This is not an independently manageable global package. Use its owning installation." = "This is not an independently manageable global package. Use its owning installation.";
+"This is the same installation as another preview item. It will not run twice." = "This is the same installation as another preview item. It will not run twice.";
+"This is verified as an independent Skill repository with no local changes and a trackable upstream version." = "This is verified as an independent Skill repository with no local changes and a trackable upstream version.";
+"This item has additional information. Expand Details to read it." = "This item has additional information. Expand Details to read it.";
+"This multiline TOML configuration needs manual editing." = "This multiline TOML configuration needs manual editing.";
+"This package links to another location. Review its source and impact separately before updating." = "This package links to another location. Review its source and impact separately before updating.";
+"This preview has expired. Close it and create a new one." = "This preview has expired. Close it and create a new one.";
+"This preview has expired. Go back and create a new one." = "This preview has expired. Go back and create a new one.";
+"This runtime may be shared by several tools. Review its impact separately." = "This runtime may be shared by several tools. Review its impact separately.";
+"This service launch configuration has no independent update version. Update the app or package providing it." = "This service launch configuration has no independent update version. Update the app or package providing it.";
+"This software comes from a custom Homebrew tap whose remote version cannot be verified. Check with the original tap." = "This software comes from a custom Homebrew tap whose remote version cannot be verified. Check with the original tap.";
+"This source needs manual handling. Check again after completing the external steps." = "This source needs manual handling. Check again after completing the external steps.";
+"This update includes installation scripts and needs separate confirmation. Demo mode will not run scripts." = "This update includes installation scripts and needs separate confirmation. Demo mode will not run scripts.";
+"This update runs package installation scripts. Review and confirm it separately." = "This update runs package installation scripts. Review and confirm it separately.";
+"This version cannot interpret the check result or determine whether an update is needed. The check code is kept in Details." = "This version cannot interpret the check result or determine whether an update is needed. The check code is kept in Details.";
+"This version was installed from a local file, link or repository. The public registry is not its update source; check the original source." = "This version was installed from a local file, link or repository. The public registry is not its update source; check the original source.";
+"Timed-out Application" = "Timed-out Application";
+"Total: %@ · Updates found: %@" = "Total: %@ · Updates found: %@";
+"Unchecked Application" = "Unchecked Application";
+"Unchecked Package" = "Unchecked Package";
+"Uninstall" = "Uninstall";
+"Uninstall %@" = "Uninstall %@";
+"Uninstall verified. Selected configuration and personal data were moved to Trash." = "Uninstall verified. Selected configuration and personal data were moved to Trash.";
+"Uninstalled, but some selected data was not moved to Trash. Review the remaining data." = "Uninstalled, but some selected data was not moved to Trash. Review the remaining data.";
+"Uninstalling removes the contents listed below. Review the items and affected paths." = "Uninstalling removes the contents listed below. Review the items and affected paths.";
+"Unknown" = "Unknown";
+"Unknown install source" = "Unknown install source";
+"Unknown upstream alias" = "Unknown upstream alias";
+"Unknown, unsupported or unreadable items are not treated as up to date. Unlisted installations may not have been discovered." = "Unknown, unsupported or unreadable items are not treated as up to date. Unlisted installations may not have been discovered.";
+"Unsupported status" = "Unsupported status";
+"Unverified" = "Unverified";
+"Up to date" = "Up to date";
+"Update" = "Update";
+"Update All" = "Update All";
+"Update Options" = "Update Options";
+"Update address needs review" = "Update address needs review";
+"Update available" = "Update available";
+"Update channel unknown" = "Update channel unknown";
+"Update channel unverified" = "Update channel unverified";
+"Update configuration unknown" = "Update configuration unknown";
+"Update diagnostics" = "Update diagnostics";
+"Update manifest unverified" = "Update manifest unverified";
+"Update record missing" = "Update record missing";
+"Update server error" = "Update server error";
+"Update source unverified" = "Update source unverified";
+"Update status" = "Update status";
+"Update this app using the vendor's update method." = "Update this app using the vendor's update method.";
+"Updated Skill content failed verification. Check the operation result and backup location." = "Updated Skill content failed verification. Check the operation result and backup location.";
+"Updates found means the source reports new content. The preview determines whether it can be installed directly. Supported installation sources can also be checked and previewed when their version is unknown." = "Updates found means the source reports new content. The preview determines whether it can be installed directly. Supported installation sources can also be checked and previewed when their version is unknown.";
+"Updates only" = "Updates only";
+"Updates with parent app" = "Updates with parent app";
+"Updating the package used by this MCP also affects other configurations sharing the same installation." = "Updating the package used by this MCP also affects other configurations sharing the same installation.";
+"Upgrade requirements unknown" = "Upgrade requirements unknown";
+"Upgrade requirements unverified" = "Upgrade requirements unverified";
+"Upstream alias needs review" = "Upstream alias needs review";
+"Upstream definition missing" = "Upstream definition missing";
+"Upstream name changed" = "Upstream name changed";
+"Upstream records a name change. Check the migration relationship with the original installation tool." = "Upstream records a name change. Check the migration relationship with the original installation tool.";
+"Vendor updater unsupported" = "Vendor updater unsupported";
+"Verify the source and create a preview. Installed content will not change before confirmation." = "Verify the source and create a preview. Installed content will not change before confirmation.";
+"Verify which installation tool owns this MCP before updating it." = "Verify which installation tool owns this MCP before updating it.";
+"Version" = "Version";
+"Version after: " = "Version after: ";
+"Version before: " = "Version before: ";
+"Version changed" = "Version changed";
+"Version check failed" = "Version check failed";
+"Version check timed out" = "Version check timed out";
+"Version data too large" = "Version data too large";
+"Version not recorded" = "Version not recorded";
+"Version source missing" = "Version source missing";
+"Versions cannot be compared" = "Versions cannot be compared";
+"View Related Installation…" = "View Related Installation…";
+"View local apps, packages, Skills and MCP installations in one place." = "View local apps, packages, Skills and MCP installations in one place.";
+"View source, path and check evidence for %@" = "View source, path and check evidence for %@";
+"but its source cannot be matched to this installation. Check with the original installation tool." = "but its source cannot be matched to this installation. Check with the original installation tool.";
+"Follow System" = "Follow System";
+"English" = "English";
+"Simplified Chinese" = "Simplified Chinese";
+"Settings" = "Settings";
+"Settings…" = "Settings…";
+"App Language" = "App Language";
+"Language changes apply immediately and are saved. Unsupported system languages use English." = "Language changes apply immediately and are saved. Unsupported system languages use English.";
+"Choose the app language" = "Choose the app language";
+"The operation could not be completed. See technical details." = "The operation could not be completed. See technical details.";
+"The selected location could not be read. Try again." = "The selected location could not be read. Try again.";
+"This adapter returned coverage details that this app version cannot translate. Read the original diagnostic record below." = "This adapter returned coverage details that this app version cannot translate. Read the original diagnostic record below.";
+"Original Diagnostic Record" = "Original Diagnostic Record";
+"Partial coverage" = "Partial coverage";
+"Full coverage" = "Full coverage";
+"No coverage" = "No coverage";
+"Coverage unverified" = "Coverage unverified";
+"Recursive bundles, identity/version/build and architecture; Sparkle default-channel constraints; exact-ID common vendor public-stable APIs and verified Electron generic feeds. Unknown channel/metadata constraints stay explicit. No payload downloads or dynamic updater state." = "Recursive bundles, identity/version/build and architecture; Sparkle default-channel constraints; exact-ID common vendor public-stable APIs and verified Electron generic feeds. Unknown channel/metadata constraints stay explicit. No payload downloads or dynamic updater state.";
+"Cellar receipts, opt/bin links, Caskroom JSON and local taps. Public core/cask API; official alias/rename and absent-definition diagnostics; active receipt dependency presence/source/architecture. Custom tap updates stay unknown." = "Cellar receipts, opt/bin links, Caskroom JSON and local taps. Public core/cask API; official alias/rename and absent-definition diagnostics; active receipt dependency presence/source/architecture. Custom tap updates stay unknown.";
+"Receipt presence; optional public Mac lookup by exact bundle ID and country. No account/receipt decoding or mas integration." = "Receipt presence; optional public Mac lookup by exact bundle ID and country. No account/receipt decoding or mas integration.";
+"Known global roots and PATH-derived prefixes for npm/pnpm/Bun; exact npm registry identity. Static direct/optional/peer dependency resolution and numeric Node engine ranges; no private registry, arbitrary prefixes or script execution." = "Known global roots and PATH-derived prefixes for npm/pnpm/Bun; exact npm registry identity. Static direct/optional/peer dependency resolution and numeric Node engine ranges; no private registry, arbitrary prefixes or script execution.";
+"pipx/uv conventional tool environments and explicit project venvs, dist metadata, interpreter links and PEP 668 marker; static same-environment Requires-Dist and numeric constraints/markers; no execution, full PEP 440, extras or arbitrary sys.path reconstruction." = "pipx/uv conventional tool environments and explicit project venvs, dist metadata, interpreter links and PEP 668 marker; static same-environment Requires-Dist and numeric constraints/markers; no execution, full PEP 440, extras or arbitrary sys.path reconstruction.";
+"PATH and conventional version-manager directories, symlink resolution and package metadata; version probes only for matching Homebrew core Node/Python/Bun/Go installations, no agent CLI startup." = "PATH and conventional version-manager directories, symlink resolution and package metadata; version probes only for matching Homebrew core Node/Python/Bun/Go installations, no agent CLI startup.";
+"Known Codex, Claude, Cursor, VS Code, OpenCode, OpenClaw and Hermes configs plus explicit paths; JSON/JSONC, simple TOML and a conservative YAML subset. Stable executable-to-package ownership where exact; no server startup or health request." = "Known Codex, Claude, Cursor, VS Code, OpenCode, OpenClaw and Hermes configs plus explicit paths; JSON/JSONC, simple TOML and a conservative YAML subset. Stable executable-to-package ownership where exact; no server startup or health request.";
+"Known Agent/plugin roots and explicit roots; links, entry presence and Git state; existing global/project GitHub source receipts, exact ref/path and live local folder hashes. Verified copied GitHub Skills support confirmed updates with file previews and backups; local changes or unverified sources block replacement. Plugin caches are not updated." = "Known Agent/plugin roots and explicit roots; links, entry presence and Git state; existing global/project GitHub source receipts, exact ref/path and live local folder hashes. Verified copied GitHub Skills support confirmed updates with file previews and backups; local changes or unverified sources block replacement. Plugin caches are not updated.";
+"PATH and link/runtime diagnostics; launchd definitions, current-user loaded/running state and log sizes without content. System-daemon runtime state, shared library graph and historical log content are not inspected." = "PATH and link/runtime diagnostics; launchd definitions, current-user loaded/running state and log sizes without content. System-daemon runtime state, shared library graph and historical log content are not inspected.";
+"sw_vers and architecture; optional explicit softwareupdate --list query, no installation." = "sw_vers and architecture; optional explicit softwareupdate --list query, no installation.";
+"Review shared runtime update and dependent tools" = "Review shared runtime update and dependent tools";
+"Allow this installation to request administrator authorization" = "Allow this installation to request administrator authorization";
+"Review a separate system restart operation" = "Review a separate system restart operation";
+"Not requested" = "Not requested";
+"Requested; not yet verified" = "Requested; not yet verified";
+"Exit verified" = "Exit verified";
+"Reopen verified" = "Reopen verified";
+"Exit declined or cancelled" = "Exit declined or cancelled";
+"Review Specific Permissions" = "Review Specific Permissions";
+"These choices create a new preview for this item only. Nothing runs until you confirm that preview." = "These choices create a new preview for this item only. Nothing runs until you confirm that preview.";
+"This permission is not supported by this app version: %@" = "This permission is not supported by this app version: %@";
+"Allow the listed installation scripts" = "Allow the listed installation scripts";
+"Allow the owning agent to reload this configuration" = "Allow the owning agent to reload this configuration";
+"Quit requests are graceful. Unsaved work or a cancelled exit must stop the update." = "Quit requests are graceful. Unsaved work or a cancelled exit must stop the update.";
+"Quit %@ before updating" = "Quit %@ before updating";
+"Reopen this app after a verified update" = "Reopen this app after a verified update";
+"No exact application identity is available for an exit request. No automatic exit is allowed." = "No exact application identity is available for an exit request. No automatic exit is allowed.";
+"Exact replacement package reference" = "Exact replacement package reference";
+"Enter the exact package and version. This changes the selected MCP configuration reference only; it does not install or start the server." = "Enter the exact package and version. This changes the selected MCP configuration reference only; it does not install or start the server.";
+"Create Separate Preview" = "Create Separate Preview";
+"Review MCP" = "Review MCP";
+"Verified app candidate: %@ · Build %@" = "Verified app candidate: %@ · Build %@";
+"Developer: %@ · Architecture: %@" = "Developer: %@ · Architecture: %@";
+"Configuration reference only; no server installation" = "Configuration reference only; no server installation";
+"Approved exit: %@" = "Approved exit: %@";
+"Reopen after verified update: approved" = "Reopen after verified update: approved";
+"Reopen after update: not requested" = "Reopen after update: not requested";
+"Unknown permission" = "Unknown permission";
+"Selected" = "Selected";
+"Not selected" = "Not selected";
+"Awaiting system restart: %@. Installation and restart are separate results." = "Awaiting system restart: %@. Installation and restart are separate results.";
+"Configuration updated" = "Configuration updated";
+"App exit: %@" = "App exit: %@";
+"App reopen: %@" = "App reopen: %@";
+"Awaiting system restart" = "Awaiting system restart";
+"File" = "File";
+"Edit" = "Edit";
+"View" = "View";
+"Window" = "Window";
+"Help" = "Help";
+"Undo" = "Undo";
+"Redo" = "Redo";
+"Cut" = "Cut";
+"Copy" = "Copy";
+"Paste" = "Paste";
+"Select All" = "Select All";
+"Close Window" = "Close Window";
+"Minimize" = "Minimize";
+"Zoom" = "Zoom";
+"Bring All to Front" = "Bring All to Front";
+"Enter Full Screen" = "Enter Full Screen";
+"Exit Full Screen" = "Exit Full Screen";
+"Hide KeepUpdated" = "Hide KeepUpdated";
+"Hide Others" = "Hide Others";
+"Show Toolbar" = "Show Toolbar";
+"Hide Toolbar" = "Hide Toolbar";
+"Customize Toolbar…" = "Customize Toolbar…";
+"KeepUpdated Help" = "KeepUpdated Help";
+"The preview permissions do not match your choices. Create a new preview." = "The preview permissions do not match your choices. Create a new preview.";
+"Only the exact package reference in this MCP configuration will change. The server will not be installed or started." = "Only the exact package reference in this MCP configuration will change. The server will not be installed or started.";
+"The MCP package reference was changed and verified. This does not confirm a server installation." = "The MCP package reference was changed and verified. This does not confirm a server installation.";
+"The exact application is verified closed." = "The exact application is verified closed.";
+"The updated application is verified reopened." = "The updated application is verified reopened.";
+"Normal exit was requested. Exit has not yet been verified." = "Normal exit was requested. Exit has not yet been verified.";
+"The update was not verified, so the app was not reopened." = "The update was not verified, so the app was not reopened.";
+"This action was not selected." = "This action was not selected.";
+"This action was not reached." = "This action was not reached.";
+"The app reopen request was cancelled." = "The app reopen request was cancelled.";
+"The app reopen result could not be verified." = "The app reopen result could not be verified.";
+"The updated app identity could not be verified. It was not reopened." = "The updated app identity could not be verified. It was not reopened.";
+"Content %@" = "Content %@";
+"Version after: %@" = "Version after: %@";
+"Version before: %@" = "Version before: %@";
+"Status code: %@" = "Status code: %@";
+"Requires: %@" = "Requires: %@";
+"Also affected: %@" = "Also affected: %@";
+"Current version: %@" = "Current version: %@";
+"Permissions: %@" = "Permissions: %@";
+"Original file digest: %@" = "Original file digest: %@";
+"New file digest: %@" = "New file digest: %@";
+"The public registry has version %@, but its source cannot be matched to this installation. Check with the original installation tool." = "The public registry has version %@, but its source cannot be matched to this installation. Check with the original installation tool.";
+"A package with the same name was found in the public registry, but its source cannot be matched to this installation. Check with the original installation tool." = "A package with the same name was found in the public registry, but its source cannot be matched to this installation. Check with the original installation tool.";
+"Dependency issues: %@. See Details for the requirements." = "Dependency issues: %@. See Details for the requirements.";
+"%@ · New build %@" = "%@ · New build %@";
+"%@ %@" = "%@ %@";
+"Delete" = "Delete";
+"AutoFill" = "AutoFill";
+"Contact…" = "Contact…";
+"Passwords…" = "Passwords…";
+"Credit Card…" = "Credit Card…";
+"Start Dictation" = "Start Dictation";
+"Emoji & Symbols" = "Emoji & Symbols";
+"Services Settings…" = "Services Settings…";
+"Show Tab Bar" = "Show Tab Bar";
+"Hide Tab Bar" = "Hide Tab Bar";
+"Show All Tabs" = "Show All Tabs";
+"Exit Tab Overview" = "Exit Tab Overview";
+"New Tab" = "New Tab";
+"Move Tab to New Window" = "Move Tab to New Window";
+"Merge All Windows" = "Merge All Windows";
+"Show Previous Tab" = "Show Previous Tab";
+"Show Next Tab" = "Show Next Tab";
+"This preview lacks the specific permission contract for elevation or restart. It cannot run in this app." = "This preview lacks the specific permission contract for elevation or restart. It cannot run in this app.";
+"Installing an update does not restart this Mac. Restart requires its own preview and confirmation." = "Installing an update does not restart this Mac. Restart requires its own preview and confirmation.";
+"This privileged operation requires a verified developer-signed build. The current build cannot authorize it." = "This privileged operation requires a verified developer-signed build. The current build cannot authorize it.";
+"The privileged helper is not registered. Administrator setup is required before this operation is available." = "The privileged helper is not registered. Administrator setup is required before this operation is available.";
+"The privileged helper is unavailable. This operation cannot proceed through the authorization boundary." = "The privileged helper is unavailable. This operation cannot proceed through the authorization boundary.";
+"The required signed App Store manager is not bundled with this build. This App Store operation is unavailable." = "The required signed App Store manager is not bundled with this build. This App Store operation is unavailable.";
+"This macOS update requires volume-owner authorization. Administrator permission alone is not enough." = "This macOS update requires volume-owner authorization. Administrator permission alone is not enough.";
+"The installer signature did not pass verification. Review the original installer source." = "The installer signature did not pass verification. Review the original installer source.";
+"The native restart confirmation is unavailable. No restart can be confirmed through this dialog." = "The native restart confirmation is unavailable. No restart can be confirmed through this dialog.";
+"Minimize All" = "Minimize All";
+"Zoom All" = "Zoom All";
+"Fill" = "Fill";
+"Center" = "Center";
+"Move & Resize" = "Move & Resize";
+"Halves" = "Halves";
+"Left" = "Left";
+"Right" = "Right";
+"Top" = "Top";
+"Bottom" = "Bottom";
+"Quarters" = "Quarters";
+"Top Left" = "Top Left";
+"Top Right" = "Top Right";
+"Bottom Left" = "Bottom Left";
+"Bottom Right" = "Bottom Right";
+"Arrange" = "Arrange";
+"Left & Right" = "Left & Right";
+"Left & Quarters" = "Left & Quarters";
+"Right & Left" = "Right & Left";
+"Right & Quarters" = "Right & Quarters";
+"Top & Bottom" = "Top & Bottom";
+"Top & Quarters" = "Top & Quarters";
+"Bottom & Top" = "Bottom & Top";
+"Bottom & Quarters" = "Bottom & Quarters";
+"Return to Previous Size" = "Return to Previous Size";
+"Full Screen Tile" = "Full Screen Tile";
+"Left of Screen" = "Left of Screen";
+"Right of Screen" = "Right of Screen";
+"Arrange in Front" = "Arrange in Front";
+"Remove Window from Set" = "Remove Window from Set";
+"Move All to %@" = "Move All to %@";
+"Move to %@" = "Move to %@";
+"Undo %@" = "Undo %@";
+"Redo %@" = "Redo %@";
+"Allow this exact configuration change and possible client reload" = "Allow this exact configuration change and possible client reload";
+"Verified remote snapshot. This preview also includes refreshing the selected marketplace to the approved commit." = "Verified remote snapshot. This preview also includes refreshing the selected marketplace to the approved commit.";
+"Marketplace refresh is included, but remote verification is not established by this preview." = "Marketplace refresh is included, but remote verification is not established by this preview.";
+"The remote target was verified when this preview was created." = "The remote target was verified when this preview was created.";
+"Cached marketplace snapshot. Remote freshness was not checked." = "Cached marketplace snapshot. Remote freshness was not checked.";
+"Existing Claude sessions need plugin reload. Run /reload-plugins in Claude or start a new session. The loaded session version has not been verified." = "Existing Claude sessions need plugin reload. Run /reload-plugins in Claude or start a new session. The loaded session version has not been verified.";
+"Registered on-disk plugin" = "Registered on-disk plugin";
+"Registered version: %@" = "Registered version: %@";
+"This registration does not establish which version a running session has loaded." = "This registration does not establish which version a running session has loaded.";
+"Whole-plugin update: %@" = "Whole-plugin update: %@";
+"This updates the owning plugin and its included Skills together, not just the selected Skill file." = "This updates the owning plugin and its included Skills together, not just the selected Skill file.";
+"Approved commit: %@" = "Approved commit: %@";
+"Marketplace commit before refresh: %@" = "Marketplace commit before refresh: %@";
+"Included Skills (%@)" = "Included Skills (%@)";
+"Plugin snapshot matches" = "Plugin snapshot matches";
+"The registered plugin matches the checked snapshot. This does not verify remote freshness or the version loaded by running sessions." = "The registered plugin matches the checked snapshot. This does not verify remote freshness or the version loaded by running sessions.";
+"Plugin update candidate" = "Plugin update candidate";
+"Preview the whole-plugin scope and exact source snapshot before updating." = "Preview the whole-plugin scope and exact source snapshot before updating.";
+"Installation scope: %@" = "Installation scope: %@";
+"The plugin owner could not be verified. Check it in the client." = "The plugin owner could not be verified. Check it in the client.";
+"Check the owning plugin for an update preview." = "Check the owning plugin for an update preview.";
+"More than one installation or scope matches this plugin. Resolve it in Claude." = "More than one installation or scope matches this plugin. Resolve it in Claude.";
+"Update this plugin through Codex plugin management; an exact native update path is not verified." = "Update this plugin through Codex plugin management; an exact native update path is not verified.";
+"This Skill is built into the client and follows client updates." = "This Skill is built into the client and follows client updates.";
+"This plugin scope must be managed in Claude." = "This plugin scope must be managed in Claude.";
+"The registered plugin path or installed version could not be verified." = "The registered plugin path or installed version could not be verified.";
+"The original marketplace could not be verified. Check it in Claude." = "The original marketplace could not be verified. Check it in Claude.";
+"This marketplace source or pin requires Claude plugin management." = "This marketplace source or pin requires Claude plugin management.";
+"The plugin source changed. Check the original marketplace and preview again." = "The plugin source changed. Check the original marketplace and preview again.";
+"The marketplace has local changes. Preserve them before updating." = "The marketplace has local changes. Preserve them before updating.";
+"This plugin contains components outside the supported Markdown Skill lane. Review it in Claude." = "This plugin contains components outside the supported Markdown Skill lane. Review it in Claude.";
+"The complete plugin content could not be verified." = "The complete plugin content could not be verified.";
+"Installed plugin files differ from the recorded commit. Preserve local changes before updating." = "Installed plugin files differ from the recorded commit. Preserve local changes before updating.";
+"The catalog and plugin manifest disagree on the version." = "The catalog and plugin manifest disagree on the version.";
+"A trusted Claude executable was not found." = "A trusted Claude executable was not found.";
+"This Claude version does not expose the required update JSON interface." = "This Claude version does not expose the required update JSON interface.";
+"Update the whole plugin to the verified cached marketplace snapshot. Existing sessions need reload." = "Update the whole plugin to the verified cached marketplace snapshot. Existing sessions need reload.";
+"This version would downgrade the plugin or cannot be compared safely. Check it in Claude." = "This version would downgrade the plugin or cannot be compared safely. Check it in Claude.";
+"Remove this plugin through its client." = "Remove this plugin through its client.";
+"The owning plugin changed after the preview." = "The owning plugin changed after the preview.";
+"Plugin content changed without a version change. Review it in Claude." = "Plugin content changed without a version change. Review it in Claude.";
+"The original plugin could not be backed up. No owner update was started." = "The original plugin could not be backed up. No owner update was started.";
+"The plugin or client changed after preview. Preview again." = "The plugin or client changed after preview. Preview again.";
+"The expected version is not verified at the registered load path. Check the plugin in Claude." = "The expected version is not verified at the registered load path. Check the plugin in Claude.";
+"The plugin may be partly changed. Check its current state in Claude and preserve the backup." = "The plugin may be partly changed. Check its current state in Claude and preserve the backup.";
+"Claude could not complete the update. The original plugin is unchanged and backed up." = "Claude could not complete the update. The original plugin is unchanged and backed up.";
+"Installed plugin content does not match the approved snapshot. Preserve the backup and check Claude." = "Installed plugin content does not match the approved snapshot. Preserve the backup and check Claude.";
+"The approved plugin snapshot is installed. Run /reload-plugins in existing Claude sessions or start a new session." = "The approved plugin snapshot is installed. Run /reload-plugins in existing Claude sessions or start a new session.";
+"The marketplace uses Git settings outside this update lane. Review them before updating." = "The marketplace uses Git settings outside this update lane. Review them before updating.";
+"Claude plugin settings could not be verified." = "Claude plugin settings could not be verified.";
+"This plugin is disabled or its enabled state is unknown. Check it in Claude." = "This plugin is disabled or its enabled state is unknown. Check it in Claude.";
+"The marketplace is detached or differs from its recorded origin branch. Refresh or resolve it in Claude." = "The marketplace is detached or differs from its recorded origin branch. Refresh or resolve it in Claude.";
+"The installed plugin commit is outside the marketplace history. Check the source in Claude." = "The installed plugin commit is outside the marketplace history. Check the source in Claude.";
+"The target version already has a cache directory. Review it in Claude to preserve existing content." = "The target version already has a cache directory. Review it in Claude to preserve existing content.";
+"The MCP package reference was changed and verified. The server was not installed or started." = "The MCP package reference was changed and verified. The server was not installed or started.";
+"This launcher uses an explicit package reference. Enter an exact replacement and confirm the configuration change and possible client reload." = "This launcher uses an explicit package reference. Enter an exact replacement and confirm the configuration change and possible client reload.";
+"Cancelled" = "Cancelled";
+"Candidate preparation did not match the selected installation. Scan again." = "Candidate preparation did not match the selected installation. Scan again.";
+"Check Helper Status" = "Check Helper Status";
+"Check Operation Status" = "Check Operation Status";
+"Checking the privileged helper…" = "Checking the privileged helper…";
+"Choose Installer…" = "Choose Installer…";
+"Commit before refresh: %@" = "Commit before refresh: %@";
+"Compatibility unverified" = "Compatibility unverified";
+"Consumers listed here are for impact review; they are not selected for update or rebuild." = "Consumers listed here are for impact review; they are not selected for update or rebuild.";
+"Demo helper status" = "Demo helper status";
+"Demo mode does not check or register a real helper." = "Demo mode does not check or register a real helper.";
+"Developer team: %@ · Receipt: %@" = "Developer team: %@ · Receipt: %@";
+"Enable Helper" = "Enable Helper";
+"Enable Helper…" = "Enable Helper…";
+"Enable privileged updates?" = "Enable privileged updates?";
+"Exact App Store target" = "Exact App Store target";
+"Execution is currently blocked" = "Execution is currently blocked";
+"Helper enabled" = "Helper enabled";
+"Helper not enabled" = "Helper not enabled";
+"Helper registration is separate from installation. Each installation still needs an exact preview, confirmation and administrator authorization." = "Helper registration is separate from installation. Each installation still needs an exact preview, confirmation and administrator authorization.";
+"Helper status has not been checked." = "Helper status has not been checked.";
+"Installation Candidates" = "Installation Candidates";
+"Installation path: %@" = "Installation path: %@";
+"Installation recorded" = "Installation recorded";
+"Major version change" = "Major version change";
+"Marketplace Refresh Result" = "Marketplace Refresh Result";
+"Marketplace metadata changed" = "Marketplace metadata changed";
+"Marketplace metadata refresh and plugin installation are separate results." = "Marketplace metadata refresh and plugin installation are separate results.";
+"Marketplace metadata unchanged" = "Marketplace metadata unchanged";
+"Marketplace refresh not attempted" = "Marketplace refresh not attempted";
+"Marketplace refresh state unverified" = "Marketplace refresh state unverified";
+"No consumers were identified. Undiscovered dependencies may still exist." = "No consumers were identified. Undiscovered dependencies may still exist.";
+"No prepared candidates are available. This does not mean the installation is up to date." = "No prepared candidates are available. This does not mean the installation is up to date.";
+"Operation ID: %@" = "Operation ID: %@";
+"Original impact note" = "Original impact note";
+"Pre-1.0 minor version change" = "Pre-1.0 minor version change";
+"Preparation only reads metadata. Choose one exact candidate to create an operation preview; no installation has been authorized." = "Preparation only reads metadata. Choose one exact candidate to create an operation preview; no installation has been authorized.";
+"Preparing exact installation candidates…" = "Preparing exact installation candidates…";
+"Preview Restart for This Operation" = "Preview Restart for This Operation";
+"Preview Selected Candidate" = "Preview Selected Candidate";
+"Privileged Updates" = "Privileged Updates";
+"Privileged Updates…" = "Privileged Updates…";
+"Read the recovery status before trying this privileged operation again." = "Read the recovery status before trying this privileged operation again.";
+"Reading the operation recovery status…" = "Reading the operation recovery status…";
+"Recovery record: %@" = "Recovery record: %@";
+"Refresh command completed" = "Refresh command completed";
+"Refresh command failed" = "Refresh command failed";
+"Register the signed KeepUpdated helper with macOS. An administrator may need to approve it in System Settings. This does not install any update." = "Register the signed KeepUpdated helper with macOS. An administrator may need to approve it in System Settings. This does not install any update.";
+"Reported commit after refresh: %@" = "Reported commit after refresh: %@";
+"Requesting helper registration…" = "Requesting helper registration…";
+"Runtime Dependency Impact" = "Runtime Dependency Impact";
+"Same major version; dependency impact still needs review" = "Same major version; dependency impact still needs review";
+"Select a local signed .pkg to read its exact target and prerequisites. Nothing is installed." = "Select a local signed .pkg to read its exact target and prerequisites. Nothing is installed.";
+"Select candidate" = "Select candidate";
+"Select one installation for the prepared candidate." = "Select one installation for the prepared candidate.";
+"Selected candidate" = "Selected candidate";
+"Selected signed installer" = "Selected signed installer";
+"Separate restart request for operation %@" = "Separate restart request for operation %@";
+"System Settings approval required" = "System Settings approval required";
+"System Update Options" = "System Update Options";
+"System scripts require their own approval. Installation does not authorize a restart." = "System scripts require their own approval. Installation does not authorize a restart.";
+"The helper is enabled. Candidate and permission checks still apply to every operation." = "The helper is enabled. Candidate and permission checks still apply to every operation.";
+"The prepared request changed in the preview. Prepare it again." = "The prepared request changed in the preview. Prepare it again.";
+"The recovery status did not match this operation." = "The recovery status did not match this operation.";
+"The selected installer could not be read. Choose the local package again." = "The selected installer could not be read. Choose the local package again.";
+"Unknown impact" = "Unknown impact";
+"Unsupported candidate kind: %@" = "Unsupported candidate kind: %@";
+"Project scripts, external applications and undiscovered consumers cannot be fully determined." = "Project scripts, external applications and undiscovered consumers cannot be fully determined.";
+"Installed consumers are listed for review; they are not authorized for update or rebuild." = "Installed consumers are listed for review; they are not authorized for update or rebuild.";
+"This is a synthetic preview. Demo mode does not run the CLI, register helpers, install software or restart this Mac." = "This is a synthetic preview. Demo mode does not run the CLI, register helpers, install software or restart this Mac.";
+"The matching native authorization bridge is not packaged with this CLI. Use a complete matching app bundle." = "The matching native authorization bridge is not packaged with this CLI. Use a complete matching app bundle.";
+"The packaged authorization bridge did not pass signature verification. This operation is blocked." = "The packaged authorization bridge did not pass signature verification. This operation is blocked.";
+"This app does not contain the required helper. Helper registration is unavailable." = "This app does not contain the required helper. Helper registration is unavailable.";
+"The helper state could not be verified. No installation permission is implied." = "The helper state could not be verified. No installation permission is implied.";
+"An administrator must approve the helper in System Settings before it can be used." = "An administrator must approve the helper in System Settings before it can be used.";
+"The selected installation is not a supported preparation target. Scan again and check its original installation source." = "The selected installation is not a supported preparation target. Scan again and check its original installation source.";
+"Installer or system metadata could not be read completely. No executable candidate has been established." = "Installer or system metadata could not be read completely. No executable candidate has been established.";
+"The signed local package is bound to the selected installed app. Execution prerequisites still need to pass." = "The signed local package is bound to the selected installed app. Execution prerequisites still need to pass.";
+"Exact system update candidates were read. Preparation does not authorize installation or restart." = "Exact system update candidates were read. Preparation does not authorize installation or restart.";
+"The package metadata or app binding is outside the supported installer flow. Use the original installation method." = "The package metadata or app binding is outside the supported installer flow. Use the original installation method.";
+"The installed version changed. Scan again and create a fresh preview." = "The installed version changed. Scan again and create a fresh preview.";
+"Select the specific permissions for this operation before creating its executable preview." = "Select the specific permissions for this operation before creating its executable preview.";
+"The native authorization boundary must verify this exact target before execution." = "The native authorization boundary must verify this exact target before execution.";
+"The prepared privileged request is invalid. Prepare the candidate again." = "The prepared privileged request is invalid. Prepare the candidate again.";
+"This privileged operation requires one exact installation target." = "This privileged operation requires one exact installation target.";
+"The selected package does not match the installed app binding. No installation can proceed." = "The selected package does not match the installed app binding. No installation can proceed.";
+"The system update does not match the current system binding. Prepare candidates again." = "The system update does not match the current system binding. Prepare candidates again.";
+"The exact privileged target passed preflight. Final confirmation and administrator authorization are still required." = "The exact privileged target passed preflight. Final confirmation and administrator authorization are still required.";
+"The final result could not be read. Query this operation ID before trying again; installation may already have started." = "The final result could not be read. Query this operation ID before trying again; installation may already have started.";
+"The native result could not be verified. Query the recorded operation ID before trying again." = "The native result could not be verified. Query the recorded operation ID before trying again.";
+"The requested installed version has not been verified. Read the operation recovery status." = "The requested installed version has not been verified. Read the operation recovery status.";
+"No matching pending restart was verified for this operation. No restart is authorized." = "No matching pending restart was verified for this operation. No restart is authorized.";
+"This operation is still in progress. Read its status before starting another operation." = "This operation is still in progress. Read its status before starting another operation.";
+"This operation was already attempted. Check its recovery record instead of replaying it." = "This operation was already attempted. Check its recovery record instead of replaying it.";
+"Administrator authorization was denied. The requested action is not approved." = "Administrator authorization was denied. The requested action is not approved.";
+"The native operation was cancelled. Check its recorded result before trying again." = "The native operation was cancelled. Check its recorded result before trying again.";
+"A signed full ZIP was found in the app update feed. Confirm to download, verify and update the app." = "A signed full ZIP was found in the app update feed. Confirm to download, verify and update the app.";
+"The updated app, version and signature have been verified." = "The updated app, version and signature have been verified.";
+"The app update feed could not be reached. Try again later or check for updates in the app." = "The app update feed could not be reached. Try again later or check for updates in the app.";
+"No supported signed full ZIP or DMG was found. Use the app’s own updater for this release." = "No supported signed full ZIP or DMG was found. Use the app’s own updater for this release.";
+"The downloaded update could not be verified against its signature. No app files were replaced." = "The downloaded update could not be verified against its signature. No app files were replaced.";
+"This runtime update may break compatibility. Review affected tools and projects before updating it manually." = "This runtime update may break compatibility. Review affected tools and projects before updating it manually.";
+"The original uv source and official update target have been identified. Confirm to download and verify the update." = "The original uv source and official update target have been identified. Confirm to download and verify the update.";
+"The uv update failed. The original files were restored and verified." = "The uv update failed. The original files were restored and verified.";
+"The installation tool did not finish checking in time. Try again later." = "The installation tool did not finish checking in time. Try again later.";
+"The installation tool could not reach its update source. Check the connection or source settings, then try again." = "The installation tool could not reach its update source. Check the connection or source settings, then try again.";
+"The installation tool’s access could not be verified. Check its permissions or sign-in, then try again." = "The installation tool’s access could not be verified. Check its permissions or sign-in, then try again.";
+"The App Store update tool (mas) was not found. This update is unavailable in the current setup." = "The App Store update tool (mas) was not found. This update is unavailable in the current setup.";
+"This version of the App Store update tool (mas) is not supported. Check the tool version before retrying." = "This version of the App Store update tool (mas) is not supported. Check the tool version before retrying.";
+"The exact app version approved in the preview could not be verified. Check the installed version before trying again." = "The exact app version approved in the preview could not be verified. Check the installed version before trying again.";
+"The refreshed marketplace matches the approved commit. Plugin installation is reported separately." = "The refreshed marketplace matches the approved commit. Plugin installation is reported separately.";
+"This Claude version does not expose the required marketplace refresh JSON interface." = "This Claude version does not expose the required marketplace refresh JSON interface.";
+"The public marketplace branch could not be read. Retry, or explicitly preview the verified cached snapshot." = "The public marketplace branch could not be read. Retry, or explicitly preview the verified cached snapshot.";
+"The approved remote snapshot could not be downloaded and verified." = "The approved remote snapshot could not be downloaded and verified.";
+"The remote branch moved while preparing the preview. Preview again." = "The remote branch moved while preparing the preview. Preview again.";
+"The current marketplace commit could not be verified in the remote history." = "The current marketplace commit could not be verified in the remote history.";
+"The public remote matches this verified snapshot. Update the whole plugin; existing sessions need reload." = "The public remote matches this verified snapshot. Update the whole plugin; existing sessions need reload.";
+"Refresh this marketplace to the approved commit, then update the whole plugin. Stop installation if the refreshed source differs." = "Refresh this marketplace to the approved commit, then update the whole plugin. Stop installation if the refreshed source differs.";
+"Marketplace refresh was not completed. Review the reported source state before retrying." = "Marketplace refresh was not completed. Review the reported source state before retrying.";
+"Plugin installation stopped because the refreshed marketplace was not verified as the approved source. Marketplace changes may already have occurred; inspect the refresh details." = "Plugin installation stopped because the refreshed marketplace was not verified as the approved source. Marketplace changes may already have occurred; inspect the refresh details.";
+"The system network-isolation command is unavailable. Update this plugin in Claude." = "The system network-isolation command is unavailable. Update this plugin in Claude.";
+"Selected installer candidate" = "Selected installer candidate";
+"Candidate %@" = "Candidate %@";
+"Queried recovery status" = "Queried recovery status";
+"Observed version: %@" = "Observed version: %@";
+"Observed build: %@" = "Observed build: %@";
+"The macOS restart dialog was shown. A restart has not yet been verified." = "The macOS restart dialog was shown. A restart has not yet been verified.";
+"The installed receipt and app version were verified. A restart is still required." = "The installed receipt and app version were verified. A restart is still required.";
+"The installed receipt, app version and app signature were verified." = "The installed receipt, app version and app signature were verified.";
+"The system tool requested a restart. The target system version and build are not yet verified." = "The system tool requested a restart. The target system version and build are not yet verified.";
+"The installed system version and build match the approved target." = "The installed system version and build match the approved target.";
+"The native installer failed. Inspect this operation’s recovery record and backup before trying again." = "The native installer failed. Inspect this operation’s recovery record and backup before trying again.";
+
+// Inventory interactions and update permissions
+"Expanded" = "Expanded";
+"Collapsed" = "Collapsed";
+"Show or hide installation details" = "Show or hide installation details";
+"Update Permissions…" = "Update Permissions…";
+"Update Permissions" = "Update Permissions";
+"Allow KeepUpdated to request administrator permission when an update needs it. Every installation still requires its own preview and confirmation." = "Allow KeepUpdated to request administrator permission when an update needs it. Every installation still requires its own preview and confirmation.";
+"Update permissions are enabled. Each installation still needs your approval." = "Update permissions are enabled. Each installation still needs your approval.";
+"Update permissions have not been checked." = "Update permissions have not been checked.";
+"Check Permissions" = "Check Permissions";
+"Enable Update Permissions…" = "Enable Update Permissions…";
+"Example Application with a Long Name for Shared Project Installations" = "Example Application with a Long Name for Shared Project Installations";
+"Update permissions enabled" = "Update permissions enabled";
+"Update permissions not enabled" = "Update permissions not enabled";
+"Update permissions unavailable" = "Update permissions unavailable";
+"Approve KeepUpdated in System Settings before continuing. Administrator approval is required." = "Approve KeepUpdated in System Settings before continuing. Administrator approval is required.";
+"Update permissions could not be verified. This does not authorize installation." = "Update permissions could not be verified. This does not authorize installation.";
+"This build cannot request administrator permission. Use the complete KeepUpdated app." = "This build cannot request administrator permission. Use the complete KeepUpdated app.";
+"Administrator authorization is unavailable. This installation cannot continue." = "Administrator authorization is unavailable. This installation cannot continue.";
+"Enable update permissions before continuing. macOS will ask for administrator approval." = "Enable update permissions before continuing. macOS will ask for administrator approval.";
+"This version cannot interpret the check result or determine whether an update is needed. Open Source & Evidence for the check code." = "This version cannot interpret the check result or determine whether an update is needed. Open Source & Evidence for the check code.";
+"No valid version result was received. Try Check for Updates again; the failure code is in Source & Evidence." = "No valid version result was received. Try Check for Updates again; the failure code is in Source & Evidence.";
+"KeepUpdated cannot interpret this result or determine whether an update is needed. Check with the original installation tool or open Source & Evidence for the check code." = "KeepUpdated cannot interpret this result or determine whether an update is needed. Check with the original installation tool or open Source & Evidence for the check code.";
+"The configuration uses an unsupported format. Check it in the original client; the check code is in Source & Evidence." = "The configuration uses an unsupported format. Check it in the original client; the check code is in Source & Evidence.";
+"Dependency issues: %@. Open Source & Evidence for the requirements." = "Dependency issues: %@. Open Source & Evidence for the requirements.";
+"The local installation check found issues. Open Source & Evidence for the check code and evidence." = "The local installation check found issues. Open Source & Evidence for the check code and evidence.";
+"Updating permission status…" = "Updating permission status…";
+"Demo mode does not check or change update permissions." = "Demo mode does not check or change update permissions.";
+"Checking dependencies…" = "Checking dependencies…";
+
+"Checking Skill sources…" = "Checking Skill sources…";
+
+"Checking available updates…" = "Checking available updates…";
+
+"Running applications" = "Running applications";
+
+"Applications" = "Applications";
+
+"Homebrew" = "Homebrew";
+
+"Packages" = "Packages";
+
+"Executables" = "Executables";
+
+"Agent configurations" = "Agent configurations";
+
+"Skills" = "Skills";
+
+"Skill origins" = "Skill origins";
+
+"Skill recovery records" = "Skill recovery records";
+
+"Installation relationships" = "Installation relationships";
+
+"Another command is still running." = "Another command is still running.";
+
+"The command output exceeded the size limit." = "The command output exceeded the size limit.";
+
+"The command output could not be read completely." = "The command output could not be read completely.";
+
+// Phase progress presentation
+"Unresolved in this stage: %@" = "Unresolved in this stage: %@";
+"Counts show work processed in this stage, including unresolved results. They do not measure successful updates or time remaining." = "Counts show work processed in this stage, including unresolved results. They do not measure successful updates or time remaining.";
+"Stage work: %@ of %@ processed" = "Stage work: %@ of %@ processed";
+"Stage work: %@ processed" = "Stage work: %@ processed";
+"KeepUpdated App Updates" = "KeepUpdated App Updates";
+
+"Current app version: %@" = "Current app version: %@";
+
+"Check for App Updates" = "Check for App Updates";
+
+"Checking public app releases…" = "Checking public app releases…";
+
+"Downloading and verifying the app update…" = "Downloading and verifying the app update…";
+
+"Preparing to close, install and reopen KeepUpdated…" = "Preparing to close, install and reopen KeepUpdated…";
+
+"No public stable release has been published yet." = "No public stable release has been published yet.";
+
+"KeepUpdated %@ is available." = "KeepUpdated %@ is available.";
+
+"This verified app is up to date with the public stable release." = "This verified app is up to date with the public stable release.";
+
+"Demo: synthetic app-update check. No network request, download or restart was performed." = "Demo: synthetic app-update check. No network request, download or restart was performed.";
+
+"App update checking or installation could not be verified." = "App update checking or installation could not be verified.";
+
+
+
+"This release cannot be installed because its source, signature or compatibility has not been verified." = "This release cannot be installed because its source, signature or compatibility has not been verified.";
+
+"The previous app update was installed and its reopening was verified. The original app is retained for recovery." = "The previous app update was installed and its reopening was verified. The original app is retained for recovery.";
+
+"The update was installed, but reopening has not been verified. Recovery files have been retained." = "The update was installed, but reopening has not been verified. Recovery files have been retained.";
+
+"An app update is pending or did not complete. Review its local recovery record before trying again." = "An app update is pending or did not complete. Review its local recovery record before trying again.";
+
+"Release Notes" = "Release Notes";
+
+"Download, Install and Reopen…" = "Download, Install and Reopen…";
+
+"Download, Install and Reopen" = "Download, Install and Reopen";
+
+"Show App Update Recovery Files" = "Show App Update Recovery Files";
+
+"Refresh Recovery Status" = "Refresh Recovery Status";
+
+"Install and reopen KeepUpdated?" = "Install and reopen KeepUpdated?";
+
+"The update will be downloaded and verified first. KeepUpdated will then close, replace this app, verify the installation and reopen. Your original app will be retained for recovery." = "The update will be downloaded and verified first. KeepUpdated will then close, replace this app, verify the installation and reopen. Your original app will be retained for recovery.";
+
+"The app update response could not be verified." = "The app update response could not be verified.";
+
+"The update could not be verified. KeepUpdated has not been closed." = "The update could not be verified. KeepUpdated has not been closed.";
+
+"The update handoff could not be verified. KeepUpdated will stay open." = "The update handoff could not be verified. KeepUpdated will stay open.";
+
+"Installation is unavailable because this running app has no verified Developer ID signature. A production update must retain the authenticated current developer identity." = "Installation is unavailable because this running app has no verified Developer ID signature. A production update must retain the authenticated current developer identity.";
+
+"This verified app is newer than the latest public stable release." = "This verified app is newer than the latest public stable release.";
+
+"The installation outcome is unknown. The original app and recovery files are retained for review." = "The installation outcome is unknown. The original app and recovery files are retained for review.";
+
+"Updating KeepUpdated…" = "Updating KeepUpdated…";
+"KeepUpdated checks once at launch. You can retry here; installation always needs confirmation." = "KeepUpdated checks once at launch. You can retry here; installation always needs confirmation.";
+"App is up to date" = "App is up to date";
+"Click to update" = "Click to update";
+"Checking app version…" = "Checking app version…";
+"App not publicly released" = "App not publicly released";
+"Newer preview version" = "Newer preview version";
+"App update not verified" = "App update not verified";
+"Demo app version" = "Demo app version";
+"App version not checked" = "App version not checked";
+"%@ installed versions · read only" = "%@ installed versions · read only";
+"Items: %@ · Updates: %@ · Need review: %@" = "Items: %@ · Updates: %@ · Need review: %@";
+"%@ · path aliases" = "%@ · path aliases";
+"Select Matching" = "Select Matching";
+"Selection includes matching previewable items in collapsed groups." = "Selection includes matching previewable items in collapsed groups.";
+"Installed version %@" = "Installed version %@";
+"Read only" = "Read only";
+"Show or hide grouped installations. This folder has no operations." = "Show or hide grouped installations. This folder has no operations.";
+"Example Studio" = "Example Studio";
+"Studio Crash Helper" = "Studio Crash Helper";
+"Shared Writing Skill" = "Shared Writing Skill";
+"Example Python Environment" = "Example Python Environment";
+"Environment Package" = "Environment Package";
+"%@ · multiple installations" = "%@ · multiple installations";
+"Show or hide details and grouped installations" = "Show or hide details and grouped installations";
+
+"Open App Store to Update" = "Open App Store to Update";
+
+"Open App Store to Update %@" = "Open App Store to Update %@";
+
+"Open this app’s verified App Store page. Nothing is installed by KeepUpdated." = "Open this app’s verified App Store page. Nothing is installed by KeepUpdated.";
+
+"App Store opened. Complete any update there, then check again." = "App Store opened. Complete any update there, then check again.";
+
+"The App Store page could not be opened. Try again or open App Store manually." = "The App Store page could not be opened. Try again or open App Store manually.";
+
+"Demo: verified App Store page %@. No page was opened and nothing was installed." = "Demo: verified App Store page %@. No page was opened and nothing was installed.";
+
+"%@ · installation entries" = "%@ · installation entries";
+
+"Unregistered cache" = "Unregistered cache";
+
+"Cache · registration unverified" = "Cache · registration unverified";
+
+"Skill groups: %@ · Installation entries: %@ · Unverified cache entries: %@ · Unregistered cache entries: %@" = "Skill groups: %@ · Installation entries: %@ · Unverified cache entries: %@ · Unregistered cache entries: %@";
+
+"Registration unverified" = "Registration unverified";
+
+"This cache is not in the current plugin registry. It is kept on disk and excluded from installed Skill counts." = "This cache is not in the current plugin registry. It is kept on disk and excluded from installed Skill counts.";
+
+"Skill files were found in a plugin cache, but the current installation is not verified. Manage them in the owning client." = "Skill files were found in a plugin cache, but the current installation is not verified. Manage them in the owning client.";
+
+"App Store identity unverified" = "App Store identity unverified";
+
+"The store did not provide a valid product ID. No product page or Mac version can be safely selected." = "The store did not provide a valid product ID. No product page or Mac version can be safely selected.";
+
+"Mac product unverified" = "Mac product unverified";
+
+"The Mac catalog did not confirm the same product, bundle and region. Update status remains unknown." = "The Mac catalog did not confirm the same product, bundle and region. Update status remains unknown.";
+
+"Mac version unverified" = "Mac version unverified";
+
+"The store did not provide a Mac software version. The phone version is not used." = "The store did not provide a Mac software version. The phone version is not used.";
+
+"The store returned conflicting Mac versions. Check in the App Store." = "The store returned conflicting Mac versions. Check in the App Store.";
+
+"App Store region unverified" = "App Store region unverified";
+
+"The store region is invalid. Check the App Store region and retry." = "The store region is invalid. Check the App Store region and retry.";
+
+"A newer Mac version is confirmed. Open its App Store page to update, then check again." = "A newer Mac version is confirmed. Open its App Store page to update, then check again.";
+
+"The installation manager has not verified this universal app’s Mac version. Update it in the App Store." = "The installation manager has not verified this universal app’s Mac version. Update it in the App Store.";
+
+"Checking installation sources…" = "Checking installation sources…";
+"Preparing operation preview…" = "Preparing operation preview…";
+"Executing approved operations…" = "Executing approved operations…";
+"Verifying installations…" = "Verifying installations…";
+"Reading application metadata…" = "Reading application metadata…";
+"Demo: the original app would open for you to update. Nothing was opened or installed." = "Demo: the original app would open for you to update. Nothing was opened or installed.";
+"Opening the original app…" = "Opening the original app…";
+"App opened. Complete the update in the app, then check again." = "App opened. Complete the update in the app, then check again.";
+"This app changed or is no longer available. Scan again before opening it." = "This app changed or is no longer available. Scan again before opening it.";
+"Open App" = "Open App";
+"Open the original app to update it yourself." = "Open the original app to update it yourself.";
+"Open %@ to update yourself" = "Open %@ to update yourself";
+"Open App to update yourself" = "Open App to update yourself";
+"Open this app’s App Store page, or the Updates page when its product is unknown. Nothing is installed by KeepUpdated." = "Open this app’s App Store page, or the Updates page when its product is unknown. Nothing is installed by KeepUpdated.";
+"Update this app manually" = "Update this app manually";
+"Update this app in App Store. KeepUpdated provides a link and does not install App Store updates." = "Update this app in App Store. KeepUpdated provides a link and does not install App Store updates.";
+
+"Stage could not be completed" = "Stage could not be completed";
+
+"Demo: App Store link %@. No page was opened and nothing was installed." = "Demo: App Store link %@. No page was opened and nothing was installed.";
+"Open App Store Updates" = "Open App Store Updates";
+"The opened app could not be matched to the selected installation. Scan again." = "The opened app could not be matched to the selected installation. Scan again.";
+
+"A signed full DMG was found in the app update feed. Confirm to download, verify and update the app." = "A signed full DMG was found in the app update feed. Confirm to download, verify and update the app.";
+"The signed DMG source is bound to this app. The downloaded image and app still need verification." = "The signed DMG source is bound to this app. The downloaded image and app still need verification.";
+"The update format is missing, unsupported or does not match the archive. Preview again." = "The update format is missing, unsupported or does not match the archive. Preview again.";
+"The disk image mount could not be verified. The app was not replaced. Keep the cleanup record for inspection." = "The disk image mount could not be verified. The app was not replaced. Keep the cleanup record for inspection.";
+"The disk image could not be detached. The app was not replaced; the image and cleanup record were retained." = "The disk image could not be detached. The app was not replaced; the image and cleanup record were retained.";
+"The disk image has multiple or unrecognized volumes. The app was not replaced." = "The disk image has multiple or unrecognized volumes. The app was not replaced.";
+"The app in the disk image could not be read. The installed app was not replaced." = "The app in the disk image could not be read. The installed app was not replaced.";
+"The disk image must contain exactly one app at its root. The installed app was not replaced." = "The disk image must contain exactly one app at its root. The installed app was not replaced.";
+"The disk image contains unsupported files or links. Use the app’s own updater." = "The disk image contains unsupported files or links. Use the app’s own updater.";
+"The disk image contains an installer package. This app update cannot run it." = "The disk image contains an installer package. This app update cannot run it.";
+"The staged app does not match the verified disk image. The installed app was not replaced." = "The staged app does not match the verified disk image. The installed app was not replaced.";
+"The disk image app exceeds the file count or size limit. The installed app was not replaced." = "The disk image app exceeds the file count or size limit. The installed app was not replaced.";
+"The disk image app contains paths that differ only by letter case. The installed app was not replaced." = "The disk image app contains paths that differ only by letter case. The installed app was not replaced.";
+"The disk image app contains an unsafe path. The installed app was not replaced." = "The disk image app contains an unsafe path. The installed app was not replaced.";
+"The disk image app contains an absolute, escaping or cyclic link. The installed app was not replaced." = "The disk image app contains an absolute, escaping or cyclic link. The installed app was not replaced.";
+"The disk image app contains an unsupported special file. The installed app was not replaced." = "The disk image app contains an unsupported special file. The installed app was not replaced.";
+"The app update was cancelled before replacement. The installed app was not changed." = "The app update was cancelled before replacement. The installed app was not changed.";
+
+"This Node manager version or global layout has not been verified. Use the original manager manually." = "This Node manager version or global layout has not been verified. Use the original manager manually.";
+"The original package version request is missing, ambiguous or unsupported. Review it with the original manager." = "The original package version request is missing, ambiguous or unsupported. Review it with the original manager.";
+"The installed package does not match its declared version range. Review the installation first." = "The installed package does not match its declared version range. Review the installation first.";
+"The candidate is outside the original version request. No update will run." = "The candidate is outside the original version request. No update will run.";
+"The Node manager or version policy changed, or the saved plan lacks this evidence. Create a new preview." = "The Node manager or version policy changed, or the saved plan lacks this evidence. Create a new preview.";
+"This pnpm configuration selects a Node runtime. Review that runtime change separately before updating packages." = "This pnpm configuration selects a Node runtime. Review that runtime change separately before updating packages.";
+
+// Self-update verification evidence
+"Repository binding" = "Repository binding";
+"Release binding" = "Release binding";
+"Archive length" = "Archive length";
+"Archive SHA-256" = "Archive SHA-256";
+"Archive publisher signature" = "Archive publisher signature";
+"Installed app Developer ID and Gatekeeper" = "Installed app Developer ID and Gatekeeper";
+"Candidate app Developer ID and Gatekeeper" = "Candidate app Developer ID and Gatekeeper";
+"Authenticated metadata freshness" = "Authenticated metadata freshness";
+"Installation readback" = "Installation readback";
+"App reopening" = "App reopening";
+"Verified" = "Verified";
+"Not verified" = "Not verified";
+"Not checked" = "Not checked";
+"Not applicable" = "Not applicable";
+"Not recorded; cannot confirm" = "Not recorded; cannot confirm";
+"App update check evidence" = "App update check evidence";
+"Saved app update evidence" = "Saved app update evidence";
+"This older update record has no verification evidence. The outcome cannot be confirmed here." = "This older update record has no verification evidence. The outcome cannot be confirmed here.";
+"SHA-256 checks compare downloaded bytes with GitHub release declarations. No independent archive publisher signature is available. Metadata freshness and rollback protection are not verified by the release date or local plan expiry." = "SHA-256 checks compare downloaded bytes with GitHub release declarations. No independent archive publisher signature is available. Metadata freshness and rollback protection are not verified by the release date or local plan expiry.";
+"Download preparation evidence" = "Download preparation evidence";
+"The release check reports no newer version. App verification cannot be confirmed here." = "The release check reports no newer version. App verification cannot be confirmed here.";
+
+"This Python installation record is missing required fields or uses an unsupported format. Use the original manager manually." = "This Python installation record is missing required fields or uses an unsupported format. Use the original manager manually.";
+"This pipx backend has not been verified for managed updates or removal. Use pipx manually." = "This pipx backend has not been verified for managed updates or removal. Use pipx manually.";
+"This environment includes injected tools or extra requirements. Review their constraints and exposed commands with the original manager." = "This environment includes injected tools or extra requirements. Review their constraints and exposed commands with the original manager.";
+"This tool uses a lock file whose update behavior has not been verified. Review it with the original manager." = "This tool uses a lock file whose update behavior has not been verified. Review it with the original manager.";
+"The Python tool's exposed commands or wheel ownership could not be verified. Review the installation first." = "The Python tool's exposed commands or wheel ownership could not be verified. Review the installation first.";
+"The Python tool's original interpreter could not be verified. Restore it or create a new preview." = "The Python tool's original interpreter could not be verified. Restore it or create a new preview.";
+"This Python version requirement needs native constraint solving. Review it with the original manager." = "This Python version requirement needs native constraint solving. Review it with the original manager.";
+"This Python receipt includes additional constraints or overrides that have not been verified. Use the original manager manually." = "This Python receipt includes additional constraints or overrides that have not been verified. Use the original manager manually.";
+"The installed Python tool does not satisfy its original version requirement. Review the installation first." = "The installed Python tool does not satisfy its original version requirement. Review the installation first.";
+"This Python manager version and receipt format have not been verified together. Use the original manager manually." = "This Python manager version and receipt format have not been verified together. Use the original manager manually.";
+"The Python manager or installation intent changed, or the saved plan lacks this evidence. Create a new preview." = "The Python manager or installation intent changed, or the saved plan lacks this evidence. Create a new preview.";
+"The candidate is outside the Python tool's original version limits. No update will run; review an allowed target with the original manager." = "The candidate is outside the Python tool's original version limits. No update will run; review an allowed target with the original manager.";
+"The original Python receipt could not be saved safely. No update ran; create a new preview." = "The original Python receipt could not be saved safely. No update ran; create a new preview.";
+"The manager ran, but the original Python receipt options could not be restored safely. Review the retained receipt backup and installed state." = "The manager ran, but the original Python receipt options could not be restored safely. Review the retained receipt backup and installed state.";
+"The Python manager configuration uses settings or syntax that the candidate query cannot verify. Use the original manager manually." = "The Python manager configuration uses settings or syntax that the candidate query cannot verify. Use the original manager manually.";
+// MCP launcher registry candidates
+"Configured reference: %@" = "Configured reference: %@";
+"Installed and running versions were not checked." = "Installed and running versions were not checked.";
+"Registry candidate: %@" = "Registry candidate: %@";
+"Verified default npm source; exact same-package replacement." = "Verified default npm source; exact same-package replacement.";
+"Observed in preview: %@" = "Observed in preview: %@";
+"Select This Registry Candidate" = "Select This Registry Candidate";
+"Manual reference: registry availability and source are not verified." = "Manual reference: registry availability and source are not verified.";
+"Selected registry candidate is bound to this configuration and source." = "Selected registry candidate is bound to this configuration and source.";
+"The launcher environment cannot be verified. Use a reviewed manual reference." = "The launcher environment cannot be verified. Use a reviewed manual reference.";
+"The launcher needs a known explicit working directory before querying its source." = "The launcher needs a known explicit working directory before querying its source.";
+"This launcher reference or candidate has unsupported constraints. Review it manually." = "This launcher reference or candidate has unsupported constraints. Review it manually.";
+"The launcher configuration changed. Create a new preview." = "The launcher configuration changed. Create a new preview.";
+"The effective launcher source is not verified. Manual reference migration remains available." = "The effective launcher source is not verified. Manual reference migration remains available.";
+"The registry candidate is unknown because its query failed or returned invalid metadata." = "The registry candidate is unknown because its query failed or returned invalid metadata.";
+"The configured reference matches the registry release. Installed and running versions remain unknown." = "The configured reference matches the registry release. Installed and running versions remain unknown.";
+"Select the registry candidate, then review and confirm one exact configuration change." = "Select the registry candidate, then review and confirm one exact configuration change.";
+"The selected candidate, configuration or source changed or is unavailable. Create a new preview." = "The selected candidate, configuration or source changed or is unavailable. Create a new preview.";
+"The launcher source changed after preview. Create a new preview before editing the configuration." = "The launcher source changed after preview. Create a new preview before editing the configuration.";
+"A local, global or cached package could override the registry candidate. Review this launcher manually." = "A local, global or cached package could override the registry candidate. Review this launcher manually.";
+"Managed by Volta" = "Managed by Volta";
+"Volta selection" = "Volta selection";
+"This item uses Volta. Manage it manually through Volta; KeepUpdated does not update or remove Volta-managed packages." = "This item uses Volta. Manage it manually through Volta; KeepUpdated does not update or remove Volta-managed packages.";
+"Selected in Volta's stored default platform. The running version has not been verified." = "Selected in Volta's stored default platform. The running version has not been verified.";
+"Retained image, not selected in Volta's stored default platform. Other consumers may still use it." = "Retained image, not selected in Volta's stored default platform. Other consumers may still use it.";
+"Project pin read from an explicitly selected project. It does not install or activate a runtime." = "Project pin read from an explicitly selected project. It does not install or activate a runtime.";
+"Runtime activation is unknown. A PATH shim does not prove which platform will run." = "Runtime activation is unknown. A PATH shim does not prove which platform will run.";
+"Volta project pin" = "Volta project pin";
+
+"Managed by Skillshare" = "Managed by Skillshare";
+
+"Skill manager" = "Skill manager";
+
+"Recorded repository" = "Recorded repository";
+
+"Recorded subdirectory" = "Recorded subdirectory";
+
+"Recorded commit" = "Recorded commit";
+
+"Canonical Skill directory" = "Canonical Skill directory";
+
+"Manager metadata" = "Manager metadata";
+
+"Local baseline check" = "Local baseline check";
+
+"Local files match the Skillshare record. Update through Skillshare; remote freshness and running sessions were not checked." = "Local files match the Skillshare record. Update through Skillshare; remote freshness and running sessions were not checked.";
+
+"Skillshare metadata was found, but a complete file baseline is missing. Review the installation in Skillshare." = "Skillshare metadata was found, but a complete file baseline is missing. Review the installation in Skillshare.";
+
+"Local files differ from the Skillshare baseline. Review added, removed or edited files in Skillshare before updating." = "Local files differ from the Skillshare baseline. Review added, removed or edited files in Skillshare before updating.";
+
+"Skillshare provenance could not be verified. The metadata format, source, path or file types need review in Skillshare." = "Skillshare provenance could not be verified. The metadata format, source, path or file types need review in Skillshare.";
+
+"Skillshare record needs review" = "Skillshare record needs review";
+
+"Shared Installation References (%@)" = "Shared Installation References (%@)";
+
+"Handled by: %@ (%@)" = "Handled by: %@ (%@)";
+
+"One shared action is planned. This reference is not a separate update." = "One shared action is planned. This reference is not a separate update.";
+
+"The shared action is unavailable. Create a new preview." = "The shared action is unavailable. Create a new preview.";
+
+"Shared action: %@ (%@) · %@" = "Shared action: %@ (%@) · %@";
+
+"This reference was not executed or verified separately." = "This reference was not executed or verified separately.";
+
+"The shared action result is unavailable. Check again before retrying." = "The shared action result is unavailable. Check again before retrying.";
+
+"References to this installation disagree on the source, candidate or action scope. Check again before updating." = "References to this installation disagree on the source, candidate or action scope. Check again before updating.";
+
+"The shared action did not run. This reference was not updated separately." = "The shared action did not run. This reference was not updated separately.";
+
+"The shared action did not finish with a verified result. This reference is not confirmed updated." = "The shared action did not finish with a verified result. This reference is not confirmed updated.";
+
+"This reference shares an installation with another selected item. It does not run a separate action." = "This reference shares an installation with another selected item. It does not run a separate action.";
+
+// Read-only self-update inspection
+"Inspect App Update Files" = "Inspect App Update Files";
+"Inspecting app update files…" = "Inspecting app update files…";
+"The update files could not be inspected. The outcome is unknown." = "The update files could not be inspected. The outcome is unknown.";
+"The saved update record has not been checked against the current app files." = "The saved update record has not been checked against the current app files.";
+"The original app is still installed. The candidate has not replaced it." = "The original app is still installed. The candidate has not replaced it.";
+"The candidate is installed and the retained original was verified." = "The candidate is installed and the retained original was verified.";
+"The original app is restored. The candidate is retained for review." = "The original app is restored. The candidate is retained for review.";
+"An update worker is still active. Check again after it stops." = "An update worker is still active. Check again after it stops.";
+"The update outcome cannot be confirmed. Keep the app and recovery files for review." = "The update outcome cannot be confirmed. Keep the app and recovery files for review.";
+"The saved worker record reports a verified reopening. This inspection did not reopen the app." = "The saved worker record reports a verified reopening. This inspection did not reopen the app.";
+"App reopening is not verified. This inspection did not reopen the app." = "App reopening is not verified. This inspection did not reopen the app.";
+"The command has too many arguments. Reduce the selection or scan locations and try again." = "The command has too many arguments. Reduce the selection or scan locations and try again.";
+
+"Shared" = "Shared";
+
+"Disabled" = "Disabled";
+
+"Configured" = "Configured";
+
+"Local program" = "Local program";
+
+"Local connection" = "Local connection";
+
+"Network connection" = "Network connection";
+
+"Connection address unverified" = "Connection address unverified";
+
+"Connection needs review" = "Connection needs review";
+
+"Plugin: %@" = "Plugin: %@";
+
+"Included with client" = "Included with client";
+
+"Managed with %@" = "Managed with %@";
+
+"Python Tools" = "Python Tools";
+
+"Command-line Tools" = "Command-line Tools";
+
+"Background Items" = "Background Items";
+
+"%@ details" = "%@ details";
+
+"%@ supporting records" = "%@ supporting records";
+
+"%@ connections" = "%@ connections";
+
+"%@ locations" = "%@ locations";
+
+"%@ separate installations" = "%@ separate installations";
+
+"Dependencies: %@" = "Dependencies: %@";
+
+"Update via %@: %@" = "Update via %@: %@";
+
+"Done Selecting" = "Done Selecting";
+
+"Select Items" = "Select Items";
+
+"Apps and tools first. Dependencies, caches and configuration are in the details below." = "Apps and tools first. Dependencies, caches and configuration are in the details below.";
+
+"Installed Mac apps. Each app keeps its own update method." = "Installed Mac apps. Each app keeps its own update method.";
+
+"Skills available to your AI clients. Shared locations and plugin caches are kept in details." = "Skills available to your AI clients. Shared locations and plugin caches are kept in details.";
+
+"Connections used by AI clients. Expand a name to see each client and connection; a connection is not a separate software installation." = "Connections used by AI clients. Expand a name to see each client and connection; a connection is not a separate software installation.";
+
+"Software managed by Homebrew." = "Software managed by Homebrew.";
+
+"Global packages managed by npm. Check for updates to verify available versions." = "Global packages managed by npm. Check for updates to verify available versions.";
+
+"Global packages managed by pnpm. Check for updates to verify available versions." = "Global packages managed by pnpm. Check for updates to verify available versions.";
+
+"Global packages managed by Bun. Bun itself is listed under Runtimes." = "Global packages managed by Bun. Bun itself is listed under Runtimes.";
+
+"Python tools managed by pipx or uv. Their environments and dependency libraries are in details." = "Python tools managed by pipx or uv. Their environments and dependency libraries are in details.";
+
+"Language engines such as Node.js, Python, Java and Bun that other programs run on." = "Language engines such as Node.js, Python, Java and Bun that other programs run on.";
+
+"Tools used from a terminal, such as Codex or gcloud. Package-manager entry points are in details." = "Tools used from a terminal, such as Codex or gcloud. Package-manager entry points are in details.";
+
+"Background launch settings. Update the app or package that provides them." = "Background launch settings. Update the app or package that provides them.";
+
+"Your installed macOS version and separately confirmed system-update options." = "Your installed macOS version and separately confirmed system-update options.";
+
+"Other detected installation records." = "Other detected installation records.";
+
+"This connection is disabled in its client. This scan did not start or contact it." = "This connection is disabled in its client. This scan did not start or contact it.";
+
+"This connection points to a service on this Mac. Update the program that provides it." = "This connection points to a service on this Mac. Update the program that provides it.";
+
+"This Mac holds connection settings. The service is updated on the server, not through this connection." = "This Mac holds connection settings. The service is updated on the server, not through this connection.";
+
+"The connection address could not be classified. Review it in the original client; no service was contacted." = "The connection address could not be classified. Review it in the original client; no service was contacted.";
+
+"Dependency library" = "Dependency library";
+
+"This library belongs to a Python tool or environment. Update it through that owner." = "This library belongs to a Python tool or environment. Update it through that owner.";
+
+"Remove Connection" = "Remove Connection";
+
+"Remove connection %@" = "Remove connection %@";
+
+"Review removal of this client connection. The service or installed program is not removed." = "Review removal of this client connection. The service or installed program is not removed.";
+
+"Command entry. Check the owning package for its version." = "Command entry. Check the owning package for its version.";
+"Selected entries: %@ · Uninstall actions: %@. Review unavailable items below." = "Selected entries: %@ · Uninstall actions: %@. Review unavailable items below.";
+"The preview items do not match your selection. Create a new preview." = "The preview items do not match your selection. Create a new preview.";
+"Show or hide grouped installations." = "Show or hide grouped installations.";
+"Uninstall group %@ (%@ items)" = "Uninstall group %@ (%@ items)";
+"Review every item in this group, then confirm uninstall." = "Review every item in this group, then confirm uninstall.";
+
+// Recent operation recovery
+"Saved operation results exceed the size limit." = "Saved operation results exceed the size limit.";
+"Saved operation results are invalid. Review the local record before trying again." = "Saved operation results are invalid. Review the local record before trying again.";
+"Saved operation results could not be read. Open Last Results for details." = "Saved operation results could not be read. Open Last Results for details.";
+"The last operation has no confirmed final result. Open Last Results before trying again." = "The last operation has no confirmed final result. Open Last Results before trying again.";
+"Reading saved operation results…" = "Reading saved operation results…";
+"No saved operation results were found." = "No saved operation results were found.";
+"Installations scanned again. This result is available in the current session." = "Installations scanned again. This result is available in the current session.";
+"This operation may still be running or may have been interrupted. The saved results do not confirm that its processes have stopped. Check the current installation state before creating a new preview." = "This operation may still be running or may have been interrupted. The saved results do not confirm that its processes have stopped. Check the current installation state before creating a new preview.";
+"Recovery location: %@" = "Recovery location: %@";
+"No execution was recorded for this item. Scan again and create a new preview before trying it." = "No execution was recorded for this item. Scan again and create a new preview before trying it.";
+"This item started, but its final result was not saved. It may still be running or may have been interrupted. Check its actual state before trying again." = "This item started, but its final result was not saved. It may still be running or may have been interrupted. Check its actual state before trying again.";
+"Reload Saved Results" = "Reload Saved Results";
+"Version %@ · Build %@" = "Version %@ · Build %@";
+"Source information unavailable" = "Source information unavailable";
+"Source: %@ (local changes)" = "Source: %@ (local changes)";
+"Source: %@" = "Source: %@";
+"Source tree: %@" = "Source tree: %@";
+"User Guide" = "User Guide";
+"Support & Feedback" = "Support & Feedback";
+"Privacy & Local Data" = "Privacy & Local Data";
+"Report a Security Issue Privately" = "Report a Security Issue Privately";
+"Reports and saved results can contain private paths. Share only a minimal, redacted example when asking for help." = "Reports and saved results can contain private paths. Share only a minimal, redacted example when asking for help.";
+"Open in App Store" = "Open in App Store";
+"Manual App Review (%@)" = "Manual App Review (%@)";
+"Review these apps below. Any available updates must be completed in App Store or the app." = "Review these apps below. Any available updates must be completed in App Store or the app.";
+"Review each app’s check status. Use App Store or the app’s updater if an update is available. Opening a link or app does not count as a completed update." = "Review each app’s check status. Use App Store or the app’s updater if an update is available. Opening a link or app does not count as a completed update.";
+"Check in the app" = "Check in the app";
+"PATH and conventional version-manager directories; static Volta v4 images, stored default/package platforms and explicit project pins; version probes only for matching Homebrew core Node/Python/Bun/Go installations, no agent CLI startup." = "PATH and conventional version-manager directories; static Volta v4 images, stored default/package platforms and explicit project pins; version probes only for matching Homebrew core Node/Python/Bun/Go installations, no agent CLI startup.";
+"Known Agent/plugin roots and explicit roots; links, entry presence and Git state; existing global/project GitHub source receipts, exact ref/path and live local folder hashes. Verified copied GitHub Skills support confirmed updates with file previews and backups; local changes or unverified sources block replacement. Verified Claude plugin owners support confirmed marketplace refresh/update, exact snapshots, network-isolated execution and explicit reload state; other managed caches remain with their client." = "Known Agent/plugin roots and explicit roots; links, entry presence and Git state; existing global/project GitHub source receipts, exact ref/path and live local folder hashes. Verified copied GitHub Skills support confirmed updates with file previews and backups; local changes or unverified sources block replacement. Verified Claude plugin owners support confirmed marketplace refresh/update, exact snapshots, network-isolated execution and explicit reload state; other managed caches remain with their client.";
+
+"All statuses" = "All statuses";
+
+"Updates to preview" = "Updates to preview";
+
+"Manual action" = "Manual action";
+
+"Not confirmed" = "Not confirmed";
+
+"Checked current" = "Checked current";
+
+"Stay up to date" = "Stay up to date";
+
+"Your Mac’s software, together.\nCheck for new versions, then choose what to update." = "Your Mac’s software, together.\nCheck for new versions, then choose what to update.";
+
+"Check apps and tools together" = "Check apps and tools together";
+
+"Preview changes before updating" = "Preview changes before updating";
+
+"Verify each update result" = "Verify each update result";
+
+"Check" = "Check";
+
+"Manage installations" = "Manage installations";
+
+"Found %@ installation records" = "Found %@ installation records";
+
+"%@ versions not confirmed" = "%@ versions not confirmed";
+
+"Preview updates before confirming. Special actions still need separate confirmation." = "Preview updates before confirming. Special actions still need separate confirmation.";
+
+"Continue in the original app or review the available options." = "Continue in the original app or review the available options.";
+
+"Some sources have not confirmed a version." = "Some sources have not confirmed a version.";
+
+"These records match their checked source. See details for limits." = "These records match their checked source. See details for limits.";
+
+"Home" = "Home";
+
+"Tools" = "Tools";
+
+"Installation manager" = "Installation manager";
+
+"Grouped entries; expand the list to see each installation and path." = "Grouped entries; expand the list to see each installation and path.";
+
+"%@ updates to preview" = "%@ updates to preview";
+
+"%@ need manual handling" = "%@ need manual handling";
+
+"%@ not confirmed" = "%@ not confirmed";
+
+"%@ checked current" = "%@ checked current";
+
+"Each path is counted separately. Categories group related records." = "Each path is counted separately. Categories group related records.";
+
+"Choose an installation" = "Choose an installation";
+
+"Expand a group to see each installation and its actions." = "Expand a group to see each installation and its actions.";
+
+"View items" = "View items";
+
+"Advanced" = "Advanced";
+
+"About KeepUpdated" = "About KeepUpdated";
+
+"Open an item to choose its installations and review its details." = "Open an item to choose its installations and review its details.";
+
+"Open details and choose installations." = "Open details and choose installations.";
+
+"%@ installations" = "%@ installations";
+
+"Updates: %@" = "Updates: %@";
+
+"This item is no longer in the current scan." = "This item is no longer in the current scan.";
+
+"Choose the installations to include. Updating or removing still requires a preview and confirmation." = "Choose the installations to include. Updating or removing still requires a preview and confirmation.";
+
+"Supporting records · Read only" = "Supporting records · Read only";
+
+"Components and dependencies are shown for reference. They are not separate installation choices." = "Components and dependencies are shown for reference. They are not separate installation choices.";
+
+"Selected installations: %@" = "Selected installations: %@";
+
+"Remove Connections (%@)" = "Remove Connections (%@)";
+
+"Uninstall Selected (%@)" = "Uninstall Selected (%@)";
+
+"Review only the selected installations before confirming removal." = "Review only the selected installations before confirming removal.";
+
+"Preview Updates (%@)" = "Preview Updates (%@)";
+
+"Installed versions: %@" = "Installed versions: %@";
+
+"Skill still in use" = "Skill still in use";
+
+"This Skill is still used by an installation being kept. Keep the shared content, or select those references and preview again." = "This Skill is still used by an installation being kept. Keep the shared content, or select those references and preview again.";
+
+"Connections used by AI clients. Open an item to choose its client connections; removing a connection does not remove the service." = "Connections used by AI clients. Open an item to choose its client connections; removing a connection does not remove the service.";
+"%@ %@ items" = "%@ %@ items";
+"Hide search" = "Hide search";
+"Select all matching previewable items" = "Select all matching previewable items";
+"%@ %@ item" = "%@ %@ item";

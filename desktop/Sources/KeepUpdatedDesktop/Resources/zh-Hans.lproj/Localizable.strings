@@ -1,0 +1,1549 @@
+" (Skill recovery needed)" = "（Skill 更新未完成）";
+" (missing data)" = "（有缺项）";
+" · New build " = " · 新构建 ";
+"Items needing further review: %@. These items will not run yet. Review each item's requirements before creating a new preview." = "有 %@ 项仍需核对，暂不执行。请按每项的条件核对后再生成清单。";
+"%@ · Candidate" = "%@ · 候选版";
+"%@%@ · %@\nRequired: %@ · Installed: %@\n%@" = "%@%@ · %@\n要求：%@ · 已安装：%@\n%@";
+"%@, count %@" = "%@，%@ 项";
+". See Details for the requirements." = "。请在详情中查看具体要求。";
+"A branch and tag with the same name point to different versions. The update target is ambiguous." = "同名分支和标签对应不同版本，暂时无法确定更新目标。";
+"A local SKILL.md was found, but no verifiable upstream repository or installation record. Update through the original installation method." = "发现了本地 SKILL.md，但没有可核对的上游仓库或安装记录；请通过原安装方式更新。";
+"A matching processor build could not be identified for this installation. Check through the in-app updater." = "无法为当前安装确定匹配的处理器版本；请通过应用内更新核对。";
+"A newer version is confirmed by the update source. Choose Update to preview the operation first." = "已从更新源确认有新版本；点击更新可先查看操作清单。";
+"A package with the same name was found in the public registry, " = "查到了公共仓库中的同名软件包，";
+"A verifiable upstream version is not available. It will not update." = "尚未取得可核对的上游版本，暂不更新。";
+"About KeepUpdated & Help" = "关于 KeepUpdated 与使用帮助";
+"Active state" = "活动状态";
+"Active version unknown" = "当前使用版本不明";
+"Actual Related Changes (%@)" = "实际关联变化（%@ 项）";
+"Actual path" = "实际路径";
+"Adapter Coverage" = "适配器覆盖";
+"Add %@" = "添加%@";
+"Add other agents' Skills, MCP or project locations" = "添加其他 Agent 的 Skills、MCP 或项目位置";
+"Added" = "新增";
+"Add…" = "添加…";
+"Administrator permission" = "管理员权限";
+"Affected Paths" = "影响路径";
+"After confirmation, the fixed version in this preview will be installed with a backup saved first." = "确认后会更新到清单中的固定版本，并先保存备份。";
+"All" = "全部";
+"All local Skill content matches the recorded source. No update is needed." = "本地 Skill 的完整内容与记录来源一致，无需更新。";
+"Already up to date; no update needed." = "已是最新，无需更新";
+"Also affected: " = "同受影响的项目：";
+"Also clean configuration and personal data" = "同时清理配置和个人数据";
+"An exact installable version has not been verified. No action will run." = "尚未确认可安装的准确版本，暂不执行。";
+"App Store not checked" = "未查询 App Store";
+"App metadata could not be read. No action will run." = "无法读取应用信息，暂不执行。";
+"Applicable system version unknown" = "系统适用版本不明";
+"Application folders" = "应用目录";
+"Apps" = "应用";
+"Architecture" = "架构";
+"Automatic cleanup of configuration and personal data is not supported for this source." = "此安装来源暂不支持自动清理配置和个人数据。";
+"Automatic editing of this TOML scope is not supported." = "此 TOML 配置范围暂不支持自动修改。";
+"Automatic editing of this TOML table syntax is not supported." = "此 TOML 表语法暂不支持自动修改。";
+"Automatic editing of this configuration syntax is not supported." = "此配置语法暂不支持自动修改。";
+"Back" = "返回";
+"Background service configuration" = "后台服务配置";
+"Backup Location" = "备份位置";
+"Binary file; a line-by-line diff is unavailable." = "二进制文件，无法显示逐行差异。";
+"Blocked" = "暂不可执行";
+"Both upstream and local Skill content have changed. Choose Review Changes to compare them; local content will be preserved." = "上游已有新内容，本地内容也与安装记录不同；点击“查看变更”比较差异，现有内容会保留。";
+"Build version" = "构建版本";
+"Cancel" = "取消";
+"Cancel Operation" = "取消操作";
+"Category" = "类别";
+"Change the category or search, or turn off Updates only." = "更换分类、搜索词或关闭“只看新版本”。";
+"Changing this MCP configuration may reload services in the owning agent. Separate confirmation is required." = "修改这份 MCP 配置可能让所属 Agent 重新加载服务，需要单独确认。";
+"Channel" = "渠道";
+"Check & Preview" = "检查并预览";
+"Check & Preview Again" = "重新检查并预览";
+"Check & Preview Unresolved Items (%@)" = "重新检查并预览未完成项目（%@ 项）";
+"Check Evidence" = "检查依据";
+"Check and preview %@ again" = "重新检查并预览 %@";
+"Check completed. Unknown items and those needing manual handling remain listed." = "检查已完成。未知和需手动处理的项目仍保留在列表中。";
+"Check explanation" = "检查说明";
+"Check for Updates" = "检查更新";
+"Check not supported" = "此检查暂不支持";
+"Check update sources and dependencies" = "检查更新来源和依赖";
+"Checking again and preparing %@ preview…" = "正在重新检查并生成%@清单…";
+"Checking updates and dependencies…" = "正在检查更新和依赖…";
+"Cleanup data could not be verified. Create a new preview." = "无法核对待清理数据，请重新生成清单。";
+"Cleanup requires a unique app identity. Check duplicate installations or names first." = "清理需要唯一的应用标识，请先核对同名或重复安装。";
+"Clear Selection" = "清空选择";
+"Clear search" = "清除搜索";
+"Common installation locations are scanned automatically. Add other agents' Skills, MCP configurations or projects here. Only paths are saved, never configuration contents." = "常见安装位置会自动扫描。其他 Agent 的 Skills、MCP 配置或项目可以在这里添加；只保存路径，不保存配置内容。";
+"Complete file changes for the fixed version are available." = "已取得固定版本的完整文件变化。";
+"Completed" = "已完成";
+"Completed: %@ · Failed or unverified: %@ · Not executed: %@" = "完成 %@ 项 · 失败或待核对 %@ 项 · 未执行 %@ 项";
+"Configuration and personal data to clean" = "将清理的配置和个人数据";
+"Configuration and personal data will be preserved." = "保留配置和个人数据。";
+"Configuration item" = "配置项目";
+"Configuration needs no update" = "配置无需单独更新";
+"Confirm %@ (%@)" = "确认%@ %@ 项";
+"Confirm %@ Preview" = "确认%@清单";
+"Confirmed active" = "已确认使用中";
+"Conflicting source records" = "来源记录有冲突";
+"Conflicting store records" = "商店记录不一致";
+"Conflicting update manifest" = "更新清单有冲突";
+"Content " = "内容 ";
+"Current version: " = "当前版本：";
+"Custom source unsupported" = "自定义来源暂不支持";
+"Deleted" = "删除";
+"Demo Mode" = "演示模式";
+"Demo Results" = "演示结果";
+"Demo data refreshed. Your computer was not read or changed." = "演示数据已刷新，未读取或修改电脑。";
+"Demo failure: check again to create a new preview. No installation was changed." = "演示失败：可以重新检查并生成预览，未改动安装内容。";
+"Demo mode does not save locations or read file contents." = "演示模式不会保存位置或读取文件内容。";
+"Demo mode uses synthetic data. Updates and uninstalls never call the real CLI." = "演示模式仅展示合成数据，更新和卸载不会调用真实 CLI。";
+"Demo mode: no real update or uninstall was performed." = "演示模式：未执行真实更新或卸载";
+"Demo preview; your computer will not change." = "演示计划，不会改动电脑";
+"Dependency Checks (%@)" = "依赖检查（%@ 条声明）";
+"Dependency checks found an issue. No automatic action will run." = "依赖检查有异常，暂不自动处理。";
+"Dependency issues: " = "依赖检查发现异常：";
+"Details" = "详情";
+"Development build" = "开发版本";
+"Diagnostics & Coverage" = "诊断与覆盖范围";
+"Diagnostics & Coverage%@" = "诊断与覆盖范围%@";
+"Direct installation" = "直接安装的版本";
+"Done" = "完成";
+"Executing and verifying. Please wait for the current operation to finish." = "正在执行并核对，请等待当前操作完成。";
+"Executing this operation will move this independent Skill folder to Trash." = "执行后会将这个独立 Skill 目录移至废纸篓。";
+"Failed" = "失败";
+"Fallback read incomplete" = "备用读取未完成";
+"File Changes (%@)" = "文件变化（%@ 个）";
+"File changes exceed the size that can be fully previewed. This item will not run; review the source and files first." = "文件变化超出可完整预览的大小，此项不会执行，请先核对来源和文件。";
+"Found after checking" = "检查后新增";
+"Generated: %@" = "生成时间：%@";
+"Git is unavailable. Restore the Git tool used by the original repository first." = "Git 不可用，请先准备好原仓库使用的 Git 工具。";
+"GitHub queries are limited and the public Git fallback did not complete. Check the network and retry." = "GitHub 已限制查询，公共 Git 读取也未完成；请检查网络后重试。";
+"GitHub rate limit" = "GitHub 查询限流";
+"Handle %@ separately" = "单独处理 %@";
+"Handle Separately…" = "单独处理…";
+"Help & Version" = "帮助与版本";
+"Incomplete install source" = "安装来源不完整";
+"Install baseline unverified" = "安装基线待核对";
+"Installation categories" = "安装内容分类";
+"Installation contents could not be verified. Scan again or check manually." = "无法核对安装内容，请重新扫描或手动检查。";
+"Installation contents or source changed after preview. Create a new preview." = "安装内容或来源在预览后有变化，请重新生成清单。";
+"Installation definition mismatch" = "安装定义不匹配";
+"Installation issue" = "安装信息有异常";
+"Installation metadata could not be read completely. Check the files and read permissions." = "安装信息文件无法完整读取；请检查文件内容和读取权限。";
+"Installation state could not be checked again before execution. No action ran." = "执行前无法重新核对安装状态，未执行。";
+"Installed version is newer" = "本机版本高于来源";
+"Invalid package identity" = "软件包标识无效";
+"Invalid system response" = "系统查询结果无法解析";
+"Invalid update address" = "更新地址无效";
+"Invalid update manifest" = "更新清单无法解析";
+"Invalid version data" = "版本数据无法解析";
+"Issue found" = "有异常";
+"Items: %@" = "%@ 项";
+"KeepUpdated cannot interpret this result or determine whether an update is needed. Check with the original installation tool or read the check code in Details." = "KeepUpdated 暂时无法解释这项检查结果，不能判断是否需要更新。请通过原安装工具核对，或在详情中查看检测代码。";
+"Last Results" = "上次结果";
+"Line-by-line Diff" = "逐行差异";
+"Local Skill content could not be read completely. It will not update; check the files and read permissions." = "无法完整读取本地 Skill 内容，暂不更新，请检查文件和读取权限。";
+"Local Skill content differs from the installation record. The source has no new changes; local content will be preserved." = "本地 Skill 内容与安装记录不同；来源没有新的变化，现有内容会保留。";
+"Local and upstream changes" = "上游与本地都有变化";
+"Local changes were found. Review them before an update could overwrite them." = "发现本地修改，自动更新可能覆盖修改，请先核对。";
+"Local changes were found. This item will not update. Compare differences and preserve needed content before checking again." = "发现本地修改，此项不会更新。请先比较差异并保留需要的内容，再重新检查。";
+"Local check explanation" = "本地检查说明";
+"Local content differs" = "本地内容有差异";
+"Local content differs from the installation record or has not been fully checked. Compare changes first; existing content will not be overwritten." = "本地内容与安装记录不同，或尚未核对完整；先比较差异，现有内容不会被覆盖。";
+"Local content unreadable" = "本地内容未能读全";
+"Local diagnostics" = "本地检查诊断";
+"Local installations" = "本机安装内容";
+"MCP configuration files" = "MCP 配置文件";
+"MCP configurations still use this installation. Handle those links before uninstalling." = "仍有 MCP 配置使用此安装，卸载前需先处理这些关联。";
+"MCP ownership unknown" = "MCP 安装归属不明";
+"MCP with Linked Installation" = "已关联安装来源的 MCP";
+"Managed by Homebrew" = "通过 Homebrew 管理";
+"Managed by parent package" = "由所属软件包管理";
+"Managed by plugin" = "由插件管理";
+"Manual action needed" = "需手动处理";
+"Matches source" = "与来源一致";
+"Matches stable release" = "与稳定版一致";
+"May reload the owning agent" = "可能重新加载所属 Agent";
+"Meets requirement" = "符合声明";
+"Modified" = "修改";
+"Multiple cask versions were found, but the active version is unknown. Check the installation location first." = "发现多个 cask 版本，但无法确认当前使用哪一个；请先核对安装位置。";
+"Multiple installations share this app identity. Shared data will not be cleaned." = "多个安装共用此应用标识，暂不清理共享数据。";
+"Multiple installed versions" = "存在多个安装版本";
+"Needs Attention (%@)" = "需处理（%@ 项）";
+"New file digest: " = "新文件摘要：";
+"New upstream content is available and local content still matches the installation record. Choose Update to review file changes first." = "已确认上游有新内容，本地内容仍与安装记录一致；点击更新可先查看具体文件变化。";
+"No Action Needed (%@)" = "无需操作（%@ 项）";
+"No active entry found" = "本次未发现活动入口";
+"No compatible release" = "未找到匹配的发布版本";
+"No discovery read errors were found in this scan." = "本次没有发现阶段的读取错误。";
+"No extra locations" = "未添加额外位置";
+"No file differences are available. Read the check explanation and create a new preview if needed." = "没有可显示的文件差异；请查看检查说明，必要时重新生成清单。";
+"No file differences to show" = "没有可显示的文件差异";
+"No line-by-line diff was received. Read the check explanation." = "未取得逐行差异，请查看检查说明。";
+"No matching Mac product" = "未找到对应 Mac 版本";
+"No matching items" = "没有匹配的项目";
+"No matching package" = "未找到匹配的安装包";
+"No operation command is available for this source." = "该来源暂时没有可用的操作命令。";
+"No readable update address or matching version lookup was found. Check for updates in the app." = "没有找到可读取的更新地址，也没有匹配的版本查询方式；请在应用内检查更新。";
+"No real update or uninstall was performed." = "没有执行真实更新或卸载。";
+"No source version returned" = "更新源未返回版本";
+"No update source found" = "未找到更新源";
+"No valid response was received from the version server. Check the network and retry, or use the original installation tool." = "没有取得版本服务器的有效响应；请检查网络后重试，或通过原安装工具核对。";
+"No valid version result was received. Try Check for Updates again; the failure code is kept in Details." = "本次没有取得有效的版本检查结果；请重试“检查更新”，详情中保留了失败代码。";
+"No verifiable version source is available. Check for updates with the original installation tool." = "尚无可核对的版本来源，无法判断是否需要更新；请通过原安装工具检查。";
+"No version lookup is available for this app yet. Check for updates in the app." = "当前没有适用于此应用的版本查询方式；请在应用内检查更新。";
+"None" = "无";
+"Not checked for updates" = "未检查更新";
+"Not declared" = "未声明";
+"Not executed" = "未执行";
+"Not observed afterward" = "检查后未观察到";
+"OK" = "好";
+"Only declared static dependencies are checked. Unverified does not mean broken." = "仅核对已声明的静态依赖；未确认不表示软件已损坏。";
+"Only explicitly listed paths will be cleaned. Data with unknown ownership will be preserved." = "只清理清单中明确列出的路径；不明归属的数据会保留。";
+"Only local Git state has been read; the remote version has not been checked. Check for updates in the original repository." = "这里只读取了本地 Git 状态，还没有核对远端版本；请通过原仓库检查更新。";
+"Only local installation data has been read. Choose Check for Updates at the top to look for new versions." = "目前只读取了本机安装信息；点击顶部“检查更新”查询新版本。";
+"Only the current user's Skill link will be removed. Shared source files will be preserved." = "只移除当前用户的 Skill 链接，共享源文件会保留。";
+"Only the selected MCP configuration definition will be removed. Shared software and other definitions will be preserved." = "只移除所选 MCP 配置定义，共享软件和其他定义会保留。";
+"Operation" = "操作";
+"Operation Incomplete" = "操作未完成";
+"Operation Results" = "操作结果";
+"Operation cancelled. If an update or uninstall already started, scan again to check the actual state." = "操作已取消。如果已开始更新或卸载，请重新扫描确认实际状态。";
+"Ordinary updates run first. Extra permissions, app exit, restart and installation scripts need separate confirmation." = "先执行普通更新。需要额外权限、退出应用、重启或安装脚本的项目单独确认。";
+"Original file digest: " = "原文件摘要：";
+"Other" = "其他";
+"Other change" = "其他变化";
+"Other file changes were found after the previous selected edit. This item did not run; create a new preview." = "前一项配置修改后发现文件有其他变化，当前项未执行，请重新生成清单。";
+"Other items depend on this installation. Handle those dependencies before uninstalling." = "其他项目依赖此安装，卸载前需先处理这些依赖。";
+"Owner" = "归属";
+"Ownership of the cleanup path is unverified. It will not be cleaned." = "待清理路径的归属尚未确认，暂不清理。";
+"Package with Unknown Source" = "来源未记录的软件包";
+"Path" = "路径";
+"Permissions changed" = "权限变化";
+"Permissions: " = "权限：";
+"Post-uninstall cleanup incomplete" = "卸载后清理未完成";
+"Preparing %@ preview…" = "正在生成%@清单…";
+"Preview Selected (%@)" = "预览所选 %@ 项";
+"Preview updates across all categories before confirming. Special actions need separate confirmation." = "为所有分类生成更新清单，先预览再确认。特殊项目单独确认。";
+"Previewing does not change installations. Execution starts only after confirmation; special conditions such as permissions, app exit and installation scripts are shown separately." = "预览不会更改安装内容。确认后才执行；权限、退出应用和安装脚本等特殊条件会单独说明。";
+"Processor version unknown" = "处理器版本不明";
+"Product identity" = "产品标识";
+"Product identity mismatch" = "产品标识不匹配";
+"Product version unverified" = "产品版本无法核对";
+"Product, version or build metadata is inconsistent, so a reliable update source cannot be selected. Check for updates in the app." = "安装元数据中的产品、版本或构建信息不一致，无法选择可靠的更新源；请通过应用内更新检查。";
+"Project folders" = "项目目录";
+"Public Git output exceeds the supported size. No update ran." = "公共 Git 返回的内容超出可处理大小，当前没有执行更新。";
+"Public Git returned no verifiable branch or version. Check the source." = "公共 Git 未返回可确认的分支或版本，请核对来源。";
+"Python environment" = "Python 环境";
+"Quit KeepUpdated" = "退出 KeepUpdated";
+"Quit application" = "退出应用";
+"Quit this app and its helper processes, then create a new preview to verify." = "请先退出此应用及其辅助进程，再重新生成清单核对。";
+"Quit this app, then create a new operation preview." = "请先退出此应用，再重新生成操作清单。";
+"Quit this app, then create a new preview to verify that it has stopped." = "请先退出此应用，再重新生成清单确认它已停止。";
+"Quit this app, then create a new preview. Demo mode will not quit apps." = "需先退出此应用，再重新生成清单。演示模式不会退出应用。";
+"Read Diagnostics (%@)" = "读取诊断（%@）";
+"Reading local installations" = "正在读取本机安装信息";
+"Ready" = "可执行";
+"Ready (%@)" = "可执行（%@ 项）";
+"Ready: %@ · Expires at %@" = "可执行 %@ 项 · 有效至 %@";
+"Regular checks do not query macOS updates. Check System Settings → General → Software Update." = "普通检查不会查询 macOS 更新；请在系统设置的“通用 → 软件更新”中检查。";
+"Remote commits not compared" = "未比对远端提交";
+"Remote service" = "远程服务";
+"Removal of the selected MCP definition is verified. Shared software is unchanged." = "已确认移除所选 MCP 定义，共享软件保持不变。";
+"Remove scan location %@" = "移除扫描位置 %@";
+"Removing a scan location does not delete its folder or file. Scan again after making changes." = "移除扫描位置不会删除该目录或文件。更改后重新扫描。";
+"Removing the MCP definition preserves shared software and credentials. Cleaning these together is not supported." = "移除 MCP 定义时会保留共享软件和凭据；暂不支持同时清理这些内容。";
+"Required prior version unknown" = "升级前置版本不明";
+"Requires: " = "需要：";
+"Restart" = "重启";
+"Result unverified" = "结果尚未确认";
+"Review each recorded result below. Unresolved items need a fresh check and preview." = "请查看下方记录的结果。未完成项目需要重新检查并生成预览。";
+"Results saved and installations scanned again. Check for Updates to verify version sources." = "操作结果已保留，安装清单已重新扫描；检查更新可再次确认版本来源。";
+"Retryable Example Tool" = "可重试的示例工具";
+"Review Changes" = "查看变更";
+"Review file permissions before changing this MCP configuration." = "修改此 MCP 配置需要先核对文件权限。";
+"Review the differences below first. This item will not run; existing content will be preserved." = "请先核对下面的差异。此项暂不执行，现有内容会保留。";
+"Review this Skill repository's source, configuration and shared scope first." = "此 Skill 仓库需要先核对来源、配置和共享范围。";
+"Review uninstall effects and choose whether to clean configuration and personal data" = "先查看卸载影响，并选择是否清理配置和个人数据";
+"Run installation scripts" = "运行安装脚本";
+"Running %@… Please wait for verification." = "正在%@…请等待结果核对。";
+"Running version unknown" = "实际运行版本不明";
+"Runtimes" = "运行环境";
+"Scan" = "扫描";
+"Scan Again" = "重新扫描";
+"Scan Locations" = "扫描位置";
+"Some items could not be read. You can check the details in Settings." = "部分项目暂时无法读取，可在设置中查看详情。";
+"Scan completed. Choose Check for Updates to look for new versions." = "扫描已完成。点击“检查更新”查询最新版本。";
+"Scan first, then check for updates. Select items to preview, or use Update All to preview every category." = "先扫描，再检查更新。可以选择项目预览，也可以用“一键更新”查看所有分类的更新清单。";
+"Scan local installations again" = "重新扫描本机安装内容";
+"Scan locations saved. Scan again to use them." = "扫描位置已保存，重新扫描后生效。";
+"Scan your computer to see installations here." = "扫描电脑后，安装内容会显示在这里。";
+"Scanning again and checking failed items…" = "正在重新扫描并核对失败项目…";
+"Scanning again to verify installations…" = "正在重新扫描并核对安装清单…";
+"Scanning local installations…" = "正在扫描本机安装内容…";
+"Search" = "搜索";
+"Search installations" = "搜索安装内容";
+"Search names, sources or paths" = "搜索名称、来源或路径";
+"Select %@" = "选择 %@";
+"Select Visible" = "全选当前可预览项";
+"Selected: %@" = "已选择 %@ 项";
+"Selection is kept across categories and searches. Preview includes all selected items." = "切换分类和搜索会保留选择；预览包含所有已选项目。";
+"Separate confirmation needed" = "需要单独确认";
+"Services" = "服务";
+"Show All" = "显示全部";
+"Simulate %@" = "模拟%@";
+"Skill content changed after preview. The update stopped; create a new preview." = "Skill 内容在预览后有变化，未继续更新，请重新生成清单。";
+"Skill content could not be verified. Scan again." = "无法核对 Skill 内容，请重新扫描。";
+"Skill content failed post-update verification. Check current content and the backup location." = "Skill 更新后的内容未通过核对，请检查当前内容和备份位置。";
+"Skill content was read again and verified against the fixed version in the preview." = "已重新读取并确认 Skill 内容与清单中的固定版本一致。";
+"Skill files could not be fully checked, so update status is unknown. Check file read permissions." = "无法完整核对 Skill 文件，暂时不能判断更新状态；请检查文件读取权限。";
+"Skill repository content could not be verified. Create a new preview." = "无法核对 Skill 仓库内容，请重新生成清单。";
+"Skill source not recorded" = "Skill 来源未记录";
+"Skill update available" = "Skill 有更新";
+"Skill update files could not be prepared. The update stopped; retry later." = "无法准备此 Skill 的更新文件，未继续更新，请稍后重试。";
+"Skills folders" = "Skills 根目录";
+"Skipped" = "已跳过";
+"Some cleanup data is not owned by the current user. It will not be cleaned." = "部分待清理数据不属于当前用户，暂不清理。";
+"Some items only offer update instructions, and unknown states remain visible. Follow the actual conditions in the preview." = "有些项目只能查看更新方式，未知状态也会保留。请以预览中的实际处理条件为准。";
+"Source" = "来源";
+"Source & Evidence" = "来源与检查依据";
+"Source & Location" = "来源与位置";
+"Source build version" = "来源构建版本";
+"Source candidate version" = "来源候选版本";
+"Source content incomplete" = "来源内容未能读全";
+"Source path missing" = "来源中已无此路径";
+"Stable update available" = "有稳定版更新";
+"Standalone Application with Update" = "有新版的独立应用";
+"Start Scan" = "开始扫描";
+"Status code: " = "状态代码：";
+"Status unverified" = "状态尚未确认";
+"Synthetic example; no real installation data" = "合成示例，无真实安装内容";
+"Synthetic examples; your computer will not be read or changed" = "合成示例，不会读取或修改电脑";
+"System" = "系统";
+"System update check failed" = "系统更新查询失败";
+"System updates not checked" = "未查询系统更新";
+"Tap repository not checked" = "未检查 tap 仓库";
+"Technical Details" = "详细原因";
+"The CLI could not complete the operation (exit code %@)." = "CLI 未能完成操作（退出码 %@）。";
+"The CLI returned an incompatible format. Use the matching CLI version." = "CLI 返回了不兼容的数据格式，请使用配套版本。";
+"The GitHub query limit has been reached. Try again later." = "GitHub 查询额度暂时用尽，请稍后重新检查。";
+"The Homebrew tap was discovered but its repository updates were not compared. Check through Homebrew." = "这里只发现了 Homebrew tap，尚未比对仓库更新；请通过 Homebrew 检查。";
+"The MCP configuration edit did not complete. Check the current file and backup." = "MCP 配置修改未完成，请核对当前文件和备份。";
+"The MCP definition was not found in the current configuration. Scan again." = "当前配置中没有找到该 MCP 定义，请重新扫描。";
+"The MCP definition was still found after editing. The result is unverified; check again." = "配置修改后仍扫描到该 MCP 定义，结果尚未确认，请重新检查。";
+"The MCP definition's location identifier is invalid. Scan again." = "MCP 定义的位置标识无效，请重新扫描。";
+"The Python environment's interpreter is missing or not executable. Repair it with the tool that owns the environment." = "Python 环境的解释器缺失或不能执行；请通过该环境所属工具修复。";
+"The Python tool's installation record has not been verified. No action will run." = "尚未确认 Python 工具的安装记录，暂不执行。";
+"The Skill could not be read. Check that its entry is still available." = "无法读取此 Skill，请检查入口是否仍可用。";
+"The Skill directory changed. Scan again and create a new preview." = "Skill 目录已变化，请重新扫描并生成清单。";
+"The Skill has local changes or its Git state is unknown. Review it first." = "Skill 有本地修改，或尚未确认仓库状态，请先核对。";
+"The Skill includes links, shared files or content that cannot be fully verified. It will not update." = "Skill 包含链接、共享文件或当前无法完整核对的内容，暂不更新。";
+"The Skill repository or branch record cannot be used for public Git access. Check the source." = "Skill 的仓库或分支记录无法用于公共 Git 读取，请核对来源。";
+"The Skill source is verified. Update through its original manager; this app only checks this type of copied installation." = "已确认 Skill 来源；请通过原 Skill 管理器更新，当前应用只检测这类复制安装的内容。";
+"The Skill update did not complete. Check current content and the backup location." = "Skill 更新未完成，请核对当前内容和备份位置。";
+"The Skill was read again and verified at the target commit in the preview." = "已重新读取并确认 Skill 达到清单中的目标提交。";
+"The Skill's installation source record changed. Check again and create a new preview." = "Skill 的安装来源记录已变化，请重新检查并生成清单。";
+"The Skill's link entry could not be read." = "无法读取此 Skill 的链接入口。";
+"The Skill's parent location changed. Scan again and create a new preview." = "Skill 所在位置已变化，请重新扫描并生成清单。";
+"The Skill's upstream repository and version must be verified before updating." = "更新前需要确认 Skill 对应的上游仓库和版本。";
+"The active Homebrew version link could not be verified. Check the installation links through Homebrew first." = "Homebrew 的活动版本链接无法确认；请先通过 Homebrew 检查安装链接。";
+"The active Homebrew version's installation record could not be read. Check the record and read permissions." = "Homebrew 当前活动版本的安装记录无法读取；请检查安装记录和读取权限。";
+"The app and its related processes are confirmed closed." = "已确认该应用及其相关进程已退出。";
+"The app could not be read. Check that it is still in its original location." = "无法读取此应用，请检查它是否仍在原位置。";
+"The app entry point and actual path could not be verified. Scan again." = "无法确认应用入口与实际路径，请重新扫描。";
+"The app identity has not been verified, so cleanup data cannot be selected safely." = "尚未确认应用标识，无法安全确定要清理的数据。";
+"The app includes independently updated content, so the bundle version may differ from the running version. Check in the app." = "应用还包含独立更新的内容，安装包版本不一定是当前运行版本；请在应用内核对。";
+"The app is confirmed closed. Executing this operation will move it to Trash." = "已确认应用退出；执行后会将该应用移至废纸篓。";
+"The app metadata could not be read, so its local version could not be verified. Check the app files and read permissions." = "应用信息文件无法读取，无法完成本地版本核对；请检查应用文件和读取权限。";
+"The app path has changed. Scan again." = "此应用路径已变化，请重新扫描。";
+"The app's product identity has not been verified. No action will run." = "尚未确认应用的产品标识，暂不执行。";
+"The app's stable or alternative update channel has not been identified. Check its in-app update settings." = "尚未确认此应用使用稳定版还是其他渠道；请在应用内核对更新设置。";
+"The app's update configuration contains unsupported options. Check for updates in the app." = "应用自带的更新配置包含尚未支持的选项；请通过应用内更新检查。";
+"The app's update manifest could not be parsed. Retry later or use the in-app updater." = "应用更新源返回了无法解析的清单；请稍后重试或使用应用内更新。";
+"The binding between the configuration and selected item could not be verified." = "无法确认配置文件与所选项目的对应关系。";
+"The bundled CLI is missing. Download the complete KeepUpdated app again." = "缺少配套 CLI，请重新下载完整的 KeepUpdated 应用。";
+"The bundled update address differs from the verified official source. It was not used." = "安装包中的更新地址与已核实的官方来源不同，本次没有使用它。";
+"The candidate package's effects have not been verified. No action will run." = "尚未确认候选安装包的影响，暂不执行。";
+"The candidate version's dependency impact could not be fully verified. No action will run." = "无法完整确认候选版本会影响的依赖，暂不执行。";
+"The cask record does not establish its source. Check the original Homebrew installation record." = "cask 安装记录不足以确认来源；请通过原 Homebrew 安装记录核对。";
+"The cleanup directory contains content with unknown ownership. It will not be cleaned." = "待清理目录含归属不明的内容，暂不清理。";
+"The complete Skill update could not be downloaded. Create a new preview later." = "未能下载此 Skill 的完整更新内容，请稍后重新生成清单。";
+"The complete file diff could not be generated. No update ran." = "文件差异未能完整生成，当前没有执行更新。";
+"The configuration backup could not be saved. Editing stopped." = "无法保存配置备份，未继续修改。";
+"The configuration changed after preview. Create a new preview." = "配置文件在预览后有变化，请重新生成清单。";
+"The configuration contains duplicate or ambiguous keys. Review it manually first." = "配置含重复或有歧义的键，需先手动核对。";
+"The configuration could not be read. Check that the file still exists and the current user can read it." = "配置文件无法读取；请检查文件是否仍在原位置，以及当前用户是否有读取权限。";
+"The configuration could not be verified after editing. Check the current file and backup." = "修改后无法核对配置结果，请检查当前文件和备份。";
+"The configuration edit has not passed verification. Check the current file and backup." = "配置修改结果尚未通过核对，请检查当前文件和备份。";
+"The configuration file's actual path could not be verified." = "无法确认配置文件的实际路径。";
+"The configuration is not a readable regular file." = "配置不是可读取的普通文件。";
+"The configuration is not a regular file or exceeds the supported size." = "配置不是普通文件，或超出可处理大小。";
+"The configuration is unreadable or exceeds the supported size." = "配置无法读取，或超出可处理大小。";
+"The configuration replacement did not complete. Check the current file and backup." = "配置替换未完成，请核对当前文件和备份。";
+"The configuration uses an unsupported format. Check it in the original client; the check code is kept in Details." = "配置内容不符合支持的格式；请在原客户端检查配置，详情中保留了检测代码。";
+"The configured program is missing, inaccessible or not executable. Check its command path in the original client." = "配置指向的程序不存在、无法访问或不能执行；请在原客户端核对命令路径。";
+"The configured update channel is not supported yet. Check for updates in the app." = "应用配置使用的更新渠道尚未支持；请通过应用内更新检查。";
+"The current channel has no release matching this system or processor. Check in the app." = "当前更新渠道没有匹配系统或处理器的发布记录；请在应用内核对。";
+"The current installation tool does not match the installation directory. Use the original manager." = "当前安装工具与安装目录不匹配，请使用原管理工具。";
+"The current version matches the verified source. No update is needed." = "当前版本与已确认来源一致，无需更新。";
+"The diff is too large to show completely. This item will not run; review the source and files again." = "差异过大，预览未显示完整；此项不会执行，请重新核对来源和文件。";
+"The environment is not an independent update target. Review the tools or packages inside it." = "环境本身不是独立更新目标；请查看环境中的工具或软件包。";
+"The exact installation owner has not been verified. No action will run." = "尚未确认该安装的准确归属，暂不执行。";
+"The fixed public Git version could not be fetched. Check the network and repository source, then retry." = "未能取得公共 Git 的固定版本，请检查网络和仓库来源后重试。";
+"The installation entry is not executable. Check its file type and permissions." = "安装入口不是可执行程序；请检查文件类型与执行权限。";
+"The installation link is broken or its metadata is missing. Repair it with the original installation tool." = "安装入口的链接已失效或缺少信息文件；请通过原安装工具修复。";
+"The installation path could not be read. Check that the files are still there." = "无法读取安装路径，请检查文件是否仍在原位置。";
+"The installation path has changed. Scan again." = "安装路径已经变化，请重新扫描。";
+"The installation record restricts versions. A direct upgrade would change those constraints; review separately with pipx." = "原安装记录限制了版本，直接升级会改变这些限制，请通过 pipx 单独核对。";
+"The installation record restricts versions. Review the allowed upgrade range first." = "原安装记录限制了版本，请先核对允许升级的版本范围。";
+"The installation record uses a custom download source. A candidate from the same source cannot be verified; handle it through uv." = "原安装记录使用了专门的下载源，当前无法确认同源候选，请通过 uv 单独处理。";
+"The installation tool cannot run or its ownership is unverified." = "安装工具无法执行或其归属尚未确认。";
+"The installation tool could not be verified. Scan again or check manually." = "无法核对安装工具，请重新扫描或手动检查。";
+"The installation tool exited, but the requested state has not been verified. Check again." = "安装工具已退出，但尚未确认达到目标状态，请重新检查。";
+"The installation tool failed. Check current state before continuing." = "安装工具执行失败，请核对当前状态后再处理。";
+"The installation tool reported an error and current state could not be verified. Scan again." = "安装工具报错，且无法确认当前状态，请重新扫描。";
+"The installation was read again and its removal verified." = "已重新读取并确认安装内容已移除。";
+"The installation was read again and the target version verified." = "已重新读取并确认目标版本。";
+"The installed version is newer than the query result and may use a different channel. Check the update channel before replacing it." = "本机记录的版本比查询结果更新，可能使用了不同渠道；暂不建议替换，请核对更新渠道。";
+"The item is absent from both the upstream version catalog and definitions. Check the original source; this does not mean it should be uninstalled." = "上游版本目录和定义中都没有找到此项目；请核对原来源，不能据此判断应当卸载。";
+"The launch configuration has no service identifier, so its running state cannot be checked. Repair the configuration through its app." = "启动配置缺少服务标识，无法核对运行状态；请通过所属应用修复配置。";
+"The link between MCP configuration and installation could not be verified." = "无法核对 MCP 配置与安装项的对应关系。";
+"The local Skill's installation baseline could not be verified. Choose Review Changes to compare; local content will be preserved." = "无法确认本地 Skill 是否仍与安装时一致；点击“查看变更”核对，现有内容会保留。";
+"The local installation check found an issue. Resolve it first." = "本地安装检查存在异常，请先解决异常。";
+"The local installation check found issues. See Details for the check code and evidence." = "本地安装检查发现异常；请在详情中查看检测代码和检查依据。";
+"The macOS update check did not complete. Retry in System Settings → Software Update." = "macOS 更新查询没有完成；请在系统设置的软件更新页面重试。";
+"The manifest includes a phased rollout or system restrictions that cannot be fully evaluated. Check for updates in the app." = "更新清单有分批发布或系统限制，当前无法完整判断；请通过应用内更新检查。";
+"The new configuration could not be prepared. Editing stopped." = "无法准备配置的新版本，未继续修改。";
+"The operation preview could not be saved." = "无法保存待确认的操作清单。";
+"The operation was cancelled before this item started." = "操作已取消，本项尚未开始。";
+"The original installation tool and its scope have been verified." = "已确认原安装工具和安装范围。";
+"The original installation tool is unavailable. Restore it or handle this manually." = "原安装工具不可用，请先恢复该工具或手动处理。";
+"The original installation tool must verify an exact candidate version." = "需要由原安装工具确认准确的候选版本。";
+"The original installation tool's scope has been verified." = "已确认原安装工具管理的范围。";
+"The original installation tool's scope has not been verified." = "尚未确认原安装工具管理的范围。";
+"The original installation tool's update source has not been verified." = "尚未确认原安装工具的更新来源。";
+"The package identity could not be verified. No action will run." = "软件包标识无法确认，暂不执行。";
+"The package name in the metadata cannot be queried reliably. Check the metadata with the original installation tool." = "安装信息中的包名称无法用于可靠查询；请通过原安装工具检查元数据。";
+"The package's original installation source has not been verified. No action will run." = "尚未确认软件包的原始安装来源，暂不执行。";
+"The post-operation inventory could not be read. The result is unverified; scan again." = "操作后无法读取安装清单，结果尚未确认，请重新扫描。";
+"The prepared update files changed. The update stopped; create a new preview." = "准备好的更新文件已变化，未继续更新，请重新生成清单。";
+"The preview action does not match. Create a new preview." = "操作清单类型不匹配，请重新生成。";
+"The previous Skill update did not complete. Review the original folder and backup. The recovery record is listed below; this folder will not update until resolved." = "上次 Skill 更新未完成，原目录与备份需要核对。下方是恢复记录的位置，处理前不会继续更新该目录。";
+"The previous Skill update still needs recovery. Review the operation result and backup location before continuing." = "上次 Skill 更新尚未完成恢复，请先核对操作结果和备份位置，再处理此项。";
+"The private update cache could not be prepared. Check directory permissions and available space." = "无法准备私有更新缓存，请检查本机目录权限或可用空间。";
+"The public Git commit does not match the fixed version. No update ran." = "公共 Git 返回的提交与已固定的版本不一致，当前没有执行更新。";
+"The public Git read could not be prepared. Check local Git and the temporary directory, then retry." = "无法准备公共 Git 读取，请检查本机 Git 和临时目录后重试。";
+"The public Git read timed out. Check again or create a preview later." = "公共 Git 读取超时，请稍后重新检查或生成预览。";
+"The public Git read was cancelled. No update ran." = "公共 Git 读取已取消，当前没有执行更新。";
+"The public Git repository exceeds the temporary read limit. Reading stopped and no update ran." = "公共 Git 仓库超出临时读取大小，已停止读取，当前没有执行更新。";
+"The public registry has version %@, " = "公共仓库中有版本 %@，";
+"The result does not match the confirmed preview. Check local state before continuing." = "执行结果与确认清单不匹配，请检查本机状态后再操作。";
+"Missing from this scan: %@. Items included in this preview: %@. Review missing items in Last Results." = "有 %@ 项未在本次重新扫描中找到，本次仅预览其余 %@ 项。请按上次结果核对缺失项。";
+"Items missing from this scan: %@. Review Last Results; no new preview was created." = "本次重新扫描未找到这 %@ 项。请在“上次结果”中核对状态；未生成新的操作清单。";
+"The selected MCP definition cannot be uniquely identified. Review it manually first." = "无法唯一确定所选 MCP 定义，需先手动核对。";
+"The selected MCP definition was removed." = "已移除所选 MCP 定义。";
+"The selected item is not a removable MCP service definition." = "所选项目不是可移除的 MCP 服务定义。";
+"The server entry has not been matched to a verifiable package. Check its installation method in the original agent's MCP settings." = "尚未把服务器入口对应到可验证的软件包；请在原 Agent 的 MCP 设置中核对安装方式。";
+"The server returned no matching software record. Check the product name and installation method with the original source." = "更新服务器没有返回对应的软件记录；请通过原来源核对产品名称和安装方式。";
+"The server runs remotely; this Mac only holds connection settings. Its provider maintains the version." = "服务器由远端提供，本机只有连接配置；版本由服务提供方维护。";
+"The source or candidate version could not be verified before execution. No action ran." = "执行前无法确认来源或候选版本，未执行。";
+"The source repository was found, but the recorded Skill path was not. Check whether it was moved or removed." = "已找到来源仓库，但没有找到记录中的 Skill 路径；请核对是否已移动或移除。";
+"The source returned an incomplete file list. It cannot establish that the installation is current. Retry later." = "来源返回的文件清单不完整，不能据此判断已是最新；请稍后重试。";
+"The store query did not match a Mac product for this app, possibly due to region or product records. Check in the App Store." = "当前商店查询没有匹配此应用的 Mac 产品，可能与商店地区或产品记录有关；请在 App Store 中核对。";
+"The store returned conflicting versions. Update availability is unknown; check in the App Store." = "商店返回了相互冲突的版本记录；请在 App Store 中核对，当前不能判断是否有更新。";
+"The store version has not been queried. Choose Check for Updates, or check in the App Store." = "尚未查询商店版本；点击顶部“检查更新”，也可以在 App Store 中核对。";
+"The system returned unrecognized update information. Check in System Settings." = "系统返回了当前无法识别的更新信息；请在系统设置中核对。";
+"The update address in the installation record cannot be used. Check for updates in the app." = "安装记录中的更新地址无法使用；请在应用内检查更新。";
+"The update address requires authentication or does not meet request requirements. It was not accessed; use the in-app updater." = "更新地址需要登录或不满足当前请求条件，本次未访问；请使用应用内更新。";
+"The update cache could not be read. Installed content has not been changed." = "更新文件缓存无法读取，当前没有改动已安装内容。";
+"The update cache does not match the source digest. No update ran." = "更新文件缓存与来源摘要不一致，当前没有执行更新。";
+"The update data exceeds the supported size, so this check stopped. Check with the original installation tool." = "更新信息超出了当前可处理的大小，本次检查已停止；请通过原安装工具核对。";
+"The update file location could not be verified. The update stopped; create a new preview." = "无法确认更新文件的位置，未继续更新，请重新生成清单。";
+"The update files differ from the verified source version. The update stopped; create a new preview." = "更新文件与已确认的来源版本不一致，未继续更新，请重新生成清单。";
+"The update is ready. Review the file changes below before confirming." = "已准备好更新，请核对下面的文件变化后再确认。";
+"The update manifest contains conflicting version records. A reliable update version could not be selected." = "更新清单包含相互冲突的版本记录；当前不能可靠选择更新版本。";
+"The update manifest includes unrecognized system or version restrictions. Check through the in-app updater." = "更新清单包含当前无法识别的系统或版本限制；请通过应用内更新检查。";
+"The update preview is no longer valid. Go back and create a new preview." = "更新预览已失效，请返回后重新生成清单。";
+"The update record does not match the local product identity. A shared name is not enough; check the original installation source." = "更新记录与本机产品标识不一致，不能按同名软件更新；请核对原安装来源。";
+"The update server returned an error. Retry later; if it persists, check with the original installation tool." = "更新服务器返回了错误响应；请稍后重试，持续失败时通过原安装工具核对。";
+"The update source denied the request or reached its query limit. Create a new preview later." = "更新源拒绝请求或已达到查询限额，请稍后重新生成预览。";
+"The update source did not return the recorded version or file. Check the source again." = "更新源没有返回记录中的版本或文件，请重新检查来源。";
+"The update source does not identify a macOS build for this processor. Update eligibility is unknown." = "更新源没有明确匹配当前处理器的 macOS 版本，暂时不能判断是否可更新。";
+"The update source lists versions for different systems. A version for this Mac could not be selected." = "更新源为不同系统提供了多个版本，当前无法选定适用于这台 Mac 的版本。";
+"The update source temporarily limited requests. Create a new preview later." = "更新源暂时限制了请求频率，请稍后重新生成预览。";
+"The update source was checked. The current version needs no update." = "已核对更新源，当前版本无需更新。";
+"The update source was queried but returned no valid version. Retry later or check with the original installation tool." = "已查询更新源，但没有取得有效版本号；请稍后重试或通过原安装工具核对。";
+"The upstream name changed, but the mapping could not be verified. Check the original source." = "上游名称发生了变化，但当前无法确认对应关系；请核对原来源。";
+"The upstream name now points to another item. Verify that it is the same software; it will not be replaced automatically." = "上游名称现在指向另一个项目，需要先核对是否为同一软件；不会自动替换。";
+"The vendor's minimum upgrade version requirement could not be verified. Check through the in-app updater." = "无法确认本机是否满足厂商的最低升级版本要求；请通过应用内更新检查。";
+"The vendor's public stable release is newer. Choose Update Options to review how to update; confirm upgrade requirements in the app." = "厂商公开稳定版比当前版本新；点击更新可查看处理方式，具体升级条件以应用内更新为准。";
+"The vendor's update manifest is missing required fields or has changed format. Retry later or use the in-app updater." = "厂商更新清单缺少必要字段或格式发生变化；请稍后重试或使用应用内更新。";
+"The version actually in use has not been verified. Check again first." = "尚未确认当前实际使用的版本，请先重新检查。";
+"The version catalog and local installation definition differ. Check with the original package manager." = "版本目录与本机安装定义不一致；请通过原包管理器核对。";
+"The version format or active version cannot be compared reliably. Check with the original app or installation tool." = "版本格式或当前使用的版本不足以可靠比较；请通过原应用或安装工具核对。";
+"The version matches the vendor's public stable release. This does not mean in-app update settings were read." = "已核对厂商公开稳定版，版本一致；这不表示已读取应用内的自动更新设置。";
+"The version server did not respond in time. Try Check for Updates again later." = "版本服务器未在规定时间内响应；请稍后重新“检查更新”。";
+"The version server's response could not be parsed. Retry later or check with the original installation tool." = "更新服务器返回的数据无法解析；请稍后重试或通过原安装工具核对。";
+"This Homebrew source needs separate review. No automatic action will run." = "该 Homebrew 来源需要单独核对，暂不自动处理。";
+"This MCP configuration format needs manual editing." = "此 MCP 配置格式需要手动修改。";
+"This MCP configuration has no independent software version. Manage its servers or their packages." = "这是一份 MCP 配置，没有独立软件版本；请管理其中的服务器或对应软件包。";
+"This Skill directory contains shared or unreadable content. No action will run." = "此 Skill 目录含共享或无法读取的内容，暂不处理。";
+"This Skill directory is not owned by the current user. No action will run." = "此 Skill 目录不属于当前用户，暂不处理。";
+"This Skill has conflicting source records. Review its original installation records first." = "同一个 Skill 对应多份不同来源记录，需要先核对原安装记录。";
+"This Skill is managed by a plugin or the system. Use its manager." = "此 Skill 由插件或系统管理，请通过对应管理工具处理。";
+"This Skill is outside the current user's manageable scope." = "此 Skill 不在当前用户可管理的范围内。";
+"This Skill is provided or cached by a plugin. Update the owning plugin instead of replacing this file separately." = "这是插件提供或缓存的 Skill；请更新所属插件，不要单独替换此文件。";
+"This Skill link is not owned by the current user. No action will run." = "此 Skill 链接不属于当前用户，暂不处理。";
+"This Skill references a shared source. Shared files will not be cleaned." = "此 Skill 引用共享来源，暂不清理共享文件。";
+"This Skill's exact source is unverified. It will not update." = "尚未确认此 Skill 的准确来源，暂不更新。";
+"This TOML array-table configuration needs manual editing." = "此 TOML 数组表配置需要手动修改。";
+"This YAML configuration needs manual editing." = "此 YAML 配置需要手动修改。";
+"This app is managed by Homebrew. Review the corresponding installation preview." = "此应用由 Homebrew 管理，请查看对应的安装清单。";
+"This app location is outside the current user's manageable scope." = "此应用位置不在当前用户可管理的范围内。";
+"This app needs its owner's or an administrator's permission. Use the appropriate permission." = "此应用需要所属用户或管理员权限，请在对应权限下处理。";
+"This app's installation or uninstall scripts need separate review." = "该应用的安装或卸载脚本需要单独核对。";
+"This entry has no independent version source. Find its installation in the Homebrew category." = "此入口没有独立版本来源，请在 Homebrew 分类中查看对应安装项。";
+"This inline TOML MCP configuration needs manual editing." = "此 TOML 内联 MCP 配置需要手动修改。";
+"This installation is outside the original manager's scope. No action will run." = "此安装不在原管理工具的范围内，暂不执行。";
+"This installation needs its owner's or an administrator's permission. Handle it separately with the appropriate permission." = "此安装需要所属用户或管理员权限，请在对应权限下单独处理。";
+"This installation source is not supported for automatic actions. Use the original installation tool." = "此安装来源暂不支持自动处理，请使用原安装工具。";
+"This is a Python tool dependency. Manage it through its owning tool." = "这是 Python 工具的依赖包，请通过所属工具处理。";
+"This is a separate preview for special actions. Review installation scripts, permissions and conditions before confirming." = "这是单独生成的特殊操作清单。请核对安装脚本、权限和处理条件后再确认。";
+"This is an entry point or configuration for an existing installation. Check and update its package entry." = "这是已有安装的入口或配置；请在对应软件包条目查看版本并更新。";
+"This is an internal app component without its own updater. Update its parent app." = "这是应用内部的辅助组件，没有独立更新入口；请更新所属主应用。";
+"This is not an independently manageable global package. Use its owning installation." = "这不是可单独管理的全局软件包，请通过所属安装处理。";
+"This is the same installation as another preview item. It will not run twice." = "与清单中的另一项属于同一安装，本项不重复执行。";
+"This is verified as an independent Skill repository with no local changes and a trackable upstream version." = "已确认这是没有本地修改、可跟踪上游版本的独立 Skill 仓库。";
+"This item has additional information. Expand Details to read it." = "此项目有补充说明，请展开查看详情。";
+"This multiline TOML configuration needs manual editing." = "此 TOML 多行配置需要手动修改。";
+"This package links to another location. Review its source and impact separately before updating." = "这是链接到其他位置的软件包，更新前需单独核对来源和影响。";
+"This preview has expired. Close it and create a new one." = "清单已过期，请关闭后重新生成。";
+"This preview has expired. Go back and create a new one." = "清单已过期，请返回后重新生成。";
+"This runtime may be shared by several tools. Review its impact separately." = "该运行时可能被多个工具共用，需单独核对影响。";
+"This service launch configuration has no independent update version. Update the app or package providing it." = "这是服务的启动配置，没有独立更新版本；请更新提供该服务的应用或软件包。";
+"This software comes from a custom Homebrew tap whose remote version cannot be verified. Check with the original tap." = "此软件来自自定义 Homebrew tap，当前无法核对其远端版本；请通过原 tap 检查。";
+"This source needs manual handling. Check again after completing the external steps." = "此来源需手动处理，完成外部操作后可重新检查。";
+"This update includes installation scripts and needs separate confirmation. Demo mode will not run scripts." = "此更新包含安装脚本，需要单独确认。演示模式不会运行脚本。";
+"This update runs package installation scripts. Review and confirm it separately." = "此更新会运行软件包的安装脚本，需单独查看并确认。";
+"This version cannot interpret the check result or determine whether an update is needed. The check code is kept in Details." = "当前版本无法识别这项检查结果，不能判断是否需要更新。检测代码保留在详情中。";
+"This version was installed from a local file, link or repository. The public registry is not its update source; check the original source." = "软件由本地文件、链接或仓库直接安装，公共包仓库不能代表其更新源；请通过原来源核对。";
+"Timed-out Application" = "查询超时的应用";
+"Total: %@ · Updates found: %@" = "全部 %@ 项 · 发现新版 %@ 项";
+"Unchecked Application" = "尚未检查的应用";
+"Unchecked Package" = "尚未检查的工具包";
+"Uninstall" = "卸载";
+"Uninstall %@" = "卸载 %@";
+"Uninstall verified. Selected configuration and personal data were moved to Trash." = "已确认卸载，选中的配置和个人数据已移至废纸篓。";
+"Uninstalled, but some selected data was not moved to Trash. Review the remaining data." = "已卸载，但部分选中数据尚未移至废纸篓，请核对。";
+"Uninstalling removes the contents listed below. Review the items and affected paths." = "卸载会移除下面列出的内容。请核对项目和影响路径。";
+"Unknown" = "未知";
+"Unknown install source" = "安装来源不明";
+"Unknown upstream alias" = "上游别名无法识别";
+"Unknown, unsupported or unreadable items are not treated as up to date. Unlisted installations may not have been discovered." = "未知、未支持或读取失败的内容不会视为已最新。没有列出的安装内容也可能尚未被发现。";
+"Unsupported status" = "状态格式不支持";
+"Unverified" = "未确认";
+"Up to date" = "已是最新";
+"Update" = "更新";
+"Update All" = "一键更新";
+"Update Options" = "查看更新方式";
+"Update address needs review" = "更新地址需要另行处理";
+"Update available" = "有新版本";
+"Update channel unknown" = "更新渠道不明";
+"Update channel unverified" = "更新渠道待核对";
+"Update configuration unknown" = "更新配置无法识别";
+"Update diagnostics" = "更新诊断";
+"Update manifest unverified" = "更新清单无法核对";
+"Update record missing" = "更新记录不存在";
+"Update server error" = "更新服务器返回错误";
+"Update source unverified" = "更新来源待核对";
+"Update status" = "更新状态";
+"Update this app using the vendor's update method." = "此应用需要通过厂商提供的方式更新。";
+"Updated Skill content failed verification. Check the operation result and backup location." = "更新后的 Skill 内容未通过核对，请检查操作结果和备份位置。";
+"Updates found means the source reports new content. The preview determines whether it can be installed directly. Supported installation sources can also be checked and previewed when their version is unknown." = "“发现新版”只表示来源提供了更新信息，是否能直接安装要看预览结果。受支持的安装来源也可在未知版本时检查并预览。";
+"Updates only" = "只看新版本";
+"Updates with parent app" = "跟随主应用更新";
+"Updating the package used by this MCP also affects other configurations sharing the same installation." = "更新 MCP 使用的软件包，也会影响使用同一安装的其他配置。";
+"Upgrade requirements unknown" = "升级条件无法核对";
+"Upgrade requirements unverified" = "升级条件待核对";
+"Upstream alias needs review" = "上游已设为别名";
+"Upstream definition missing" = "上游已无对应定义";
+"Upstream name changed" = "上游名称已变化";
+"Upstream records a name change. Check the migration relationship with the original installation tool." = "上游记录了名称变更，需要先核对迁移关系；请通过原安装工具处理。";
+"Vendor updater unsupported" = "厂商更新暂不支持";
+"Verify the source and create a preview. Installed content will not change before confirmation." = "重新核对来源并生成清单；确认前不会更新安装内容。";
+"Verify which installation tool owns this MCP before updating it." = "更新此 MCP 前，需要确认它由哪个安装工具管理。";
+"Version" = "版本";
+"Version after: " = "检查后版本：";
+"Version before: " = "检查前版本：";
+"Version changed" = "版本已变化";
+"Version check failed" = "版本查询失败";
+"Version check timed out" = "版本查询超时";
+"Version data too large" = "版本数据过大";
+"Version not recorded" = "未记录版本";
+"Version source missing" = "缺少版本来源";
+"Versions cannot be compared" = "版本无法比较";
+"View Related Installation…" = "查看对应安装清单…";
+"View local apps, packages, Skills and MCP installations in one place." = "集中查看本机的应用、软件包、Skills 和 MCP。";
+"View source, path and check evidence for %@" = "查看 %@ 的来源、路径和检查依据";
+"but its source cannot be matched to this installation. Check with the original installation tool." = "但无法证明本机软件来自同一来源；请通过原安装工具核对。";
+"Follow System" = "跟随系统";
+"English" = "英语";
+"Simplified Chinese" = "简体中文";
+"Settings" = "设置";
+"Settings…" = "设置…";
+"App Language" = "界面语言";
+"Language changes apply immediately and are saved. Unsupported system languages use English." = "切换立即生效并保存。暂不支持的系统语言会使用英语。";
+"Choose the app language" = "选择界面语言";
+"The operation could not be completed. See technical details." = "操作未完成，请查看详细原因。";
+"The selected location could not be read. Try again." = "无法读取所选位置，请重试。";
+"This adapter returned coverage details that this app version cannot translate. Read the original diagnostic record below." = "当前版本无法翻译此适配器返回的覆盖说明，请查看下方原始诊断记录。";
+"Original Diagnostic Record" = "原始诊断记录";
+"Partial coverage" = "部分覆盖";
+"Full coverage" = "完整覆盖";
+"No coverage" = "未覆盖";
+"Coverage unverified" = "覆盖范围未确认";
+"Recursive bundles, identity/version/build and architecture; Sparkle default-channel constraints; exact-ID common vendor public-stable APIs and verified Electron generic feeds. Unknown channel/metadata constraints stay explicit. No payload downloads or dynamic updater state." = "递归读取应用包、产品标识、版本、构建和架构；核对 Sparkle 默认渠道条件、常见厂商按准确产品 ID 提供的公开稳定版接口，以及已验证的 Electron 通用更新源。未知渠道和元数据限制会保留。不下载安装内容或读取动态更新器状态。";
+"Cellar receipts, opt/bin links, Caskroom JSON and local taps. Public core/cask API; official alias/rename and absent-definition diagnostics; active receipt dependency presence/source/architecture. Custom tap updates stay unknown." = "读取 Cellar 安装记录、opt/bin 链接、Caskroom JSON 和本地 tap；查询公开 core/cask 接口，保留官方别名、改名及定义缺失诊断；核对活动安装记录的依赖是否存在及其来源和架构。自定义 tap 的更新状态仍为未知。";
+"Receipt presence; optional public Mac lookup by exact bundle ID and country. No account/receipt decoding or mas integration." = "检查商店收据是否存在；可按准确 bundle ID 和地区查询公开 Mac 商店记录。不解码账号或收据，不集成 mas。";
+"Known global roots and PATH-derived prefixes for npm/pnpm/Bun; exact npm registry identity. Static direct/optional/peer dependency resolution and numeric Node engine ranges; no private registry, arbitrary prefixes or script execution." = "读取 npm/pnpm/Bun 的已知全局目录及 PATH 对应前缀，核对准确的 npm 仓库标识；静态解析直接、可选和 peer 依赖，以及数值型 Node 引擎版本范围。不查询私有仓库或任意前缀，不执行脚本。";
+"pipx/uv conventional tool environments and explicit project venvs, dist metadata, interpreter links and PEP 668 marker; static same-environment Requires-Dist and numeric constraints/markers; no execution, full PEP 440, extras or arbitrary sys.path reconstruction." = "读取 pipx/uv 常规工具环境、明确指定的项目 venv、软件包元数据、解释器链接和 PEP 668 标记；静态核对同环境的 Requires-Dist 与数值约束和标记。不运行环境，不完整解析 PEP 440、extras 或任意 sys.path。";
+"PATH and conventional version-manager directories, symlink resolution and package metadata; version probes only for matching Homebrew core Node/Python/Bun/Go installations, no agent CLI startup." = "读取 PATH、常规版本管理器目录、符号链接和软件包元数据；仅对匹配 Homebrew core 的 Node/Python/Bun/Go 安装查询版本，不启动 Agent CLI。";
+"Known Codex, Claude, Cursor, VS Code, OpenCode, OpenClaw and Hermes configs plus explicit paths; JSON/JSONC, simple TOML and a conservative YAML subset. Stable executable-to-package ownership where exact; no server startup or health request." = "读取已知 Codex、Claude、Cursor、VS Code、OpenCode、OpenClaw、Hermes 配置及明确路径；支持 JSON/JSONC、简单 TOML 和有限 YAML。仅在准确对应时绑定稳定执行入口与软件包；不启动服务器或请求健康检查。";
+"Known Agent/plugin roots and explicit roots; links, entry presence and Git state; existing global/project GitHub source receipts, exact ref/path and live local folder hashes. Verified copied GitHub Skills support confirmed updates with file previews and backups; local changes or unverified sources block replacement. Plugin caches are not updated." = "读取已知 Agent/插件目录及明确目录、链接、入口与 Git 状态；核对现有全局/项目 GitHub 来源记录、准确版本和路径，以及本地目录内容摘要。已验证的 GitHub 复制安装支持先看文件变化、备份后确认更新；本地修改或来源未确认时禁止覆盖。不更新插件缓存。";
+"PATH and link/runtime diagnostics; launchd definitions, current-user loaded/running state and log sizes without content. System-daemon runtime state, shared library graph and historical log content are not inspected." = "诊断 PATH、链接和运行时；读取 launchd 定义、当前用户服务加载/运行状态及日志大小，不读取日志内容。不检查系统守护进程运行状态、共享库关系或历史日志内容。";
+"sw_vers and architecture; optional explicit softwareupdate --list query, no installation." = "读取 sw_vers 和架构；可明确选择 softwareupdate --list 查询，不执行安装。";
+"Review shared runtime update and dependent tools" = "核对共享运行时更新及受影响工具";
+"Allow this installation to request administrator authorization" = "允许此安装请求管理员授权";
+"Review a separate system restart operation" = "核对单独的系统重启操作";
+"Not requested" = "未请求";
+"Requested; not yet verified" = "已请求，尚未验证";
+"Exit verified" = "已确认退出";
+"Reopen verified" = "已确认重新打开";
+"Exit declined or cancelled" = "退出被拒绝或取消";
+"Review Specific Permissions" = "核对具体权限";
+"These choices create a new preview for this item only. Nothing runs until you confirm that preview." = "这些选择仅为此项生成新清单。确认新清单前不会执行。";
+"This permission is not supported by this app version: %@" = "当前版本不支持此权限：%@";
+"Allow the listed installation scripts" = "允许运行清单中的安装脚本";
+"Allow the owning agent to reload this configuration" = "允许所属 Agent 重新加载此配置";
+"Quit requests are graceful. Unsaved work or a cancelled exit must stop the update." = "只请求正常退出。存在未保存内容或取消退出时，更新必须停止。";
+"Quit %@ before updating" = "更新前退出 %@";
+"Reopen this app after a verified update" = "更新验证成功后重新打开此应用";
+"No exact application identity is available for an exit request. No automatic exit is allowed." = "尚无可用于退出请求的准确应用标识，不允许自动退出。";
+"Exact replacement package reference" = "准确的新软件包引用";
+"Enter the exact package and version. This changes the selected MCP configuration reference only; it does not install or start the server." = "输入准确的软件包和版本。这里只修改所选 MCP 配置引用，不安装或启动服务器。";
+"Create Separate Preview" = "生成单项新清单";
+"Review MCP" = "核对 MCP";
+"Verified app candidate: %@ · Build %@" = "已验证应用候选：%@ · 构建 %@";
+"Developer: %@ · Architecture: %@" = "开发者：%@ · 架构：%@";
+"Configuration reference only; no server installation" = "只修改配置引用，不安装服务器";
+"Approved exit: %@" = "已同意退出：%@";
+"Reopen after verified update: approved" = "验证更新成功后重新打开：已同意";
+"Reopen after update: not requested" = "更新后重新打开：未请求";
+"Unknown permission" = "未知权限";
+"Selected" = "已选择";
+"Not selected" = "未选择";
+"Awaiting system restart: %@. Installation and restart are separate results." = "等待系统重启：%@ 项。安装与重启分别记录结果。";
+"Configuration updated" = "配置已更新";
+"App exit: %@" = "应用退出：%@";
+"App reopen: %@" = "应用重新打开：%@";
+"Awaiting system restart" = "等待系统重启";
+"File" = "文件";
+"Edit" = "编辑";
+"View" = "显示";
+"Window" = "窗口";
+"Help" = "帮助";
+"Undo" = "撤销";
+"Redo" = "重做";
+"Cut" = "剪切";
+"Copy" = "拷贝";
+"Paste" = "粘贴";
+"Select All" = "全选";
+"Close Window" = "关闭窗口";
+"Minimize" = "最小化";
+"Zoom" = "缩放";
+"Bring All to Front" = "前置所有窗口";
+"Enter Full Screen" = "进入全屏幕";
+"Exit Full Screen" = "退出全屏幕";
+"Hide KeepUpdated" = "隐藏 KeepUpdated";
+"Hide Others" = "隐藏其他";
+"Show Toolbar" = "显示工具栏";
+"Hide Toolbar" = "隐藏工具栏";
+"Customize Toolbar…" = "自定工具栏…";
+"KeepUpdated Help" = "KeepUpdated 帮助";
+"The preview permissions do not match your choices. Create a new preview." = "清单权限与所选条件不一致，请重新生成。";
+"Only the exact package reference in this MCP configuration will change. The server will not be installed or started." = "只修改此 MCP 配置中的准确软件包引用，不安装或启动服务器。";
+"The MCP package reference was changed and verified. This does not confirm a server installation." = "已修改并验证 MCP 软件包引用；这不代表服务器已安装。";
+"The exact application is verified closed." = "已确认准确对应的应用退出。";
+"The updated application is verified reopened." = "已确认更新后的应用重新打开。";
+"Normal exit was requested. Exit has not yet been verified." = "已请求正常退出，尚未确认退出成功。";
+"The update was not verified, so the app was not reopened." = "更新未通过验证，因此未重新打开应用。";
+"This action was not selected." = "未选择此操作。";
+"This action was not reached." = "尚未执行到此操作。";
+"The app reopen request was cancelled." = "已取消重新打开应用。";
+"The app reopen result could not be verified." = "尚未确认应用重新打开的结果。";
+"The updated app identity could not be verified. It was not reopened." = "无法确认更新后的应用标识，未重新打开。";
+"Content %@" = "内容 %@";
+"Version after: %@" = "检查后版本：%@";
+"Version before: %@" = "检查前版本：%@";
+"Status code: %@" = "状态代码：%@";
+"Requires: %@" = "需要：%@";
+"Also affected: %@" = "同受影响的项目：%@";
+"Current version: %@" = "当前版本：%@";
+"Permissions: %@" = "权限：%@";
+"Original file digest: %@" = "原文件摘要：%@";
+"New file digest: %@" = "新文件摘要：%@";
+"The public registry has version %@, but its source cannot be matched to this installation. Check with the original installation tool." = "公共仓库中有版本 %@，但无法证明本机软件来自同一来源；请通过原安装工具核对。";
+"A package with the same name was found in the public registry, but its source cannot be matched to this installation. Check with the original installation tool." = "查到了公共仓库中的同名软件包，但无法证明本机软件来自同一来源；请通过原安装工具核对。";
+"Dependency issues: %@. See Details for the requirements." = "依赖检查发现异常：%@。请在详情中查看具体要求。";
+"%@ · New build %@" = "%@ · 新构建 %@";
+"%@ %@" = "%@ %@";
+"Delete" = "删除";
+"AutoFill" = "自动填充";
+"Contact…" = "联系人…";
+"Passwords…" = "密码…";
+"Credit Card…" = "信用卡…";
+"Start Dictation" = "开始听写";
+"Emoji & Symbols" = "表情与符号";
+"Services Settings…" = "服务设置…";
+"Show Tab Bar" = "显示标签页栏";
+"Hide Tab Bar" = "隐藏标签页栏";
+"Show All Tabs" = "显示所有标签页";
+"Exit Tab Overview" = "退出标签页总览";
+"New Tab" = "新建标签页";
+"Move Tab to New Window" = "将标签页移到新窗口";
+"Merge All Windows" = "合并所有窗口";
+"Show Previous Tab" = "显示上一个标签页";
+"Show Next Tab" = "显示下一个标签页";
+"This preview lacks the specific permission contract for elevation or restart. It cannot run in this app." = "清单缺少提权或重启的具体授权信息，当前应用不能执行。";
+"Installing an update does not restart this Mac. Restart requires its own preview and confirmation." = "安装更新不会重启这台 Mac。重启需要单独预览并确认。";
+"This privileged operation requires a verified developer-signed build. The current build cannot authorize it." = "此提权操作需要已验证开发者签名的构建，当前构建无法授权。";
+"The privileged helper is not registered. Administrator setup is required before this operation is available." = "提权助手尚未注册，需要管理员完成设置后才能使用此操作。";
+"The privileged helper is unavailable. This operation cannot proceed through the authorization boundary." = "提权助手不可用，此操作无法通过授权机制继续。";
+"The required signed App Store manager is not bundled with this build. This App Store operation is unavailable." = "当前构建未包含所需的已签名 App Store 管理工具，无法执行此商店操作。";
+"This macOS update requires volume-owner authorization. Administrator permission alone is not enough." = "此 macOS 更新需要宗卷所有者授权，仅有管理员权限不足以执行。";
+"The installer signature did not pass verification. Review the original installer source." = "安装包签名未通过验证，请核对原始安装来源。";
+"The native restart confirmation is unavailable. No restart can be confirmed through this dialog." = "系统原生重启确认不可用，无法通过此对话框确认重启。";
+"Minimize All" = "全部最小化";
+"Zoom All" = "全部缩放";
+"Fill" = "填满";
+"Center" = "居中";
+"Move & Resize" = "移动与调整大小";
+"Halves" = "二等分";
+"Left" = "左侧";
+"Right" = "右侧";
+"Top" = "顶部";
+"Bottom" = "底部";
+"Quarters" = "四等分";
+"Top Left" = "左上";
+"Top Right" = "右上";
+"Bottom Left" = "左下";
+"Bottom Right" = "右下";
+"Arrange" = "排列";
+"Left & Right" = "左侧和右侧";
+"Left & Quarters" = "左侧和四分区";
+"Right & Left" = "右侧和左侧";
+"Right & Quarters" = "右侧和四分区";
+"Top & Bottom" = "顶部和底部";
+"Top & Quarters" = "顶部和四分区";
+"Bottom & Top" = "底部和顶部";
+"Bottom & Quarters" = "底部和四分区";
+"Return to Previous Size" = "恢复之前的大小";
+"Full Screen Tile" = "全屏平铺";
+"Left of Screen" = "屏幕左侧";
+"Right of Screen" = "屏幕右侧";
+"Arrange in Front" = "排列到前面";
+"Remove Window from Set" = "从组合中移除窗口";
+"Move All to %@" = "将所有窗口移到 %@";
+"Move to %@" = "移到 %@";
+"Undo %@" = "撤销 %@";
+"Redo %@" = "重做 %@";
+"Allow this exact configuration change and possible client reload" = "同意此准确配置变更及可能的客户端重载";
+"Verified remote snapshot. This preview also includes refreshing the selected marketplace to the approved commit." = "已验证远端快照。此清单还包括将所选 marketplace 刷新到已确认的 commit。";
+"Marketplace refresh is included, but remote verification is not established by this preview." = "此清单包括 marketplace 刷新，但尚未明确确认远端验证结果。";
+"The remote target was verified when this preview was created." = "生成此清单时已验证远端目标版本。";
+"Cached marketplace snapshot. Remote freshness was not checked." = "本地 marketplace 缓存快照，尚未核对远端是否有更新。";
+"Existing Claude sessions need plugin reload. Run /reload-plugins in Claude or start a new session. The loaded session version has not been verified." = "现有 Claude 会话需要重新加载插件。请在 Claude 中执行 /reload-plugins 或开启新会话；尚未确认运行中会话加载的版本。";
+"Registered on-disk plugin" = "已登记的磁盘插件";
+"Registered version: %@" = "登记版本：%@";
+"This registration does not establish which version a running session has loaded." = "此登记信息不能证明运行中的会话加载了哪个版本。";
+"Whole-plugin update: %@" = "整个插件更新：%@";
+"This updates the owning plugin and its included Skills together, not just the selected Skill file." = "这会一起更新所属插件及其中的 Skills，范围不只是所选 Skill 文件。";
+"Approved commit: %@" = "已确认的 commit：%@";
+"Marketplace commit before refresh: %@" = "刷新前 marketplace commit：%@";
+"Included Skills (%@)" = "包含的 Skills（%@）";
+"Plugin snapshot matches" = "插件快照一致";
+"The registered plugin matches the checked snapshot. This does not verify remote freshness or the version loaded by running sessions." = "已登记插件与检查的快照一致；这不能证明远端最新状态或运行中会话加载的版本。";
+"Plugin update candidate" = "插件更新候选";
+"Preview the whole-plugin scope and exact source snapshot before updating." = "更新前请预览整个插件的影响范围及准确来源快照。";
+"Installation scope: %@" = "安装作用域：%@";
+"The plugin owner could not be verified. Check it in the client." = "无法确认插件归属，请在所属客户端检查。";
+"Check the owning plugin for an update preview." = "检查所属插件并预览更新。";
+"More than one installation or scope matches this plugin. Resolve it in Claude." = "插件匹配到多个安装或作用域，请在 Claude 中确认。";
+"Update this plugin through Codex plugin management; an exact native update path is not verified." = "请通过 Codex 插件管理更新；当前尚未验证可精确更新的原生接口。";
+"This Skill is built into the client and follows client updates." = "这是客户端内置 Skill，随客户端升级。";
+"This plugin scope must be managed in Claude." = "此插件作用域需要在 Claude 中管理。";
+"The registered plugin path or installed version could not be verified." = "无法核实插件登记路径或已安装版本。";
+"The original marketplace could not be verified. Check it in Claude." = "无法核实原 marketplace，请在 Claude 中检查。";
+"This marketplace source or pin requires Claude plugin management." = "此 marketplace 来源或固定版本需要通过 Claude 插件管理处理。";
+"The plugin source changed. Check the original marketplace and preview again." = "插件来源已变化，请检查原 marketplace 后重新预览。";
+"The marketplace has local changes. Preserve them before updating." = "marketplace 存在本地改动，请先保留这些改动。";
+"This plugin contains components outside the supported Markdown Skill lane. Review it in Claude." = "插件包含当前 Markdown Skill 更新范围之外的组件，请在 Claude 中检查。";
+"The complete plugin content could not be verified." = "无法核实完整插件内容。";
+"Installed plugin files differ from the recorded commit. Preserve local changes before updating." = "已安装插件文件与登记 commit 不符，请先保留本地改动。";
+"The catalog and plugin manifest disagree on the version." = "目录与插件 manifest 的版本不一致。";
+"A trusted Claude executable was not found." = "未找到可验证的 Claude 可执行文件。";
+"This Claude version does not expose the required update JSON interface." = "当前 Claude 版本未提供所需的更新 JSON 接口。";
+"Update the whole plugin to the verified cached marketplace snapshot. Existing sessions need reload." = "将整个插件更新到已核验的本地 marketplace 快照；现有会话需要重新加载插件。";
+"This version would downgrade the plugin or cannot be compared safely. Check it in Claude." = "此版本会使插件降级或无法可靠比较，请在 Claude 中检查。";
+"Remove this plugin through its client." = "请通过所属客户端卸载此插件。";
+"The owning plugin changed after the preview." = "预览后插件归属已变化。";
+"Plugin content changed without a version change. Review it in Claude." = "插件内容已变化，但版本未变，请在 Claude 中检查。";
+"The original plugin could not be backed up. No owner update was started." = "原插件备份失败，未启动所属客户端的更新。";
+"The plugin or client changed after preview. Preview again." = "预览后插件或客户端已变化，请重新预览。";
+"The expected version is not verified at the registered load path. Check the plugin in Claude." = "未能在登记加载路径确认目标版本，请在 Claude 中检查插件。";
+"The plugin may be partly changed. Check its current state in Claude and preserve the backup." = "插件可能发生了部分变化，请在 Claude 中检查当前状态并保留备份。";
+"Claude could not complete the update. The original plugin is unchanged and backed up." = "Claude 未完成更新，原插件保持不变并已有备份。";
+"Installed plugin content does not match the approved snapshot. Preserve the backup and check Claude." = "已安装内容与确认的快照不符，请保留备份并在 Claude 中检查。";
+"The approved plugin snapshot is installed. Run /reload-plugins in existing Claude sessions or start a new session." = "确认的插件快照已安装。请在现有 Claude 会话运行 /reload-plugins，或开启新会话。";
+"The marketplace uses Git settings outside this update lane. Review them before updating." = "marketplace 使用了当前更新范围之外的 Git 设置，请先检查。";
+"Claude plugin settings could not be verified." = "无法核实 Claude 插件设置。";
+"This plugin is disabled or its enabled state is unknown. Check it in Claude." = "插件已禁用或启用状态不明，请在 Claude 中检查。";
+"The marketplace is detached or differs from its recorded origin branch. Refresh or resolve it in Claude." = "marketplace 处于分离状态或不同于登记的 origin 分支，请在 Claude 中刷新或处理。";
+"The installed plugin commit is outside the marketplace history. Check the source in Claude." = "已安装插件 commit 不在 marketplace 历史中，请在 Claude 中检查来源。";
+"The target version already has a cache directory. Review it in Claude to preserve existing content." = "目标版本已有缓存目录，请在 Claude 中检查，避免覆盖现有内容。";
+"The MCP package reference was changed and verified. The server was not installed or started." = "已修改并验证 MCP 软件包引用，未安装或启动服务器。";
+"This launcher uses an explicit package reference. Enter an exact replacement and confirm the configuration change and possible client reload." = "此启动器使用明确的软件包引用。请输入准确替换值，并确认配置变更及可能的客户端重载。";
+"Cancelled" = "已取消";
+"Candidate preparation did not match the selected installation. Scan again." = "准备结果与所选安装不匹配，请重新扫描。";
+"Check Helper Status" = "检查 helper 状态";
+"Check Operation Status" = "查询操作状态";
+"Checking the privileged helper…" = "正在检查提权 helper…";
+"Choose Installer…" = "选择安装包…";
+"Commit before refresh: %@" = "刷新前 commit：%@";
+"Compatibility unverified" = "兼容性尚未确认";
+"Consumers listed here are for impact review; they are not selected for update or rebuild." = "这里列出的使用者仅供核对影响，未被选中更新或重新构建。";
+"Demo helper status" = "演示 helper 状态";
+"Demo mode does not check or register a real helper." = "演示模式不会检查或注册真实 helper。";
+"Developer team: %@ · Receipt: %@" = "开发者团队：%@ · 安装收据：%@";
+"Enable Helper" = "启用 helper";
+"Enable Helper…" = "启用 helper…";
+"Enable privileged updates?" = "启用需要管理员权限的更新？";
+"Exact App Store target" = "准确的 App Store 更新目标";
+"Execution is currently blocked" = "当前无法执行";
+"Helper enabled" = "helper 已启用";
+"Helper not enabled" = "helper 未启用";
+"Helper registration is separate from installation. Each installation still needs an exact preview, confirmation and administrator authorization." = "注册 helper 与安装分开处理。每次安装仍需准确的操作预览、确认及管理员授权。";
+"Helper status has not been checked." = "尚未检查 helper 状态。";
+"Installation Candidates" = "安装候选";
+"Installation path: %@" = "安装路径：%@";
+"Installation recorded" = "已有安装结果记录";
+"Major version change" = "主要版本变化";
+"Marketplace Refresh Result" = "marketplace 刷新结果";
+"Marketplace metadata changed" = "marketplace 元数据已变化";
+"Marketplace metadata refresh and plugin installation are separate results." = "marketplace 元数据刷新与插件安装分别记录结果。";
+"Marketplace metadata unchanged" = "marketplace 元数据未变化";
+"Marketplace refresh not attempted" = "未尝试刷新 marketplace";
+"Marketplace refresh state unverified" = "marketplace 刷新后的状态尚未确认";
+"No consumers were identified. Undiscovered dependencies may still exist." = "尚未识别到使用者，仍可能存在未发现的依赖。";
+"No prepared candidates are available. This does not mean the installation is up to date." = "没有可用的已准备候选，不能据此判断已是最新。";
+"Operation ID: %@" = "操作 ID：%@";
+"Original impact note" = "原始影响说明";
+"Pre-1.0 minor version change" = "1.0 之前的次要版本变化";
+"Preparation only reads metadata. Choose one exact candidate to create an operation preview; no installation has been authorized." = "准备过程只读取元数据。选择一个准确候选后生成操作预览，尚未授权任何安装。";
+"Preparing exact installation candidates…" = "正在准备准确安装候选…";
+"Preview Restart for This Operation" = "为此操作单独预览重启";
+"Preview Selected Candidate" = "预览所选候选";
+"Privileged Updates" = "管理员权限更新";
+"Privileged Updates…" = "管理员权限更新…";
+"Read the recovery status before trying this privileged operation again." = "再次尝试此提权操作前，请先查询恢复状态。";
+"Reading the operation recovery status…" = "正在读取操作恢复状态…";
+"Recovery record: %@" = "恢复记录：%@";
+"Refresh command completed" = "刷新命令已完成";
+"Refresh command failed" = "刷新命令失败";
+"Register the signed KeepUpdated helper with macOS. An administrator may need to approve it in System Settings. This does not install any update." = "向 macOS 注册已签名的 KeepUpdated helper。管理员可能需要在系统设置中批准；此操作不会安装更新。";
+"Reported commit after refresh: %@" = "报告中的刷新后 commit：%@";
+"Requesting helper registration…" = "正在请求注册 helper…";
+"Runtime Dependency Impact" = "运行时依赖影响";
+"Same major version; dependency impact still needs review" = "主要版本相同，仍需核对依赖影响";
+"Select a local signed .pkg to read its exact target and prerequisites. Nothing is installed." = "选择本地已签名 .pkg，读取准确目标和前置条件；不会安装。";
+"Select candidate" = "选择此候选";
+"Select one installation for the prepared candidate." = "请为已准备候选选择一个安装项。";
+"Selected candidate" = "已选候选";
+"Selected signed installer" = "所选已签名安装包";
+"Separate restart request for operation %@" = "操作 %@ 的单独重启请求";
+"System Settings approval required" = "需要在系统设置中批准";
+"System Update Options" = "系统更新选项";
+"System scripts require their own approval. Installation does not authorize a restart." = "系统脚本需要单独批准，安装授权不包含重启。";
+"The helper is enabled. Candidate and permission checks still apply to every operation." = "helper 已启用，每项操作仍需核对候选及权限。";
+"The prepared request changed in the preview. Prepare it again." = "预览中的已准备请求发生变化，请重新准备。";
+"The recovery status did not match this operation." = "恢复状态与此操作不匹配。";
+"The selected installer could not be read. Choose the local package again." = "无法读取所选安装包，请重新选择本地安装包。";
+"Unknown impact" = "未知影响";
+"Unsupported candidate kind: %@" = "暂不支持的候选类型：%@";
+"Project scripts, external applications and undiscovered consumers cannot be fully determined." = "无法完整确认项目脚本、外部应用及尚未发现的使用者。";
+"Installed consumers are listed for review; they are not authorized for update or rebuild." = "已安装的使用者仅列出供核对，未授权更新或重新构建。";
+"This is a synthetic preview. Demo mode does not run the CLI, register helpers, install software or restart this Mac." = "这是合成预览。演示模式不会调用 CLI、注册 helper、安装软件或重启这台 Mac。";
+"The matching native authorization bridge is not packaged with this CLI. Use a complete matching app bundle." = "此 CLI 未配套打包原生授权桥接程序，请使用完整的同版 App。";
+"The packaged authorization bridge did not pass signature verification. This operation is blocked." = "包内授权桥接程序未通过签名核对，操作已阻断。";
+"This app does not contain the required helper. Helper registration is unavailable." = "此 App 未包含所需 helper，无法注册。";
+"The helper state could not be verified. No installation permission is implied." = "无法确认 helper 状态，这不代表已获安装权限。";
+"An administrator must approve the helper in System Settings before it can be used." = "管理员需先在系统设置中批准 helper，之后才能使用。";
+"The selected installation is not a supported preparation target. Scan again and check its original installation source." = "所选安装不属于支持的准备目标，请重新扫描并核对原安装来源。";
+"Installer or system metadata could not be read completely. No executable candidate has been established." = "未能完整读取安装包或系统元数据，尚未确认可执行候选。";
+"The signed local package is bound to the selected installed app. Execution prerequisites still need to pass." = "已将本地签名安装包绑定到所选已安装应用，执行前置条件仍需通过核对。";
+"Exact system update candidates were read. Preparation does not authorize installation or restart." = "已读取准确系统更新候选，准备过程不授权安装或重启。";
+"The package metadata or app binding is outside the supported installer flow. Use the original installation method." = "安装包元数据或应用绑定不在支持范围内，请使用原安装方式处理。";
+"The installed version changed. Scan again and create a fresh preview." = "已安装版本发生变化，请重新扫描并生成新清单。";
+"Select the specific permissions for this operation before creating its executable preview." = "生成可执行清单前，请选择此操作所需的具体权限。";
+"The native authorization boundary must verify this exact target before execution." = "执行前需要由原生授权机制核对这一准确目标。";
+"The prepared privileged request is invalid. Prepare the candidate again." = "已准备的提权请求无效，请重新准备候选。";
+"This privileged operation requires one exact installation target." = "此提权操作需要一个准确的安装目标。";
+"The selected package does not match the installed app binding. No installation can proceed." = "所选安装包与已安装应用绑定不匹配，不能继续安装。";
+"The system update does not match the current system binding. Prepare candidates again." = "系统更新与当前系统绑定不匹配，请重新准备候选。";
+"The exact privileged target passed preflight. Final confirmation and administrator authorization are still required." = "准确提权目标已通过执行前核对，仍需最终确认及管理员授权。";
+"The final result could not be read. Query this operation ID before trying again; installation may already have started." = "无法读取最终结果。安装可能已经开始，再次尝试前请先查询此操作 ID。";
+"The native result could not be verified. Query the recorded operation ID before trying again." = "无法确认原生执行结果，再次尝试前请查询记录中的操作 ID。";
+"The requested installed version has not been verified. Read the operation recovery status." = "尚未确认达到请求的安装版本，请查询操作恢复状态。";
+"No matching pending restart was verified for this operation. No restart is authorized." = "未确认此操作有匹配的待重启记录，尚未授权重启。";
+"This operation is still in progress. Read its status before starting another operation." = "此操作仍在进行，请先查询状态，再发起其他操作。";
+"This operation was already attempted. Check its recovery record instead of replaying it." = "此操作已经尝试执行，请检查恢复记录，不要重复执行。";
+"Administrator authorization was denied. The requested action is not approved." = "管理员授权被拒绝，请求的操作未获批准。";
+"The native operation was cancelled. Check its recorded result before trying again." = "原生操作已取消，再次尝试前请检查记录中的结果。";
+"A signed full ZIP was found in the app update feed. Confirm to download, verify and update the app." = "已从应用更新源找到带签名的完整 ZIP。确认后会下载、核对并更新应用。";
+"The updated app, version and signature have been verified." = "已核对更新后的应用、版本和签名。";
+"The app update feed could not be reached. Try again later or check for updates in the app." = "无法连接应用更新源。请稍后重试，或在应用内检查更新。";
+"No supported signed full ZIP or DMG was found. Use the app’s own updater for this release." = "没有找到支持的带签名完整 ZIP 或 DMG。这个版本请通过应用自带的更新功能处理。";
+"The downloaded update could not be verified against its signature. No app files were replaced." = "下载的更新未通过签名核对，应用文件尚未替换。";
+"This runtime update may break compatibility. Review affected tools and projects before updating it manually." = "这次运行时更新可能影响兼容性。请先核对受影响的工具和项目，再手动更新。";
+"The original uv source and official update target have been identified. Confirm to download and verify the update." = "已确认 uv 的原安装来源和官方更新目标。确认后会下载并核验更新包。";
+"The uv update failed. The original files were restored and verified." = "uv 更新失败，已恢复并核对原文件。";
+"The installation tool did not finish checking in time. Try again later." = "安装工具的检查超时，请稍后重试。";
+"The installation tool could not reach its update source. Check the connection or source settings, then try again." = "安装工具无法连接更新源。请检查网络或来源设置后重试。";
+"The installation tool’s access could not be verified. Check its permissions or sign-in, then try again." = "无法确认安装工具的访问权限。请检查权限或登录状态后重试。";
+"The App Store update tool (mas) was not found. This update is unavailable in the current setup." = "没有找到 App Store 更新工具（mas）。当前环境暂时无法执行这项更新。";
+"This version of the App Store update tool (mas) is not supported. Check the tool version before retrying." = "当前 App Store 更新工具（mas）的版本暂不支持。请核对工具版本后重试。";
+"The exact app version approved in the preview could not be verified. Check the installed version before trying again." = "无法确认应用是否达到预览中同意更新的准确版本。请先检查当前安装版本，再尝试更新。";
+"The refreshed marketplace matches the approved commit. Plugin installation is reported separately." = "刷新后的 marketplace 与已确认 commit 一致，插件安装结果单独记录。";
+"This Claude version does not expose the required marketplace refresh JSON interface." = "当前 Claude 版本未提供所需的 marketplace 刷新 JSON 接口。";
+"The public marketplace branch could not be read. Retry, or explicitly preview the verified cached snapshot." = "无法读取公开 marketplace 分支。可重试，或明确选择预览已核验的本地快照。";
+"The approved remote snapshot could not be downloaded and verified." = "无法下载并核实远端快照。";
+"The remote branch moved while preparing the preview. Preview again." = "准备预览时远端分支已变化，请重新预览。";
+"The current marketplace commit could not be verified in the remote history." = "无法在远端历史中确认当前 marketplace commit。";
+"The public remote matches this verified snapshot. Update the whole plugin; existing sessions need reload." = "公开远端与此核验快照一致。更新将作用于整个插件，现有会话需要重新加载。";
+"Refresh this marketplace to the approved commit, then update the whole plugin. Stop installation if the refreshed source differs." = "先将此 marketplace 刷新到确认的 commit，再更新整个插件；刷新后的来源不符时会停止安装。";
+"Marketplace refresh was not completed. Review the reported source state before retrying." = "marketplace 刷新未完成，请先检查报告中的来源状态再重试。";
+"Plugin installation stopped because the refreshed marketplace was not verified as the approved source. Marketplace changes may already have occurred; inspect the refresh details." = "刷新后的 marketplace 未通过确认来源核验，插件安装已停止。marketplace 可能已发生变化，请查看刷新详情。";
+"The system network-isolation command is unavailable. Update this plugin in Claude." = "系统网络隔离命令不可用，请在 Claude 中更新此插件。";
+"Selected installer candidate" = "所选安装包候选";
+"Candidate %@" = "候选 %@";
+"Queried recovery status" = "本次查询的恢复状态";
+"Observed version: %@" = "核对到的版本：%@";
+"Observed build: %@" = "核对到的构建：%@";
+"The macOS restart dialog was shown. A restart has not yet been verified." = "已显示 macOS 重启对话框，尚未确认已重启。";
+"The installed receipt and app version were verified. A restart is still required." = "已核对安装收据和应用版本，仍需重启。";
+"The installed receipt, app version and app signature were verified." = "已核对安装收据、应用版本和应用签名。";
+"The system tool requested a restart. The target system version and build are not yet verified." = "系统工具要求重启，目标系统版本和构建尚未确认。";
+"The installed system version and build match the approved target." = "已安装系统版本和构建与确认目标一致。";
+"The native installer failed. Inspect this operation’s recovery record and backup before trying again." = "原生安装工具失败，再次尝试前请检查此操作的恢复记录和备份。";
+
+// Inventory interactions and update permissions
+"Expanded" = "已展开";
+"Collapsed" = "已收起";
+"Show or hide installation details" = "显示或收起安装详情";
+"Update Permissions…" = "更新权限…";
+"Update Permissions" = "更新权限";
+"Allow KeepUpdated to request administrator permission when an update needs it. Every installation still requires its own preview and confirmation." = "允许 KeepUpdated 在更新需要时请求管理员权限。每次安装仍须单独预览并确认。";
+"Update permissions are enabled. Each installation still needs your approval." = "更新权限已启用，每次安装仍需要你确认。";
+"Update permissions have not been checked." = "尚未检查更新权限。";
+"Check Permissions" = "检查权限";
+"Enable Update Permissions…" = "启用更新权限…";
+"Example Application with a Long Name for Shared Project Installations" = "用于共享项目安装管理与更新检查的长名称示例应用程序";
+"Update permissions enabled" = "更新权限已启用";
+"Update permissions not enabled" = "更新权限尚未启用";
+"Update permissions unavailable" = "更新权限不可用";
+"Approve KeepUpdated in System Settings before continuing. Administrator approval is required." = "继续前，请在系统设置中批准 KeepUpdated，需要管理员授权。";
+"Update permissions could not be verified. This does not authorize installation." = "无法确认更新权限，这不代表已允许安装。";
+"This build cannot request administrator permission. Use the complete KeepUpdated app." = "此构建无法请求管理员权限，请使用完整的 KeepUpdated 应用。";
+"Administrator authorization is unavailable. This installation cannot continue." = "管理员授权不可用，无法继续此安装。";
+"Enable update permissions before continuing. macOS will ask for administrator approval." = "继续前请启用更新权限，macOS 会请求管理员授权。";
+"This version cannot interpret the check result or determine whether an update is needed. Open Source & Evidence for the check code." = "此版本无法解释检查结果，也无法判断是否需要更新。检查代码可在“来源与检查依据”中查看。";
+"No valid version result was received. Try Check for Updates again; the failure code is in Source & Evidence." = "未取得有效的版本结果。请重新检查更新；失败代码可在“来源与检查依据”中查看。";
+"KeepUpdated cannot interpret this result or determine whether an update is needed. Check with the original installation tool or open Source & Evidence for the check code." = "KeepUpdated 无法解释此结果，也无法判断是否需要更新。请通过原安装工具核对，或打开“来源与检查依据”查看检查代码。";
+"The configuration uses an unsupported format. Check it in the original client; the check code is in Source & Evidence." = "配置格式不受支持，请通过原客户端检查。检查代码可在“来源与检查依据”中查看。";
+"Dependency issues: %@. Open Source & Evidence for the requirements." = "依赖问题：%@。具体要求可在“来源与检查依据”中查看。";
+"The local installation check found issues. Open Source & Evidence for the check code and evidence." = "本地安装检查发现问题。检查代码与证据可在“来源与检查依据”中查看。";
+"Updating permission status…" = "正在更新权限状态…";
+"Demo mode does not check or change update permissions." = "演示模式不会检查或更改更新权限。";
+"Checking dependencies…" = "正在检查依赖…";
+
+"Checking Skill sources…" = "正在检查 Skill 来源…";
+
+"Checking available updates…" = "正在检查可用更新…";
+
+"Running applications" = "运行中的应用";
+
+"Applications" = "应用";
+
+"Homebrew" = "Homebrew";
+
+"Packages" = "软件包";
+
+"Executables" = "可执行程序";
+
+"Agent configurations" = "Agent 配置";
+
+"Skills" = "Skills";
+
+"Skill origins" = "Skill 来源";
+
+"Skill recovery records" = "Skill 恢复记录";
+
+"Installation relationships" = "安装关联";
+
+"Another command is still running." = "另一个命令仍在运行。";
+
+"The command output exceeded the size limit." = "命令输出超过大小限制。";
+
+"The command output could not be read completely." = "未能完整读取命令输出。";
+
+// Phase progress presentation
+"Unresolved in this stage: %@" = "本阶段未确认：%@ 项";
+"Counts show work processed in this stage, including unresolved results. They do not measure successful updates or time remaining." = "计数表示本阶段已处理的工作，其中可能包括未确认的结果，不代表更新成功数量或剩余时间。";
+"Stage work: %@ of %@ processed" = "本阶段已处理 %@ / %@";
+"Stage work: %@ processed" = "本阶段已处理 %@";
+"KeepUpdated App Updates" = "KeepUpdated 应用更新";
+
+"Current app version: %@" = "当前应用版本：%@";
+
+"Check for App Updates" = "检查应用更新";
+
+"Checking public app releases…" = "正在检查公开发布的应用版本…";
+
+"Downloading and verifying the app update…" = "正在下载并验证应用更新…";
+
+"Preparing to close, install and reopen KeepUpdated…" = "正在准备关闭、安装并重新打开 KeepUpdated…";
+
+"No public stable release has been published yet." = "目前尚未公开发布正式版本。";
+
+"KeepUpdated %@ is available." = "KeepUpdated %@ 已发布。";
+
+"This verified app is up to date with the public stable release." = "此应用已通过验证，与公开正式版本保持同步。";
+
+"Demo: synthetic app-update check. No network request, download or restart was performed." = "演示：这是模拟的应用更新检查，未请求网络、下载或重新启动。";
+
+"App update checking or installation could not be verified." = "无法验证应用更新检查或安装结果。";
+
+
+
+"This release cannot be installed because its source, signature or compatibility has not been verified." = "此版本的来源、签名或兼容性尚未通过验证，无法安装。";
+
+"The previous app update was installed and its reopening was verified. The original app is retained for recovery." = "上次应用更新已安装，且已确认重新打开。原应用保留用于恢复。";
+
+"The update was installed, but reopening has not been verified. Recovery files have been retained." = "更新已安装，但尚未确认重新打开。恢复文件已保留。";
+
+"An app update is pending or did not complete. Review its local recovery record before trying again." = "有一次应用更新正在等待或未完成，请先查看本机恢复记录再重试。";
+
+"Release Notes" = "更新说明";
+
+"Download, Install and Reopen…" = "下载、安装并重新打开…";
+
+"Download, Install and Reopen" = "下载、安装并重新打开";
+
+"Show App Update Recovery Files" = "显示应用更新恢复文件";
+
+"Refresh Recovery Status" = "刷新恢复状态";
+
+"Install and reopen KeepUpdated?" = "安装并重新打开 KeepUpdated？";
+
+"The update will be downloaded and verified first. KeepUpdated will then close, replace this app, verify the installation and reopen. Your original app will be retained for recovery." = "更新会先下载并通过验证，随后 KeepUpdated 将关闭、替换应用、验证安装并重新打开。原应用将保留用于恢复。";
+
+"The app update response could not be verified." = "无法验证应用更新响应。";
+
+"The update could not be verified. KeepUpdated has not been closed." = "更新未通过验证，KeepUpdated 尚未关闭。";
+
+"The update handoff could not be verified. KeepUpdated will stay open." = "无法验证更新交接，KeepUpdated 将保持打开。";
+
+"Installation is unavailable because this running app has no verified Developer ID signature. A production update must retain the authenticated current developer identity." = "当前运行的应用没有通过验证的 Developer ID 签名，暂时无法安装更新。正式更新必须与当前已认证的开发者身份一致。";
+
+"This verified app is newer than the latest public stable release." = "此应用已通过验证，版本高于最新公开正式版本。";
+
+"The installation outcome is unknown. The original app and recovery files are retained for review." = "安装结果尚无法确认。原应用和恢复文件已保留，请先检查。";
+
+"Updating KeepUpdated…" = "正在更新 KeepUpdated…";
+"KeepUpdated checks once at launch. You can retry here; installation always needs confirmation." = "KeepUpdated 每次启动时检查一次，您也可以在这里重试；安装始终需要确认。";
+"App is up to date" = "已是最新版本";
+"Click to update" = "点击更新";
+"Checking app version…" = "正在检查 App 版本…";
+"App not publicly released" = "App 尚未公开发布";
+"Newer preview version" = "较新的预览版本";
+"App update not verified" = "App 更新未能核实";
+"Demo app version" = "演示版本状态";
+"App version not checked" = "尚未检查 App 版本";
+"%@ installed versions · read only" = "%@ 个已安装版本 · 只读";
+"Items: %@ · Updates: %@ · Need review: %@" = "%@ 项 · %@ 项更新 · %@ 项需核查";
+"%@ · path aliases" = "%@ · 路径别名";
+"Select Matching" = "全选匹配的可预览项";
+"Selection includes matching previewable items in collapsed groups." = "选择范围包含收起分组内匹配的可预览项。";
+"Installed version %@" = "已安装版本 %@";
+"Read only" = "只读";
+"Show or hide grouped installations. This folder has no operations." = "展开或收起安装项。此文件夹没有更新或卸载操作。";
+"Example Studio" = "示例创作应用";
+"Studio Crash Helper" = "创作应用崩溃助手";
+"Shared Writing Skill" = "共享写作技能";
+"Example Python Environment" = "示例 Python 环境";
+"Environment Package" = "环境内软件包";
+"%@ · multiple installations" = "%@ · 多个安装";
+"Show or hide details and grouped installations" = "展开或收起详情和分组内安装项";
+
+"Open App Store to Update" = "打开 App Store 更新";
+
+"Open App Store to Update %@" = "打开 App Store 更新 %@";
+
+"Open this app’s verified App Store page. Nothing is installed by KeepUpdated." = "打开此应用已核实的 App Store 商品页。KeepUpdated 不会安装任何内容。";
+
+"App Store opened. Complete any update there, then check again." = "已打开 App Store。请在那里完成更新，然后重新检查。";
+
+"The App Store page could not be opened. Try again or open App Store manually." = "无法打开 App Store 商品页。请重试或手动打开 App Store。";
+
+"Demo: verified App Store page %@. No page was opened and nothing was installed." = "演示：已核实的 App Store 商品页 %@。未打开页面，也未安装任何内容。";
+
+"%@ · installation entries" = "%@ · 安装位置";
+
+"Unregistered cache" = "未注册缓存";
+
+"Cache · registration unverified" = "缓存 · 注册状态未验证";
+
+"Skill groups: %@ · Installation entries: %@ · Unverified cache entries: %@ · Unregistered cache entries: %@" = "Skill 展示组：%@ · 安装入口：%@ · 未验证缓存入口：%@ · 未注册缓存入口：%@";
+
+"Registration unverified" = "注册状态未验证";
+
+"This cache is not in the current plugin registry. It is kept on disk and excluded from installed Skill counts." = "此缓存不在当前插件注册表中。文件仍保留在磁盘上，不计入已安装 Skill 数量。";
+
+"Skill files were found in a plugin cache, but the current installation is not verified. Manage them in the owning client." = "在插件缓存中发现了 Skill 文件，但无法验证当前安装状态。请在所属客户端中管理。";
+
+"App Store identity unverified" = "App Store 商品身份未验证";
+
+"The store did not provide a valid product ID. No product page or Mac version can be safely selected." = "商店未提供有效商品 ID，无法确定对应商品页或 Mac 版本。";
+
+"Mac product unverified" = "Mac 商品未验证";
+
+"The Mac catalog did not confirm the same product, bundle and region. Update status remains unknown." = "Mac 目录未确认相同商品、应用标识和地区。更新状态仍未知。";
+
+"Mac version unverified" = "Mac 版本未验证";
+
+"The store did not provide a Mac software version. The phone version is not used." = "商店未提供 Mac 软件版本。不会使用手机版本进行判断。";
+
+"The store returned conflicting Mac versions. Check in the App Store." = "商店返回了相互冲突的 Mac 版本。请在 App Store 中检查。";
+
+"App Store region unverified" = "App Store 地区未验证";
+
+"The store region is invalid. Check the App Store region and retry." = "商店地区无效。请核对 App Store 地区后重试。";
+
+"A newer Mac version is confirmed. Open its App Store page to update, then check again." = "已确认有更新的 Mac 版本。请打开对应 App Store 商品页完成更新，然后重新检查。";
+
+"The installation manager has not verified this universal app’s Mac version. Update it in the App Store." = "安装管理器尚未验证此通用应用的 Mac 版本。请在 App Store 中更新。";
+
+"Checking installation sources…" = "正在检查安装来源…";
+"Preparing operation preview…" = "正在生成操作清单…";
+"Executing approved operations…" = "正在执行已确认的操作…";
+"Verifying installations…" = "正在核验安装状态…";
+"Reading application metadata…" = "正在读取应用信息…";
+"Demo: the original app would open for you to update. Nothing was opened or installed." = "演示：此处会打开原应用供你自行更新。未打开或安装任何内容。";
+"Opening the original app…" = "正在打开原应用…";
+"App opened. Complete the update in the app, then check again." = "已打开应用。请在应用内完成更新，再重新检查。";
+"This app changed or is no longer available. Scan again before opening it." = "此应用已发生变化或无法找到。请重新扫描后再打开。";
+"Open App" = "打开 App";
+"Open the original app to update it yourself." = "打开原应用，由你自行更新。";
+"Open %@ to update yourself" = "打开 %@ 自行更新";
+"Open App to update yourself" = "打开 App 自行更新";
+"Open this app’s App Store page, or the Updates page when its product is unknown. Nothing is installed by KeepUpdated." = "打开此应用的 App Store 页面；商品未知时打开更新页。KeepUpdated 不会安装任何内容。";
+"Update this app manually" = "请手动更新此应用";
+"Update this app in App Store. KeepUpdated provides a link and does not install App Store updates." = "请到 App Store 更新此应用。KeepUpdated 仅提供链接，不安装商店更新。";
+
+"Stage could not be completed" = "此阶段未完成";
+
+"Demo: App Store link %@. No page was opened and nothing was installed." = "演示：App Store 链接 %@。未打开页面或安装任何内容。";
+"Open App Store Updates" = "打开 App Store 更新页";
+"The opened app could not be matched to the selected installation. Scan again." = "已打开的应用与所选安装无法匹配。请重新扫描。";
+
+"A signed full DMG was found in the app update feed. Confirm to download, verify and update the app." = "已从应用更新源找到带签名的完整 DMG。确认后会下载、核对并更新应用。";
+"The signed DMG source is bound to this app. The downloaded image and app still need verification." = "带签名的 DMG 来源已绑定到此应用。下载后仍需核验镜像和应用。";
+"The update format is missing, unsupported or does not match the archive. Preview again." = "更新格式缺失、不受支持或与归档不符。请重新预览。";
+"The disk image mount could not be verified. The app was not replaced. Keep the cleanup record for inspection." = "无法核验磁盘镜像挂载结果，应用未替换。请保留清理记录以便检查。";
+"The disk image could not be detached. The app was not replaced; the image and cleanup record were retained." = "磁盘镜像无法卸载，应用未替换。已保留镜像和清理记录。";
+"The disk image has multiple or unrecognized volumes. The app was not replaced." = "磁盘镜像包含多个或无法识别的卷，应用未替换。";
+"The app in the disk image could not be read. The installed app was not replaced." = "无法读取磁盘镜像中的应用，已安装的应用未替换。";
+"The disk image must contain exactly one app at its root. The installed app was not replaced." = "磁盘镜像根目录必须恰好包含一个应用，已安装的应用未替换。";
+"The disk image contains unsupported files or links. Use the app’s own updater." = "磁盘镜像包含不受支持的文件或链接，请使用应用自带的更新功能。";
+"The disk image contains an installer package. This app update cannot run it." = "磁盘镜像包含安装包，此应用更新流程无法执行。";
+"The staged app does not match the verified disk image. The installed app was not replaced." = "暂存应用与已核验的磁盘镜像不一致，已安装的应用未替换。";
+"The disk image app exceeds the file count or size limit. The installed app was not replaced." = "磁盘镜像中的应用超出文件数量或大小上限，已安装的应用未替换。";
+"The disk image app contains paths that differ only by letter case. The installed app was not replaced." = "磁盘镜像中的应用包含仅大小写不同的路径，已安装的应用未替换。";
+"The disk image app contains an unsafe path. The installed app was not replaced." = "磁盘镜像中的应用包含不安全的路径，已安装的应用未替换。";
+"The disk image app contains an absolute, escaping or cyclic link. The installed app was not replaced." = "磁盘镜像中的应用包含绝对路径、越界或循环链接，已安装的应用未替换。";
+"The disk image app contains an unsupported special file. The installed app was not replaced." = "磁盘镜像中的应用包含不受支持的特殊文件，已安装的应用未替换。";
+"The app update was cancelled before replacement. The installed app was not changed." = "应用更新已在替换前取消，已安装的应用未改变。";
+
+"This Node manager version or global layout has not been verified. Use the original manager manually." = "此 Node 管理器版本或全局安装布局尚未验证，请通过原管理器手动处理。";
+"The original package version request is missing, ambiguous or unsupported. Review it with the original manager." = "原版本请求缺失、含义不明确或暂不支持，请通过原管理器核对。";
+"The installed package does not match its declared version range. Review the installation first." = "已安装版本不符合声明的版本范围，请先核对安装状态。";
+"The candidate is outside the original version request. No update will run." = "候选版本超出原版本请求，不会执行更新。";
+"The Node manager or version policy changed, or the saved plan lacks this evidence. Create a new preview." = "Node 管理器或版本策略已变化，或旧计划缺少相关证据，请重新预览。";
+"This pnpm configuration selects a Node runtime. Review that runtime change separately before updating packages." = "此 pnpm 配置指定了 Node 运行时，请先单独核对运行时变更，再更新包。";
+
+// Self-update verification evidence
+"Repository binding" = "仓库来源绑定";
+"Release binding" = "发布来源绑定";
+"Archive length" = "归档长度";
+"Archive SHA-256" = "归档 SHA-256";
+"Archive publisher signature" = "归档发布者签名";
+"Installed app Developer ID and Gatekeeper" = "已安装应用的 Developer ID 与 Gatekeeper";
+"Candidate app Developer ID and Gatekeeper" = "候选应用的 Developer ID 与 Gatekeeper";
+"Authenticated metadata freshness" = "已认证元数据的时效性";
+"Installation readback" = "安装回读";
+"App reopening" = "应用重开";
+"Verified" = "已验证";
+"Not verified" = "未验证";
+"Not checked" = "尚未检查";
+"Not applicable" = "不适用";
+"Not recorded; cannot confirm" = "未记录，无法确认";
+"App update check evidence" = "本次更新检查证据";
+"Saved app update evidence" = "已保存的更新操作证据";
+"This older update record has no verification evidence. The outcome cannot be confirmed here." = "这条旧更新记录没有验证证据，无法在这里确认结果。";
+"SHA-256 checks compare downloaded bytes with GitHub release declarations. No independent archive publisher signature is available. Metadata freshness and rollback protection are not verified by the release date or local plan expiry." = "SHA-256 用于核对下载内容与 GitHub 发布声明是否一致。目前没有独立的归档发布者签名。发布日期或本地计划有效期不能证明元数据时效性或防回滚保护。";
+"Download preparation evidence" = "下载准备阶段证据";
+"The release check reports no newer version. App verification cannot be confirmed here." = "发布检查未发现更新版本，但无法在这里确认应用验证结果。";
+
+"This Python installation record is missing required fields or uses an unsupported format. Use the original manager manually." = "这份 Python 安装记录缺少必要字段或使用了尚未支持的格式，请通过原管理器处理。";
+"This pipx backend has not been verified for managed updates or removal. Use pipx manually." = "这个 pipx backend 尚未通过更新或卸载验证，请通过 pipx 手动处理。";
+"This environment includes injected tools or extra requirements. Review their constraints and exposed commands with the original manager." = "这个环境包含注入工具或额外依赖要求，请通过原管理器核对版本限制和对外命令。";
+"This tool uses a lock file whose update behavior has not been verified. Review it with the original manager." = "这个工具使用锁文件，其更新行为尚未验证，请通过原管理器核对。";
+"The Python tool's exposed commands or wheel ownership could not be verified. Review the installation first." = "无法核实 Python 工具的对外命令或 wheel 归属，请先检查安装。";
+"The Python tool's original interpreter could not be verified. Restore it or create a new preview." = "无法核实 Python 工具原来的解释器，请恢复解释器或重新预览。";
+"This Python version requirement needs native constraint solving. Review it with the original manager." = "这项 Python 版本要求需要原管理器解析约束，请通过原管理器核对。";
+"This Python receipt includes additional constraints or overrides that have not been verified. Use the original manager manually." = "这份 Python 安装记录包含尚未验证的额外约束或覆盖规则，请通过原管理器处理。";
+"The installed Python tool does not satisfy its original version requirement. Review the installation first." = "已安装的 Python 工具不符合原版本要求，请先检查安装。";
+"This Python manager version and receipt format have not been verified together. Use the original manager manually." = "这个 Python 管理器版本与安装记录格式的组合尚未验证，请通过原管理器处理。";
+"The Python manager or installation intent changed, or the saved plan lacks this evidence. Create a new preview." = "Python 管理器或原安装要求已变化，或保存的计划缺少相关证据，请重新预览。";
+"The candidate is outside the Python tool's original version limits. No update will run; review an allowed target with the original manager." = "候选版本不符合 Python 工具原来的版本限制，不会执行更新；请通过原管理器核对可用目标。";
+"The original Python receipt could not be saved safely. No update ran; create a new preview." = "无法安全保存原 Python 安装记录，未执行更新，请重新预览。";
+"The manager ran, but the original Python receipt options could not be restored safely. Review the retained receipt backup and installed state." = "管理器已运行，但无法安全恢复原 Python 安装选项，请核对保留的安装记录备份和实际安装状态。";
+"The Python manager configuration uses settings or syntax that the candidate query cannot verify. Use the original manager manually." = "Python 管理器配置使用了候选查询无法验证的设置或语法，请通过原管理器处理。";
+// MCP launcher registry candidates
+"Configured reference: %@" = "配置引用：%@";
+"Installed and running versions were not checked." = "未检查已安装和正在运行的版本。";
+"Registry candidate: %@" = "注册表候选版本：%@";
+"Verified default npm source; exact same-package replacement." = "已核实默认 npm 来源；仅替换为同一软件包的精确版本。";
+"Observed in preview: %@" = "本次预览观察时间：%@";
+"Select This Registry Candidate" = "选择此注册表候选版本";
+"Manual reference: registry availability and source are not verified." = "手动引用：尚未核实注册表版本是否存在及其来源。";
+"Selected registry candidate is bound to this configuration and source." = "所选注册表候选版本已绑定此配置和来源。";
+"The launcher environment cannot be verified. Use a reviewed manual reference." = "无法核实启动器环境。请审核后手动填写引用。";
+"The launcher needs a known explicit working directory before querying its source." = "查询来源前，需要明确指定并核实启动器的工作目录。";
+"This launcher reference or candidate has unsupported constraints. Review it manually." = "此启动器引用或候选版本的约束尚不受支持，请手动审核。";
+"The launcher configuration changed. Create a new preview." = "启动器配置已变化，请重新预览。";
+"The effective launcher source is not verified. Manual reference migration remains available." = "尚未核实启动器的实际来源，仍可手动迁移精确引用。";
+"The registry candidate is unknown because its query failed or returned invalid metadata." = "查询失败或返回的元数据无效，注册表候选版本未知。";
+"The configured reference matches the registry release. Installed and running versions remain unknown." = "配置引用与注册表版本一致，已安装和正在运行的版本仍未知。";
+"Select the registry candidate, then review and confirm one exact configuration change." = "请先选择注册表候选版本，再审核并确认这一项精确配置修改。";
+"The selected candidate, configuration or source changed or is unavailable. Create a new preview." = "所选候选版本、配置或来源已变化或不可用，请重新预览。";
+"The launcher source changed after preview. Create a new preview before editing the configuration." = "预览后启动器来源已变化，请重新预览后再修改配置。";
+"A local, global or cached package could override the registry candidate. Review this launcher manually." = "本地、全局或缓存中的软件包可能覆盖注册表候选版本，请手动审核此启动器。";
+"Managed by Volta" = "由 Volta 管理";
+"Volta selection" = "Volta 版本选择";
+"This item uses Volta. Manage it manually through Volta; KeepUpdated does not update or remove Volta-managed packages." = "此项目使用 Volta。请通过 Volta 手动处理；KeepUpdated 不会更新或移除由 Volta 管理的软件包。";
+"Selected in Volta's stored default platform. The running version has not been verified." = "已在 Volta 保存的默认平台中选中。尚未验证实际运行的版本。";
+"Retained image, not selected in Volta's stored default platform. Other consumers may still use it." = "这是保留的镜像，未在 Volta 保存的默认平台中选中。其他工具或项目可能仍在使用它。";
+"Project pin read from an explicitly selected project. It does not install or activate a runtime." = "已读取明确指定项目中的版本固定配置。这不会安装或激活运行时。";
+"Runtime activation is unknown. A PATH shim does not prove which platform will run." = "运行时激活状态未知。PATH 中的 shim 不能证明实际会运行哪个平台。";
+"Volta project pin" = "Volta 项目版本固定";
+
+"Managed by Skillshare" = "由 Skillshare 管理";
+
+"Skill manager" = "Skill 管理器";
+
+"Recorded repository" = "记录的仓库";
+
+"Recorded subdirectory" = "记录的子目录";
+
+"Recorded commit" = "记录的提交";
+
+"Canonical Skill directory" = "Skill 实际目录";
+
+"Manager metadata" = "管理器元数据";
+
+"Local baseline check" = "本地基线检查";
+
+"Local files match the Skillshare record. Update through Skillshare; remote freshness and running sessions were not checked." = "本地文件与 Skillshare 记录一致。请通过 Skillshare 更新；尚未检查远端是否有更新，也未验证运行中的会话。";
+
+"Skillshare metadata was found, but a complete file baseline is missing. Review the installation in Skillshare." = "已找到 Skillshare 元数据，但缺少完整的文件基线。请在 Skillshare 中核对安装。";
+
+"Local files differ from the Skillshare baseline. Review added, removed or edited files in Skillshare before updating." = "本地文件与 Skillshare 基线不同。更新前，请在 Skillshare 中核对新增、删除或修改的文件。";
+
+"Skillshare provenance could not be verified. The metadata format, source, path or file types need review in Skillshare." = "无法验证 Skillshare 来源。请在 Skillshare 中核对元数据格式、来源、路径或文件类型。";
+
+"Skillshare record needs review" = "Skillshare 记录需核对";
+
+"Shared Installation References (%@)" = "共享安装引用（%@）";
+
+"Handled by: %@ (%@)" = "由此操作处理：%@（%@）";
+
+"One shared action is planned. This reference is not a separate update." = "计划执行一次共享操作，此引用不会单独更新。";
+
+"The shared action is unavailable. Create a new preview." = "共享操作不可用，请重新生成预览。";
+
+"Shared action: %@ (%@) · %@" = "共享操作：%@（%@）· %@";
+
+"This reference was not executed or verified separately." = "此引用未单独执行或验证。";
+
+"The shared action result is unavailable. Check again before retrying." = "共享操作的结果不可用，请重新检查后再重试。";
+
+"References to this installation disagree on the source, candidate or action scope. Check again before updating." = "此安装的引用在来源、候选版本或操作范围上存在冲突，请重新检查后再更新。";
+
+"The shared action did not run. This reference was not updated separately." = "共享操作未执行，此引用也未单独更新。";
+
+"The shared action did not finish with a verified result. This reference is not confirmed updated." = "共享操作尚未取得已验证的完成结果，不能确认此引用已更新。";
+
+"This reference shares an installation with another selected item. It does not run a separate action." = "此引用与另一选中项指向同一安装，不单独执行操作。";
+
+// Read-only self-update inspection
+"Inspect App Update Files" = "核对更新文件";
+"Inspecting app update files…" = "正在核对更新文件…";
+"The update files could not be inspected. The outcome is unknown." = "未能核对更新文件，更新结果仍无法确认。";
+"The saved update record has not been checked against the current app files." = "尚未根据当前 App 文件核对这次更新记录。";
+"The original app is still installed. The candidate has not replaced it." = "当前仍是原 App，候选版本尚未替换它。";
+"The candidate is installed and the retained original was verified." = "候选版本已安装，保留的原 App 也已核验。";
+"The original app is restored. The candidate is retained for review." = "原 App 已恢复，候选版本仍保留供检查。";
+"An update worker is still active. Check again after it stops." = "更新程序仍在运行，请在它停止后再次核对。";
+"The update outcome cannot be confirmed. Keep the app and recovery files for review." = "更新结果无法确认，请保留 App 和恢复文件供检查。";
+"The saved worker record reports a verified reopening. This inspection did not reopen the app." = "保存的更新记录显示曾核验重新打开；本次核对没有重新打开 App。";
+"App reopening is not verified. This inspection did not reopen the app." = "尚未确认 App 是否重新打开；本次核对没有重新打开 App。";
+"The command has too many arguments. Reduce the selection or scan locations and try again." = "命令参数过多。请减少所选项目或扫描位置后重试。";
+
+"Shared" = "共享";
+
+"Disabled" = "已停用";
+
+"Configured" = "已配置";
+
+"Local program" = "本机程序";
+
+"Local connection" = "本机连接";
+
+"Network connection" = "网络连接";
+
+"Connection address unverified" = "连接地址待核对";
+
+"Connection needs review" = "连接待核对";
+
+"Plugin: %@" = "插件：%@";
+
+"Included with client" = "客户端自带";
+
+"Managed with %@" = "通过 %@ 管理";
+
+"Python Tools" = "Python 工具";
+
+"Command-line Tools" = "命令行工具";
+
+"Background Items" = "后台启动项";
+
+"%@ details" = "%@详情";
+
+"%@ supporting records" = "%@ 条附属记录";
+
+"%@ connections" = "%@ 处连接配置";
+
+"%@ locations" = "%@ 处使用位置";
+
+"%@ separate installations" = "%@ 份独立安装";
+
+"Dependencies: %@" = "依赖库：%@ 个";
+
+"Update via %@: %@" = "通过 %@ 更新：%@";
+
+"Done Selecting" = "结束选择";
+
+"Select Items" = "批量选择";
+
+"Apps and tools first. Dependencies, caches and configuration are in the details below." = "先展示应用和工具；依赖、缓存与配置放在下方详情中。";
+
+"Installed Mac apps. Each app keeps its own update method." = "已安装的 Mac 应用，按各自支持的方式更新。";
+
+"Skills available to your AI clients. Shared locations and plugin caches are kept in details." = "AI 客户端使用的 Skills。共享位置和插件缓存放在详情中。";
+
+"Connections used by AI clients. Expand a name to see each client and connection; a connection is not a separate software installation." = "AI 客户端的连接配置。展开名称可查看各客户端及连接方式，不代表重复安装了软件。";
+
+"Software managed by Homebrew." = "通过 Homebrew 管理的软件。";
+
+"Global packages managed by npm. Check for updates to verify available versions." = "通过 npm 管理的全局软件包。点击“检查更新”核对可用版本。";
+
+"Global packages managed by pnpm. Check for updates to verify available versions." = "通过 pnpm 管理的全局软件包。点击“检查更新”核对可用版本。";
+
+"Global packages managed by Bun. Bun itself is listed under Runtimes." = "通过 Bun 管理的全局软件包。Bun 程序本身列在“运行环境”中。";
+
+"Python tools managed by pipx or uv. Their environments and dependency libraries are in details." = "通过 pipx 或 uv 管理的 Python 工具。工具附带的环境和依赖库放在详情中。";
+
+"Language engines such as Node.js, Python, Java and Bun that other programs run on." = "供其他程序运行的语言环境，例如 Node.js、Python、Java 和 Bun。";
+
+"Tools used from a terminal, such as Codex or gcloud. Package-manager entry points are in details." = "在终端使用的工具，例如 Codex、gcloud。包管理器的命令入口放在详情中。";
+
+"Background launch settings. Update the app or package that provides them." = "后台程序的启动配置，通过提供它们的应用或软件包更新。";
+
+"Your installed macOS version and separately confirmed system-update options." = "当前安装的 macOS，以及需要单独确认的系统更新选项。";
+
+"Other detected installation records." = "其他检测到的安装记录。";
+
+"This connection is disabled in its client. This scan did not start or contact it." = "这处连接已在客户端停用，本次没有启动程序或连接服务。";
+
+"This connection points to a service on this Mac. Update the program that provides it." = "这处连接指向本机服务，请通过提供该服务的程序更新。";
+
+"This Mac holds connection settings. The service is updated on the server, not through this connection." = "本机保存的是连接设置，服务版本由服务端更新。";
+
+"The connection address could not be classified. Review it in the original client; no service was contacted." = "尚不能确定连接地址类型，请在原客户端核对。本次没有连接该服务。";
+
+"Dependency library" = "依赖库";
+
+"This library belongs to a Python tool or environment. Update it through that owner." = "这是 Python 工具或环境附带的依赖库，随所属工具或环境管理。";
+
+"Remove Connection" = "移除连接";
+
+"Remove connection %@" = "移除连接 %@";
+
+"Review removal of this client connection. The service or installed program is not removed." = "先确认移除此客户端的连接配置，不会卸载服务或已安装的程序。";
+
+"Command entry. Check the owning package for its version." = "这是命令入口，版本请查看所属软件包。";
+"Selected entries: %@ · Uninstall actions: %@. Review unavailable items below." = "所选条目：%@ · 可执行卸载：%@。无法卸载的条目会在下方说明。";
+"The preview items do not match your selection. Create a new preview." = "预览条目与所选范围不一致，请重新生成预览。";
+"Show or hide grouped installations." = "展开或收起分组中的安装。";
+"Uninstall group %@ (%@ items)" = "卸载分组 %@（%@ 项）";
+"Review every item in this group, then confirm uninstall." = "查看此分组的全部条目，再确认卸载。";
+
+// Recent operation recovery
+"Saved operation results exceed the size limit." = "保存的操作结果超过大小限制。";
+"Saved operation results are invalid. Review the local record before trying again." = "保存的操作结果无效。请检查本地记录后再试。";
+"Saved operation results could not be read. Open Last Results for details." = "无法读取已保存的操作结果。请打开“上次结果”查看详情。";
+"The last operation has no confirmed final result. Open Last Results before trying again." = "上次操作尚无确认的最终结果。请先查看“上次结果”，再决定是否重试。";
+"Reading saved operation results…" = "正在读取已保存的操作结果…";
+"No saved operation results were found." = "未找到已保存的操作结果。";
+"Installations scanned again. This result is available in the current session." = "已重新扫描安装状态。本次结果可在当前会话中查看。";
+"This operation may still be running or may have been interrupted. The saved results do not confirm that its processes have stopped. Check the current installation state before creating a new preview." = "此操作可能仍在运行，也可能已经中断。保存的结果不能证明相关进程已停止。请先核对当前安装状态，再创建新预览。";
+"Recovery location: %@" = "恢复位置：%@";
+"No execution was recorded for this item. Scan again and create a new preview before trying it." = "此项目尚无执行记录。请重新扫描并创建新预览后再试。";
+"This item started, but its final result was not saved. It may still be running or may have been interrupted. Check its actual state before trying again." = "此项目已开始处理，但尚未保存最终结果。它可能仍在运行，也可能已经中断。请核对实际状态后再试。";
+"Reload Saved Results" = "重新读取已保存结果";
+"Version %@ · Build %@" = "版本 %@ · 构建 %@";
+"Source information unavailable" = "源码信息不可用";
+"Source: %@ (local changes)" = "源码：%@（含本地修改）";
+"Source: %@" = "源码：%@";
+"Source tree: %@" = "源码内容摘要：%@";
+"User Guide" = "使用指南";
+"Support & Feedback" = "支持与反馈";
+"Privacy & Local Data" = "隐私与本地数据";
+"Report a Security Issue Privately" = "私下报告安全问题";
+"Reports and saved results can contain private paths. Share only a minimal, redacted example when asking for help." = "报告和保存的结果可能包含私人路径。求助时请只提供必要的脱敏示例。";
+"Open in App Store" = "在 App Store 中打开";
+"Manual App Review (%@)" = "手动检查应用（%@）";
+"Review these apps below. Any available updates must be completed in App Store or the app." = "请查看下方应用的检查状态。如有更新，请在 App Store 或应用内完成。";
+"Review each app’s check status. Use App Store or the app’s updater if an update is available. Opening a link or app does not count as a completed update." = "请逐项查看检查状态。如有更新，请使用 App Store 或应用自身的更新功能。打开链接或应用不计为更新完成。";
+"Check in the app" = "请在应用内检查";
+"PATH and conventional version-manager directories; static Volta v4 images, stored default/package platforms and explicit project pins; version probes only for matching Homebrew core Node/Python/Bun/Go installations, no agent CLI startup." = "扫描 PATH 和常见版本管理器目录；静态读取 Volta v4 镜像、保存的默认与包平台，以及明确项目的版本固定记录。仅对匹配 Homebrew core 的 Node、Python、Bun、Go 安装探测版本，不启动 Agent CLI。";
+"Known Agent/plugin roots and explicit roots; links, entry presence and Git state; existing global/project GitHub source receipts, exact ref/path and live local folder hashes. Verified copied GitHub Skills support confirmed updates with file previews and backups; local changes or unverified sources block replacement. Verified Claude plugin owners support confirmed marketplace refresh/update, exact snapshots, network-isolated execution and explicit reload state; other managed caches remain with their client." = "扫描已知 Agent／插件目录及明确指定的目录；检查链接、入口和 Git 状态，读取已有的全局／项目 GitHub 来源记录、准确的引用与路径，以及本地文件夹当前哈希。来源已验证的复制型 GitHub Skills 支持确认后更新，并提供文件预览和备份；本地修改或未验证来源会阻止替换。所属 Claude 插件已验证时，支持确认后刷新／更新市场、固定准确快照、在网络隔离下执行，并明确提示重新加载状态；其他受管缓存仍由所属客户端处理。";
+
+"All statuses" = "全部状态";
+
+"Updates to preview" = "可预览更新";
+
+"Manual action" = "需手动处理";
+
+"Not confirmed" = "尚未确认";
+
+"Checked current" = "已检查为当前版本";
+
+"Stay up to date" = "保持更新";
+
+"Your Mac’s software, together.\nCheck for new versions, then choose what to update." = "Mac 上的软件，一处照看。\n检查新版本，再决定更新哪些。";
+
+"Check apps and tools together" = "应用与工具，一起检查";
+
+"Preview changes before updating" = "先看变化，再开始更新";
+
+"Verify each update result" = "逐项核对更新结果";
+
+"Check" = "检查";
+
+"Manage installations" = "管理所有安装";
+
+"Found %@ installation records" = "发现 %@ 条安装记录";
+
+"%@ versions not confirmed" = "%@ 项版本尚未确认";
+
+"Preview updates before confirming. Special actions still need separate confirmation." = "先预览更新，再确认执行。特殊操作仍需单独确认。";
+
+"Continue in the original app or review the available options." = "在原应用中继续，或查看可用选项。";
+
+"Some sources have not confirmed a version." = "部分来源暂未取得版本信息。";
+
+"These records match their checked source. See details for limits." = "这些记录与检查来源一致，具体范围见详情。";
+
+"Home" = "首页";
+
+"Tools" = "工具";
+
+"Installation manager" = "安装管理";
+
+"Grouped entries; expand the list to see each installation and path." = "按分组计数；展开列表可查看每份安装及其路径。";
+
+"%@ updates to preview" = "%@ 项更新可预览";
+
+"%@ need manual handling" = "%@ 项需手动处理";
+
+"%@ not confirmed" = "%@ 项尚未确认";
+
+"%@ checked current" = "%@ 项已检查为当前版本";
+
+"Each path is counted separately. Categories group related records." = "每个安装路径单独计数，顶部分类按相关记录分组。";
+
+"Choose an installation" = "选择一项安装";
+
+"Expand a group to see each installation and its actions." = "展开分组，查看每份安装及其可用操作。";
+
+"View items" = "查看";
+
+"Advanced" = "高级";
+
+"About KeepUpdated" = "关于 KeepUpdated";
+
+"Open an item to choose its installations and review its details." = "打开条目，选择安装位置并查看详情。";
+
+"Open details and choose installations." = "打开详情并选择安装位置。";
+
+"%@ installations" = "%@ 个安装位置";
+
+"Updates: %@" = "可更新：%@";
+
+"This item is no longer in the current scan." = "当前扫描已找不到这个条目。";
+
+"Choose the installations to include. Updating or removing still requires a preview and confirmation." = "选择要处理的安装位置。更新或删除前仍需预览并确认。";
+
+"Supporting records · Read only" = "支持记录 · 只读";
+
+"Components and dependencies are shown for reference. They are not separate installation choices." = "组件和依赖仅供查看，不作为独立安装位置选择。";
+
+"Selected installations: %@" = "已选安装位置：%@";
+
+"Remove Connections (%@)" = "删除连接（%@）";
+
+"Uninstall Selected (%@)" = "卸载所选（%@）";
+
+"Review only the selected installations before confirming removal." = "仅预览所选安装位置，确认后才会删除。";
+
+"Preview Updates (%@)" = "预览更新（%@）";
+
+"Installed versions: %@" = "已安装版本：%@";
+
+"Skill still in use" = "Skill 仍在使用";
+
+"This Skill is still used by an installation being kept. Keep the shared content, or select those references and preview again." = "此 Skill 仍被保留的安装位置引用。请保留共享内容，或同时选中这些引用后重新预览。";
+
+"Connections used by AI clients. Open an item to choose its client connections; removing a connection does not remove the service." = "AI 客户端使用的连接。打开条目可选择各客户端连接；删除连接不会删除服务。";
+"%@ %@ items" = "%@ %@ 项";
+"Hide search" = "收起搜索";
+"Select all matching previewable items" = "选择所有匹配且可预览的项目";
+"%@ %@ item" = "%@ %@ 项";

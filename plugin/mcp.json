@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "keepupdated": {
+      "type": "stdio",
+      "command": "./KeepUpdatedAgent.app/Contents/Resources/keepupdated",
+      "args": ["mcp"],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

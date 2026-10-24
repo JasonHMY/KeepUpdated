@@ -1,0 +1,19 @@
+{
+  "version": "7.0.0",
+  "source_commit": "7c70ffdfd9f71a654300a78b3b627782e6abe1b4",
+  "minimum_macos": "13.0",
+  "assets": [
+    {
+      "architecture": "arm64",
+      "url": "https://github.com/mas-cli/mas/releases/download/v7.0.0/mas-7.0.0-arm64.pkg",
+      "archive_sha256": "bc218a854c85d9e1c95496a96b26287bb66056b95688b90f91d04fa62ed21b75",
+      "binary_sha256": "1a9ec80879b029b67fe3de485203722cfdbee8589fdd70d3bf3c3df59c9f32c9"
+    },
+    {
+      "architecture": "x86_64",
+      "url": "https://github.com/mas-cli/mas/releases/download/v7.0.0/mas-7.0.0-x86_64.pkg",
+      "archive_sha256": "9bca1de1fb6ea19c9e0b9d7b7c85249020c9ed65a9d434c2ef40896a2f3395f9",
+      "binary_sha256": "7bdd3967f62f5439fdc4ad3dd3a1d0972cb43ba09fd736bc58720121467c07ee"
+    }
+  ]
+}

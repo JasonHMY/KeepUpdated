@@ -1,0 +1,28 @@
+{
+  "name": "keepupdated",
+  "version": "0.1.2",
+  "description": "Inspect software on an Apple Silicon Mac and preview updates or uninstalls with native confirmation.",
+  "author": {
+    "name": "KeepUpdated contributors"
+  },
+  "homepage": "https://github.com/JasonHMY/KeepUpdated",
+  "repository": "https://github.com/JasonHMY/KeepUpdated",
+  "license": "MIT",
+  "requires_local_executor": true,
+  "interface": {
+    "displayName": "KeepUpdated",
+    "shortDescription": "Review and update Mac software",
+    "longDescription": "Inspect applications, Skills, MCP configurations, packages and runtimes on macOS 13 or later with Apple Silicon. Preview supported updates or uninstalls, approve the exact plan in a native window, and inspect saved results. Unsupported or privileged actions remain blocked or manual. Local candidate; not notarized.",
+    "developerName": "KeepUpdated contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": "Check my Mac software and show me what can be updated.",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

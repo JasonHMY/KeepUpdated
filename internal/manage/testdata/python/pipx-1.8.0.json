@@ -1,0 +1,35 @@
+{
+    "injected_packages": {},
+    "main_package": {
+        "app_paths": [
+            {
+                "__Path__": "$ENV/bin/example-tool",
+                "__type__": "Path"
+            }
+        ],
+        "app_paths_of_dependencies": {},
+        "apps": [
+            "example-tool"
+        ],
+        "apps_of_dependencies": [],
+        "include_apps": true,
+        "include_dependencies": false,
+        "man_pages": [],
+        "man_pages_of_dependencies": [],
+        "man_paths": [],
+        "man_paths_of_dependencies": {},
+        "package": "example-tool",
+        "package_or_url": "example-tool[feature]",
+        "package_version": "1.0.0",
+        "pinned": false,
+        "pip_args": [],
+        "suffix": ""
+    },
+    "pipx_metadata_version": "0.5",
+    "python_version": "Python 3.14.3",
+    "source_interpreter": {
+        "__Path__": "$PYTHON",
+        "__type__": "Path"
+    },
+    "venv_args": []
+}

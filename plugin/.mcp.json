@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "keepupdated": {
+      "type": "stdio",
+      "command": "${PLUGIN_ROOT}/KeepUpdatedAgent.app/Contents/Resources/keepupdated",
+      "args": [
+        "mcp"
+      ],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

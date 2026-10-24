@@ -1,0 +1,6 @@
+[tool]
+requirements = [{ name = "example-tool" }]
+python = "$PYTHON"
+entrypoints = [
+    { name = "example-tool", install-path = "$BIN/example-tool", from = "example-tool" },
+]

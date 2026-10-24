@@ -1,0 +1,100 @@
+name: Verify source snapshot
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test-and-package:
+    runs-on: macos-15
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_26.3.app/Contents/Developer
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7
+        with:
+          go-version: '1.27.2'
+          cache: false
+      - name: Format, test and vet
+        shell: bash
+        run: |
+          test -z "$(gofmt -l cmd internal scripts)"
+          go test -race ./...
+          go vet ./...
+      - name: Build reproducible Apple Silicon package
+        shell: bash
+        run: |
+          test "$(uname -m)" = arm64
+          go run ./scripts/release --version 0.1.2
+          rebuild_dir="$(mktemp -d "$RUNNER_TEMP/keepupdated-rebuild.XXXXXX")"
+          go run ./scripts/release --version 0.1.2 --out "$rebuild_dir"
+          cmp dist/product-v0.1.2/SHA256SUMS "$rebuild_dir/SHA256SUMS"
+          cd dist/product-v0.1.2
+          shasum -a 256 -c SHA256SUMS
+          mkdir extracted
+          tar -xzf keepupdated_0.1.2_darwin_arm64.tar.gz -C extracted
+          extracted/keepupdated version --format json > "$RUNNER_TEMP/keepupdated-version.json"
+          for key in version commit build_date; do
+            test "$(plutil -extract "$key" raw -o - "$RUNNER_TEMP/keepupdated-version.json")" = "$(plutil -extract "$key" raw -o - extracted/BUILDINFO.json)"
+          done
+          cd ../..
+          go run ./scripts/release --verify-package dist/product-v0.1.2/extracted
+          cd dist/product-v0.1.2
+          extracted/keepupdated --help
+          bash extracted/skills/keepupdated/scripts/run.sh version --format json
+          bash extracted/skills/keepupdated/scripts/run.sh --help
+      - name: Test and package native desktop
+        shell: bash
+        run: |
+          xcodebuild -version
+          test "$(xcrun --sdk macosx --show-sdk-version | cut -d. -f1)" -ge 26
+          swift test --package-path privileged --scratch-path "$RUNNER_TEMP/keepupdated-privileged-tests"
+          swift test --package-path desktop --scratch-path "$RUNNER_TEMP/keepupdated-swift-tests"
+          bash scripts/desktop/build.sh --dmg
+          mkdir "$RUNNER_TEMP/keepupdated-desktop-extracted"
+          ditto -x -k dist/product-v0.1.2/KeepUpdated_0.1.2_darwin_arm64.zip "$RUNNER_TEMP/keepupdated-desktop-extracted"
+          codesign --verify --deep --strict "$RUNNER_TEMP/keepupdated-desktop-extracted/KeepUpdated.app"
+          "$RUNNER_TEMP/keepupdated-desktop-extracted/KeepUpdated.app/Contents/Resources/keepupdated" version --format json
+          cd dist/product-v0.1.2
+          shasum -a 256 -c KeepUpdated_0.1.2_SHA256SUMS
+      - name: Package independent local MCP Agent
+        shell: bash
+        run: |
+          bash scripts/agent/build.sh
+          cd dist/product-v0.1.2
+          shasum -a 256 -c KeepUpdatedAgent_0.1.2_SHA256SUMS
+      - name: Package local desktop plugin
+        shell: bash
+        run: |
+          bash scripts/plugin/build.sh --out dist/plugin-candidate
+          cd dist/plugin-candidate
+          shasum -a 256 -c KeepUpdatedPlugin_0.1.2_SHA256SUMS
+      - name: Verify all extracted candidates share one baseline
+        shell: bash
+        run: |
+          sync_dir="$(mktemp -d "$RUNNER_TEMP/keepupdated-sync.XXXXXX")"
+          mkdir "$sync_dir/agent" "$sync_dir/plugin"
+          ditto -x -k dist/product-v0.1.2/KeepUpdatedAgent_0.1.2_darwin_arm64.zip "$sync_dir/agent"
+          ditto -x -k dist/plugin-candidate/KeepUpdatedPlugin_0.1.2_darwin_arm64.zip "$sync_dir/plugin"
+          bash scripts/release/verify-sync.sh \
+            dist/product-v0.1.2/extracted \
+            "$RUNNER_TEMP/keepupdated-desktop-extracted/KeepUpdated.app" \
+            "$sync_dir/agent/KeepUpdatedAgent.app" \
+            "$sync_dir/plugin/keepupdated" "$(git rev-parse HEAD)"
+      - name: Cross-compile Intel (build check only)
+        env:
+          GOOS: darwin
+          GOARCH: amd64
+          CGO_ENABLED: '0'
+        run: go build -trimpath -buildvcs=false -o "$RUNNER_TEMP/keepupdated-intel" ./cmd/keepupdated

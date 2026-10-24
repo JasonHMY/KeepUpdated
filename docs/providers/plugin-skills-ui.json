@@ -1,0 +1,302 @@
+{
+  "copy": {
+    "plugin_owner_unverified": {
+      "en": "The plugin owner could not be verified. Check it in the client.",
+      "zh-Hans": "无法确认插件归属，请在所属客户端检查。"
+    },
+    "plugin_owner_candidate_required": {
+      "en": "Check the owning plugin for an update preview.",
+      "zh-Hans": "检查所属插件并预览更新。"
+    },
+    "plugin_owner_ambiguous": {
+      "en": "More than one installation or scope matches this plugin. Resolve it in Claude.",
+      "zh-Hans": "插件匹配到多个安装或作用域，请在 Claude 中确认。"
+    },
+    "codex_plugin_update_in_client": {
+      "en": "Update this plugin through Codex plugin management; an exact native update path is not verified.",
+      "zh-Hans": "请通过 Codex 插件管理更新；当前尚未验证可精确更新的原生接口。"
+    },
+    "system_skill_update_client": {
+      "en": "This Skill is built into the client and follows client updates.",
+      "zh-Hans": "这是客户端内置 Skill，随客户端升级。"
+    },
+    "plugin_scope_requires_client": {
+      "en": "This plugin scope must be managed in Claude.",
+      "zh-Hans": "此插件作用域需要在 Claude 中管理。"
+    },
+    "plugin_installation_unverified": {
+      "en": "The registered plugin path or installed version could not be verified.",
+      "zh-Hans": "无法核实插件登记路径或已安装版本。"
+    },
+    "plugin_marketplace_unverified": {
+      "en": "The original marketplace could not be verified. Check it in Claude.",
+      "zh-Hans": "无法核实原 marketplace，请在 Claude 中检查。"
+    },
+    "plugin_source_requires_client": {
+      "en": "This marketplace source or pin requires Claude plugin management.",
+      "zh-Hans": "此 marketplace 来源或固定版本需要通过 Claude 插件管理处理。"
+    },
+    "plugin_source_changed": {
+      "en": "The plugin source changed. Check the original marketplace and preview again.",
+      "zh-Hans": "插件来源已变化，请检查原 marketplace 后重新预览。"
+    },
+    "plugin_marketplace_modified": {
+      "en": "The marketplace has local changes. Preserve them before updating.",
+      "zh-Hans": "marketplace 存在本地改动，请先保留这些改动。"
+    },
+    "plugin_components_require_review": {
+      "en": "This plugin contains components outside the supported Markdown Skill lane. Review it in Claude.",
+      "zh-Hans": "插件包含当前 Markdown Skill 更新范围之外的组件，请在 Claude 中检查。"
+    },
+    "plugin_content_unverified": {
+      "en": "The complete plugin content could not be verified.",
+      "zh-Hans": "无法核实完整插件内容。"
+    },
+    "plugin_local_modifications": {
+      "en": "Installed plugin files differ from the recorded commit. Preserve local changes before updating.",
+      "zh-Hans": "已安装插件文件与登记 commit 不符，请先保留本地改动。"
+    },
+    "plugin_version_ambiguous": {
+      "en": "The catalog and plugin manifest disagree on the version.",
+      "zh-Hans": "目录与插件 manifest 的版本不一致。"
+    },
+    "plugin_client_unavailable": {
+      "en": "A trusted Claude executable was not found.",
+      "zh-Hans": "未找到可验证的 Claude 可执行文件。"
+    },
+    "plugin_client_update_unsupported": {
+      "en": "This Claude version does not expose the required update JSON interface.",
+      "zh-Hans": "当前 Claude 版本未提供所需的更新 JSON 接口。"
+    },
+    "plugin_cached_snapshot_requires_reload": {
+      "en": "Update the whole plugin to the verified cached marketplace snapshot. Existing sessions need reload.",
+      "zh-Hans": "将整个插件更新到已核验的本地 marketplace 快照；现有会话需要重新加载插件。"
+    },
+    "plugin_version_requires_review": {
+      "en": "This version would downgrade the plugin or cannot be compared safely. Check it in Claude.",
+      "zh-Hans": "此版本会使插件降级或无法可靠比较，请在 Claude 中检查。"
+    },
+    "plugin_uninstall_requires_client": {
+      "en": "Remove this plugin through its client.",
+      "zh-Hans": "请通过所属客户端卸载此插件。"
+    },
+    "plugin_owner_changed": {
+      "en": "The owning plugin changed after the preview.",
+      "zh-Hans": "预览后插件归属已变化。"
+    },
+    "plugin_version_unchanged_content_differs": {
+      "en": "Plugin content changed without a version change. Review it in Claude.",
+      "zh-Hans": "插件内容已变化，但版本未变，请在 Claude 中检查。"
+    },
+    "plugin_backup_failed": {
+      "en": "The original plugin could not be backed up. No owner update was started.",
+      "zh-Hans": "原插件备份失败，未启动所属客户端的更新。"
+    },
+    "plugin_installation_changed": {
+      "en": "The plugin or client changed after preview. Preview again.",
+      "zh-Hans": "预览后插件或客户端已变化，请重新预览。"
+    },
+    "plugin_update_not_activated": {
+      "en": "The expected version is not verified at the registered load path. Check the plugin in Claude.",
+      "zh-Hans": "未能在登记加载路径确认目标版本，请在 Claude 中检查插件。"
+    },
+    "plugin_recovery_required": {
+      "en": "The plugin may be partly changed. Check its current state in Claude and preserve the backup.",
+      "zh-Hans": "插件可能发生了部分变化，请在 Claude 中检查当前状态并保留备份。"
+    },
+    "plugin_owner_failed_original_preserved": {
+      "en": "Claude could not complete the update. The original plugin is unchanged and backed up.",
+      "zh-Hans": "Claude 未完成更新，原插件保持不变并已有备份。"
+    },
+    "plugin_content_verification_failed": {
+      "en": "Installed plugin content does not match the approved snapshot. Preserve the backup and check Claude.",
+      "zh-Hans": "已安装内容与确认的快照不符，请保留备份并在 Claude 中检查。"
+    },
+    "plugin_snapshot_installed_reload_required": {
+      "en": "The approved plugin snapshot is installed. Run /reload-plugins in existing Claude sessions or start a new session.",
+      "zh-Hans": "确认的插件快照已安装。请在现有 Claude 会话运行 /reload-plugins，或开启新会话。"
+    },
+    "plugin_git_config_requires_review": {
+      "en": "The marketplace uses Git settings outside this update lane. Review them before updating.",
+      "zh-Hans": "marketplace 使用了当前更新范围之外的 Git 设置，请先检查。"
+    },
+    "plugin_settings_unverified": {
+      "en": "Claude plugin settings could not be verified.",
+      "zh-Hans": "无法核实 Claude 插件设置。"
+    },
+    "plugin_disabled_requires_client": {
+      "en": "This plugin is disabled or its enabled state is unknown. Check it in Claude.",
+      "zh-Hans": "插件已禁用或启用状态不明，请在 Claude 中检查。"
+    },
+    "plugin_marketplace_untracked": {
+      "en": "The marketplace is detached or differs from its recorded origin branch. Refresh or resolve it in Claude.",
+      "zh-Hans": "marketplace 处于分离状态或不同于登记的 origin 分支，请在 Claude 中刷新或处理。"
+    },
+    "plugin_source_history_changed": {
+      "en": "The installed plugin commit is outside the marketplace history. Check the source in Claude.",
+      "zh-Hans": "已安装插件 commit 不在 marketplace 历史中，请在 Claude 中检查来源。"
+    },
+    "plugin_target_cache_exists": {
+      "en": "The existing target cache could not be verified against the approved plugin snapshot. Preserve it and review it in Claude.",
+      "zh-Hans": "现有目标缓存与确认的插件快照未能核实一致，请先保留并在 Claude 中检查。"
+    },
+    "plugin_marketplace_refresh_unsupported": {
+      "en": "This Claude version does not expose the required marketplace refresh JSON interface.",
+      "zh-Hans": "当前 Claude 版本未提供所需的 marketplace 刷新 JSON 接口。"
+    },
+    "plugin_remote_query_unavailable": {
+      "en": "The public marketplace branch could not be read. Retry, or explicitly preview the verified cached snapshot.",
+      "zh-Hans": "无法读取公开 marketplace 分支。可重试，或明确选择预览已核验的本地快照。"
+    },
+    "plugin_remote_snapshot_unavailable": {
+      "en": "The approved remote snapshot could not be downloaded and verified.",
+      "zh-Hans": "无法下载并核实远端快照。"
+    },
+    "plugin_remote_changed_during_preview": {
+      "en": "The remote branch moved while preparing the preview. Preview again.",
+      "zh-Hans": "准备预览时远端分支已变化，请重新预览。"
+    },
+    "plugin_remote_history_unverified": {
+      "en": "The current marketplace commit could not be verified in the remote history.",
+      "zh-Hans": "无法在远端历史中确认当前 marketplace commit。"
+    },
+    "plugin_remote_verified_requires_reload": {
+      "en": "The public remote matches this verified snapshot. Update the whole plugin; existing sessions need reload.",
+      "zh-Hans": "公开远端与此核验快照一致。更新将作用于整个插件，现有会话需要重新加载。"
+    },
+    "plugin_marketplace_refresh_requires_confirmation": {
+      "en": "Refresh this marketplace to the approved commit, then update the whole plugin. Stop installation if the refreshed source differs.",
+      "zh-Hans": "先将此 marketplace 刷新到确认的 commit，再更新整个插件；刷新后的来源不符时会停止安装。"
+    },
+    "plugin_marketplace_refresh_failed": {
+      "en": "Marketplace refresh was not completed. Review the reported source state before retrying.",
+      "zh-Hans": "marketplace 刷新未完成，请先检查报告中的来源状态再重试。"
+    },
+    "plugin_marketplace_refresh_stopped_install": {
+      "en": "Plugin installation stopped because the refreshed marketplace was not verified as the approved source. Marketplace changes may already have occurred; inspect the refresh details.",
+      "zh-Hans": "刷新后的 marketplace 未通过确认来源核验，插件安装已停止。marketplace 可能已发生变化，请查看刷新详情。"
+    },
+    "plugin_marketplace_approved_commit_verified": {
+      "en": "The marketplace was refreshed and verified at the approved commit.",
+      "zh-Hans": "marketplace 已刷新并核实为确认的 commit。"
+    },
+    "plugin_update_network_isolation_unavailable": {
+      "en": "The system network-isolation command is unavailable. Update this plugin in Claude.",
+      "zh-Hans": "系统网络隔离命令不可用，请在 Claude 中更新此插件。"
+    },
+    "plugin_skill_alias_version_bound": {
+      "en": "This Skill link points to a fixed cache version. Updating the plugin does not move the link; manage it in the client.",
+      "zh-Hans": "此 Skill 链接固定指向一个缓存版本。更新插件不会迁移该链接，请在所属客户端处理。"
+    }
+  },
+  "plan_item_example": {
+    "provider": "claude-plugin",
+    "status": "ready",
+    "reason": "plugin_cached_snapshot_requires_reload",
+    "from_version": "1.0.0",
+    "target_version": "1.1.0",
+    "plugin_update": {
+      "owner": {
+        "client": "claude",
+        "id": "example@fixture-market",
+        "scope": "user",
+        "root": "/example/home/.claude/plugins/cache/fixture-market/example/1.0.0",
+        "version": "1.0.0",
+        "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "marketplace": "/example/home/.claude/plugins/marketplaces/fixture-market",
+      "entry": "example",
+      "commit": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "source_digest": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+      "current_tree": "dddddddddddddddddddddddddddddddddddddddd",
+      "target_tree": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "fingerprint": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "skills": [
+        "skills/demo/SKILL.md"
+      ],
+      "reload_required": true,
+      "version_kind": "manifest",
+      "client_version": "2.1.302",
+      "branch": "main",
+      "sandbox_fingerprint": "1111111111111111111111111111111111111111111111111111111111111111",
+      "remote_verified": false,
+      "refresh_marketplace": false,
+      "marketplace_before_commit": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "source_identity": "2222222222222222222222222222222222222222222222222222222222222222",
+      "catalog_digest": "3333333333333333333333333333333333333333333333333333333333333333"
+    }
+  },
+  "result_example": {
+    "status": "updated",
+    "reason": "plugin_snapshot_installed_reload_required",
+    "after_version": "1.1.0",
+    "reload_required": true
+  },
+  "fresh_plan_item_example": {
+    "provider": "claude-plugin",
+    "status": "ready",
+    "reason": "plugin_marketplace_refresh_requires_confirmation",
+    "from_version": "1.0.0",
+    "target_version": "1.2.0",
+    "plugin_update": {
+      "owner": {
+        "client": "claude",
+        "id": "example@fixture-market",
+        "scope": "user",
+        "root": "/example/home/.claude/plugins/cache/fixture-market/example/1.0.0",
+        "version": "1.0.0",
+        "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "marketplace": "/example/home/.claude/plugins/marketplaces/fixture-market",
+      "entry": "example",
+      "commit": "cccccccccccccccccccccccccccccccccccccccc",
+      "source_digest": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+      "current_tree": "dddddddddddddddddddddddddddddddddddddddd",
+      "target_tree": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "fingerprint": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "skills": [
+        "skills/demo/SKILL.md"
+      ],
+      "reload_required": true,
+      "version_kind": "manifest",
+      "client_version": "2.1.302",
+      "branch": "main",
+      "sandbox_fingerprint": "1111111111111111111111111111111111111111111111111111111111111111",
+      "remote_verified": true,
+      "refresh_marketplace": true,
+      "marketplace_before_commit": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "source_identity": "2222222222222222222222222222222222222222222222222222222222222222",
+      "catalog_digest": "3333333333333333333333333333333333333333333333333333333333333333"
+    }
+  },
+  "fresh_result_example": {
+    "status": "updated",
+    "reason": "plugin_snapshot_installed_reload_required",
+    "after_version": "1.2.0",
+    "reload_required": true,
+    "marketplace_refresh": {
+      "attempted": true,
+      "command_succeeded": true,
+      "state_known": true,
+      "changed": true,
+      "before_commit": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "after_commit": "cccccccccccccccccccccccccccccccccccccccc",
+      "reason": "plugin_marketplace_approved_commit_verified"
+    }
+  },
+  "stopped_refresh_result_example": {
+    "status": "verification_unknown",
+    "reason": "plugin_marketplace_refresh_stopped_install",
+    "executed": false,
+    "changed": false,
+    "marketplace_refresh": {
+      "attempted": true,
+      "command_succeeded": false,
+      "state_known": false,
+      "changed": false,
+      "before_commit": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "after_commit": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "reason": "plugin_marketplace_refresh_stopped_install"
+    }
+  }
+}
