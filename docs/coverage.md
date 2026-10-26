@@ -1,6 +1,6 @@
 # Coverage and limits
 
-This source snapshot prepares 0.1.2 / build 10. The proposed public assets contain the CLI and matching Skill only; App, Agent and plugin packages remain local candidates. Inventory coverage does not imply automatic update support.
+This page applies to 0.1.2 / build 10. Its public release assets contain the CLI and matching Skill only; App, Agent and plugin packages remain local candidates. Inventory coverage does not imply automatic update support.
 
 ## Classification and evidence
 
