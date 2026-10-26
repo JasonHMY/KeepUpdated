@@ -1,6 +1,6 @@
 # Builds and releases
 
-This source prepares **0.1.2 / build 10**, with no publication implied. The proposed public release contains exactly four assets: `keepupdated_0.1.2_darwin_arm64.tar.gz` (CLI and matching Skill), `SHA256SUMS`, `keepupdated_0.1.2_source.tar.gz` and `SOURCE_SHA256SUMS`. App, independent Agent and plugin archives remain local candidates.
+The [0.1.2 / build 10 release](https://github.com/JasonHMY/KeepUpdated/releases/tag/v0.1.2) contains exactly four assets: `keepupdated_0.1.2_darwin_arm64.tar.gz` (CLI and matching Skill), `SHA256SUMS`, `keepupdated_0.1.2_source.tar.gz` and `SOURCE_SHA256SUMS`. App, independent Agent and plugin archives remain local candidates.
 
 Packaged programs target Apple Silicon and macOS 13+. Running them needs no Go, Node or Python runtime. macOS 13 hardware testing remains pending. Intel has compilation checks only and no release package. [Coverage](coverage.md#validation-limits) records remaining client, device, signing and privileged-operation limits.
 
@@ -21,7 +21,7 @@ Versions follow [Semantic Versioning](https://semver.org/). Source defaults reta
 
 Scan, plan, apply and recent-operation schema IDs do not change mechanically with product versions. Check CLI version metadata, MCP capabilities, Skill guards, desktop decoding and their existing tests together.
 
-Build only after source edits stop. Use new output directories and retain previous assets. Only after the maintainer confirms the version, source and files may `v0.1.2` be tagged and its approved assets published. Download the actual assets afterward and check their hashes and source identity. Published tags and assets are immutable; corrections use a new version.
+Build only after source edits stop. Use new output directories and retain previous assets. Only after the maintainer confirms the version, source and files may that version be tagged and its approved assets published. Download the actual assets afterward and check their hashes and source identity. Published tags and assets are immutable; corrections use a new version.
 
 The source archive must match the selected public commit and complete public file list, including modes and required licenses. Generate it from that commit, for example `git archive --format=tar.gz --prefix=keepupdated-0.1.2/ HEAD`, and write a separate `SOURCE_SHA256SUMS`. A private-to-public source mapping belongs outside the public tree.
 
@@ -53,7 +53,7 @@ record that distinction instead of silently replacing it.
 
 ## Obtaining a release package
 
-Once published, download `keepupdated_0.1.2_darwin_arm64.tar.gz` and `SHA256SUMS` from the [0.1.2 release](https://github.com/JasonHMY/KeepUpdated/releases/tag/v0.1.2). This preparation does not publish that page or those assets. Verify them in the download directory, then extract and run:
+Download `keepupdated_0.1.2_darwin_arm64.tar.gz` and `SHA256SUMS` from the [0.1.2 release](https://github.com/JasonHMY/KeepUpdated/releases/tag/v0.1.2). Verify them in the download directory, then extract and run:
 
 ```sh
 shasum -a 256 -c SHA256SUMS

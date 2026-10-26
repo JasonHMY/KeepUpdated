@@ -1,6 +1,6 @@
 # Local MCP
 
-`keepupdated mcp` is a local stdio server using the shared CLI inventory, resolver and execution engine. The standalone CLI supports inventory and previews but has no sealed native confirmation companion for execution. Agent and plugin packages remain local candidates outside the proposed public CLI-only 0.1.2 release.
+`keepupdated mcp` is a local stdio server using the shared CLI inventory, resolver and execution engine. The standalone CLI supports inventory and previews but has no sealed native confirmation companion for execution. Agent and plugin packages remain local candidates outside the public CLI-only 0.1.2 release.
 
 The independent `KeepUpdatedAgent.app` contains the CLI, its matching repository
 Skill, licenses and a small native confirmation companion. It has no inventory

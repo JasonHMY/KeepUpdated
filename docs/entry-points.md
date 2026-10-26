@@ -1,6 +1,6 @@
 # Product entry points
 
-KeepUpdated has six entry points and one inventory, resolver and management engine. Version numbers alone do not establish matching contents: compare source commits, digests, executables and the paired Skill. This snapshot prepares 0.1.2 / build 10; only CLI, matching Skill, source and checksums are proposed public assets.
+KeepUpdated has six entry points and one inventory, resolver and management engine. Version numbers alone do not establish matching contents: compare source commits, digests, executables and the paired Skill. For 0.1.2 / build 10, only the CLI, matching Skill, source and checksums are public release assets.
 
 ## Implementation and package contents
 

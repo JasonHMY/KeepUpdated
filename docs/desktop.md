@@ -1,6 +1,6 @@
 # Desktop and operation guide
 
-This guide describes the local desktop source candidate, 0.1.2 / build 10. The proposed public assets are CLI-only. Opening the App starts a scan; every update or uninstall requires its own reviewed confirmation. The interface supports English and Simplified Chinese.
+This guide describes the local desktop source candidate, 0.1.2 / build 10. The public 0.1.2 release is CLI-only and has no desktop archive. Opening the App starts a scan; every update or uninstall requires its own reviewed confirmation. The interface supports English and Simplified Chinese.
 
 ## Browsing the inventory
 
