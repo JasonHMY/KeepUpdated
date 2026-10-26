@@ -2,11 +2,11 @@
 
 KeepUpdated is an open-source Mac software manager. It brings apps, Skills, MCP installations, packages and runtimes into one inventory so you can check for updates, review a plan, then confirm supported updates or removals.
 
-This source snapshot prepares **0.1.2 / build 10**. It is not a publication notice. The proposed release contains the Apple Silicon CLI with its matching Skill, source and checksums. App, independent Agent and plugin packages are local build candidates and are outside that public asset scope. macOS 13 hardware testing is still pending; Intel has build checks only and no release package.
+The [0.1.2 / build 10 release](https://github.com/JasonHMY/KeepUpdated/releases/tag/v0.1.2) contains the Apple Silicon CLI with its matching Skill, plus the source archive and checksums. App, independent Agent and plugin packages are local build candidates and are not part of the release. macOS 13 hardware testing is still pending; Intel has build checks only and no release package.
 
 ## CLI and Skill
 
-Packaged programs target macOS 13+ on Apple Silicon and need no Go, Node or Python runtime. Once 0.1.2 is published, obtain `keepupdated_0.1.2_darwin_arm64.tar.gz` and `SHA256SUMS` from the [versioned release page](https://github.com/JasonHMY/KeepUpdated/releases/tag/v0.1.2). If it is unavailable, build from source or wait for publication.
+Packaged programs target macOS 13+ on Apple Silicon and need no Go, Node or Python runtime. Download `keepupdated_0.1.2_darwin_arm64.tar.gz` and `SHA256SUMS` from the [0.1.2 release page](https://github.com/JasonHMY/KeepUpdated/releases/tag/v0.1.2), then verify and extract them:
 
 ```sh
 shasum -a 256 -c SHA256SUMS
@@ -42,7 +42,7 @@ App Store updates stay manual and links open only on a user click. General vendo
 
 ## Desktop, MCP and plugin source
 
-The SwiftUI App uses the same CLI engine, with English and Simplified Chinese, native fallback controls on older systems, scan locations, explicit previews and item-level results. [The desktop guide](docs/desktop.md) explains the flow. Build it locally using [the release guide](docs/release.md); there is no desktop archive in the proposed CLI-only release.
+The SwiftUI App uses the same CLI engine, with English and Simplified Chinese, native fallback controls on older systems, scan locations, explicit previews and item-level results. [The desktop guide](docs/desktop.md) explains the flow. Build it locally using [the release guide](docs/release.md); the 0.1.2 release is CLI-only and has no desktop archive.
 
 `keepupdated mcp` exposes eight bounded local stdio tools. The standalone CLI supports inventory and previews; MCP execution needs the sealed native confirmation companion, absent from its tarball. The lightweight `KeepUpdatedAgent.app` and desktop plugin package that companion with the same CLI and Skill. After native approval, a short-lived worker continues if the chat closes; recovery uses that operation's ID. No client configuration, global installation or persistent service is created automatically. See [MCP](docs/mcp.md) and [the six entry points](docs/entry-points.md).
 

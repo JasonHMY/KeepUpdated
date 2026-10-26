@@ -1,6 +1,6 @@
 # KeepUpdated macOS
 
-This source prepares 0.1.2 / build 10 as a local desktop candidate. The proposed public release is CLI-only. The desktop includes English/Simplified Chinese UI, provider-specific previews, local PKG/system preparation, helper status and registration readback, operation recovery and separate restart previews. See [coverage and limits](../docs/coverage.md).
+This source builds 0.1.2 / build 10 as a local desktop candidate. The public 0.1.2 release is CLI-only and has no desktop archive. The desktop includes English/Simplified Chinese UI, provider-specific previews, local PKG/system preparation, helper status and registration readback, operation recovery and separate restart previews. See [coverage and limits](../docs/coverage.md).
 
 The App uses one Check for Updates action, alongside Update All and Scan Locations. The footer shows real work processed in the current check stage, including unresolved items; it is not a time estimate or update-success rate.
 
